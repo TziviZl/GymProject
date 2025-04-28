@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\Server\\Server.csproj": {}
+    "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\BL\\BL.csproj": {
+    "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\BL\\BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\BL\\BL.csproj",
+        "projectUniqueName": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\BL\\BL.csproj",
-        "packagesPath": "C:\\Users\\כהן נועה\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\BL\\obj\\",
+        "projectPath": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\BL\\BL.csproj",
+        "packagesPath": "C:\\Users\\זלוטניק צביה\\.nuget\\packages\\",
+        "outputPath": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\כהן נועה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\זלוטניק צביה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\DAL\\DAL.csproj"
+              "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\DAL\\DAL.csproj": {
+                "projectPath": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\DAL\\DAL.csproj"
               }
             }
           }
@@ -73,20 +73,20 @@
         }
       }
     },
-    "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\DAL\\DAL.csproj": {
+    "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\DAL\\DAL.csproj",
+        "projectUniqueName": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\כהן נועה\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\DAL\\obj\\",
+        "projectPath": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\זלוטניק צביה\\.nuget\\packages\\",
+        "outputPath": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\כהן נועה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\זלוטניק צביה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -164,20 +164,20 @@
         }
       }
     },
-    "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\Server\\Server.csproj": {
+    "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\Server\\Server.csproj",
+        "projectUniqueName": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\Server\\Server.csproj",
-        "packagesPath": "C:\\Users\\כהן נועה\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\Server\\obj\\",
+        "projectPath": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\זלוטניק צביה\\.nuget\\packages\\",
+        "outputPath": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\כהן נועה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\זלוטניק צביה\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -193,8 +193,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\כהן נועה\\Source\\Repos\\GymProject\\MVCProject\\BL\\BL.csproj"
+              "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\BL\\BL.csproj": {
+                "projectPath": "H:\\‏‏תיקיה חדשה (5)\\GymProject\\MVCProject\\BL\\BL.csproj"
               }
             }
           }

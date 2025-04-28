@@ -82,3 +82,98 @@ C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net
 C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\ref\Server.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.sourcelink.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\refint\Server.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.pdb
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\appsettings.Development.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\appsettings.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.exe
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.deps.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.pdb
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Azure.Core.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Azure.Identity.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\EntityFramework.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.CodeDom.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\BL.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\DAL.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\BL.pdb
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\DAL.pdb
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets.build.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets.development.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\ref\Server.dll
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.sourcelink.json
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.dll
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\refint\Server.dll
+H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.pdb

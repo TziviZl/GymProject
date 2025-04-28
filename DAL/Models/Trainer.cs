@@ -13,9 +13,10 @@ public partial class Trainer
 
     public DateTime BirthDate { get; set; }
 
-    public string MedicalInsurance { get; set; } = null!;
-
     public string Level { get; set; } = null!;
 
     public virtual ICollection<StudioClass> StudioClasses { get; set; } = new List<StudioClass>();
+
+    public string Specialization { get; set; } = null!;
+
 }

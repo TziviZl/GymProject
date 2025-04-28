@@ -12,5 +12,7 @@ namespace DAL.Api
         public int GetClassId(string  trainerId, DateTime courseDate);
 
         public List<string> GetGymnasts(int classId);
+
+        public List<Trainer> GetList();
     }
 }

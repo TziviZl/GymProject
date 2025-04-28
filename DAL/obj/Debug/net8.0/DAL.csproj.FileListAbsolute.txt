@@ -40,3 +40,33 @@ C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\DAL\obj\Debug\net8.0
 C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\DAL\obj\Debug\net8.0\ref\DAL.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\bin\Debug\net8.0\DAL.deps.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\bin\Debug\net8.0\DAL.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\bin\Debug\net8.0\DAL.pdb
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\refint\DAL.dll
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.pdb
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\DAL\obj\Debug\net8.0\ref\DAL.dll
+H:\GymProject\MVCProject\DAL\bin\Debug\net8.0\DAL.deps.json
+H:\GymProject\MVCProject\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+H:\GymProject\MVCProject\DAL\bin\Debug\net8.0\DAL.dll
+H:\GymProject\MVCProject\DAL\bin\Debug\net8.0\DAL.pdb
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.dll
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\refint\DAL.dll
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.pdb
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+H:\GymProject\MVCProject\DAL\obj\Debug\net8.0\ref\DAL.dll
