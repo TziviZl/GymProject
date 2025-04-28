@@ -115,9 +115,9 @@ public partial class DB_Manager : DbContext
 
         modelBuilder.Entity<Trainer>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__trainer__3214EC078B74BF99");
+            entity.HasKey(e => e.Id).HasName("PK__Trainer__3214EC078B74BF99");
 
-            entity.ToTable("trainer");
+            entity.ToTable("Trainer");
 
             entity.Property(e => e.Id)
                 .HasMaxLength(9)
@@ -136,7 +136,7 @@ public partial class DB_Manager : DbContext
                 .HasMaxLength(1)
                 .IsFixedLength()
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS");
-            entity.Property(e => e.MedicalInsurance)
+            entity.Property(e => e.Specialization)
                 .HasMaxLength(50)
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS");
         });
