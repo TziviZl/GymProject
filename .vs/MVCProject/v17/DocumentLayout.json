@@ -1,85 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\GymProject\\MVCProject\\",
+  "WorkspaceRootPath": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\gymproject\\mvcproject\\dal\\services\\trainerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/H__\u05EA\u05DE\u05D9_\u05E0\u05D5\u05E2\u05D4_\u05E6\u05D9\u05D1\u05D9_\u05D5\u05DE\u05E8\u05D9\u05DE\u05D9_GYMPROJECT_DAL_DATA_GYMDB.MDF/True/SqlTable/dbo.Trainer.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\dal\\services\\trainerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|solutionrelative:dal\\services\\trainerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\gymproject\\mvcproject\\dal\\services\\gymnastdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\dal\\services\\gymnastdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|solutionrelative:dal\\services\\gymnastdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|h:\\gymproject\\mvcproject\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|h:\\gymproject\\mvcproject\\server\\trainerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\server\\trainerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|solutionrelative:server\\trainerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\gymproject\\mvcproject\\bl\\api\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\bl\\api\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\api\\ibl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\gymproject\\mvcproject\\bl\\api\\itrainerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\bl\\api\\itrainerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\api\\itrainerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\gymproject\\mvcproject\\bl\\api\\igymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\bl\\api\\igymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\api\\igymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\gymproject\\mvcproject\\bl\\services\\trainerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\bl\\services\\trainerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\services\\trainerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\gymproject\\mvcproject\\bl\\services\\gymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\bl\\services\\gymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\services\\gymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\gymproject\\mvcproject\\bl\\models\\modeltrainerblforsalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\bl\\models\\modeltrainerblforsalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\models\\modeltrainerblforsalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\gymproject\\mvcproject\\bl\\models\\modeltrainerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\bl\\models\\modeltrainerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\models\\modeltrainerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\gymproject\\mvcproject\\dal\\api\\itrainerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\dal\\api\\itrainerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|solutionrelative:dal\\api\\itrainerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\gymproject\\mvcproject\\dal\\api\\igymnastdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\dal\\api\\igymnastdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|solutionrelative:dal\\api\\igymnastdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\gymproject\\mvcproject\\bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\blmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|h:\\gymproject\\mvcproject\\server\\controllers\\trainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\server\\controllers\\trainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|solutionrelative:server\\controllers\\trainercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|h:\\gymproject\\mvcproject\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\gymproject\\mvcproject\\dal\\models\\db_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\dal\\models\\db_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|solutionrelative:dal\\models\\db_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\gymproject\\mvcproject\\dal\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\dal\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|solutionrelative:dal\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\gymproject\\mvcproject\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|h:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\gymproject\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23E28F4F-DF35-48A9-BB62-B8BCF1527C52}|Solution Items{23E28F4F-DF35-48A9-BB62-B8BCF1527C52}|H:\\GymProject\\MVCProject\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{23E28F4F-DF35-48A9-BB62-B8BCF1527C52}|Solution Items{23E28F4F-DF35-48A9-BB62-B8BCF1527C52}|H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{23E28F4F-DF35-48A9-BB62-B8BCF1527C52}|Solution Items{23E28F4F-DF35-48A9-BB62-B8BCF1527C52}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
@@ -102,15 +105,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "dbo.Trainer [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/H__\u05EA\u05DE\u05D9_\u05E0\u05D5\u05E2\u05D4_\u05E6\u05D9\u05D1\u05D9_\u05D5\u05DE\u05E8\u05D9\u05DE\u05D9_GYMPROJECT_DAL_DATA_GYMDB.MDF/True/SqlTable/dbo.Trainer.sql",
+              "ToolTip": "dbo.Trainer [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-28T18:54:07.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TrainerDal.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\Server\\TrainerDal.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\Server\\TrainerDal.cs",
               "RelativeDocumentMoniker": "Server\\TrainerDal.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\Server\\TrainerDal.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\Server\\TrainerDal.cs",
               "RelativeToolTip": "Server\\TrainerDal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,11 +132,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IGymnastBL.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\BL\\Api\\IGymnastBL.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Api\\IGymnastBL.cs",
               "RelativeDocumentMoniker": "BL\\Api\\IGymnastBL.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\BL\\Api\\IGymnastBL.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Api\\IGymnastBL.cs",
               "RelativeToolTip": "BL\\Api\\IGymnastBL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -132,11 +145,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ITrainerBL.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\BL\\Api\\ITrainerBL.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Api\\ITrainerBL.cs",
               "RelativeDocumentMoniker": "BL\\Api\\ITrainerBL.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\BL\\Api\\ITrainerBL.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Api\\ITrainerBL.cs",
               "RelativeToolTip": "BL\\Api\\ITrainerBL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,11 +158,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GymnastBL.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\BL\\Services\\GymnastBL.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Services\\GymnastBL.cs",
               "RelativeDocumentMoniker": "BL\\Services\\GymnastBL.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\BL\\Services\\GymnastBL.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Services\\GymnastBL.cs",
               "RelativeToolTip": "BL\\Services\\GymnastBL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -158,11 +171,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TrainerBL.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\BL\\Services\\TrainerBL.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Services\\TrainerBL.cs",
               "RelativeDocumentMoniker": "BL\\Services\\TrainerBL.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\BL\\Services\\TrainerBL.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Services\\TrainerBL.cs",
               "RelativeToolTip": "BL\\Services\\TrainerBL.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,11 +184,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IBL.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\BL\\Api\\IBL.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Api\\IBL.cs",
               "RelativeDocumentMoniker": "BL\\Api\\IBL.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\BL\\Api\\IBL.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Api\\IBL.cs",
               "RelativeToolTip": "BL\\Api\\IBL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -184,11 +197,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\Server\\Program.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\Server\\Program.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,11 +210,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GymnastDal.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\DAL\\Services\\GymnastDal.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Services\\GymnastDal.cs",
               "RelativeDocumentMoniker": "DAL\\Services\\GymnastDal.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\DAL\\Services\\GymnastDal.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Services\\GymnastDal.cs",
               "RelativeToolTip": "DAL\\Services\\GymnastDal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -210,11 +223,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TrainerDal.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\DAL\\Services\\TrainerDal.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Services\\TrainerDal.cs",
               "RelativeDocumentMoniker": "DAL\\Services\\TrainerDal.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\DAL\\Services\\TrainerDal.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Services\\TrainerDal.cs",
               "RelativeToolTip": "DAL\\Services\\TrainerDal.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,11 +236,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ModeltrainerBlForSalary.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\BL\\Models\\ModeltrainerBlForSalary.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Models\\ModeltrainerBlForSalary.cs",
               "RelativeDocumentMoniker": "BL\\Models\\ModeltrainerBlForSalary.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\BL\\Models\\ModeltrainerBlForSalary.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Models\\ModeltrainerBlForSalary.cs",
               "RelativeToolTip": "BL\\Models\\ModeltrainerBlForSalary.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -236,11 +249,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ModelTrainerBL.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\BL\\Models\\ModelTrainerBL.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Models\\ModelTrainerBL.cs",
               "RelativeDocumentMoniker": "BL\\Models\\ModelTrainerBL.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\BL\\Models\\ModelTrainerBL.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\Models\\ModelTrainerBL.cs",
               "RelativeToolTip": "BL\\Models\\ModelTrainerBL.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAgwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -249,11 +262,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ITrainerDal.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\DAL\\Api\\ITrainerDal.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Api\\ITrainerDal.cs",
               "RelativeDocumentMoniker": "DAL\\Api\\ITrainerDal.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\DAL\\Api\\ITrainerDal.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Api\\ITrainerDal.cs",
               "RelativeToolTip": "DAL\\Api\\ITrainerDal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -262,11 +275,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IGymnastDal.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\DAL\\Api\\IGymnastDal.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Api\\IGymnastDal.cs",
               "RelativeDocumentMoniker": "DAL\\Api\\IGymnastDal.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\DAL\\Api\\IGymnastDal.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Api\\IGymnastDal.cs",
               "RelativeToolTip": "DAL\\Api\\IGymnastDal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -275,11 +288,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BlManager.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\BL\\BlManager.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\BlManager.cs",
               "RelativeDocumentMoniker": "BL\\BlManager.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\BL\\BlManager.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\BlManager.cs",
               "RelativeToolTip": "BL\\BlManager.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAIA0wCAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -288,11 +301,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Trainer.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\DAL\\Models\\Trainer.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Models\\Trainer.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Trainer.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\DAL\\Models\\Trainer.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Models\\Trainer.cs",
               "RelativeToolTip": "DAL\\Models\\Trainer.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwBMAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -301,11 +314,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DB_Manager.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\DAL\\Models\\DB_Manager.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Models\\DB_Manager.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\DB_Manager.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\DAL\\Models\\DB_Manager.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\DAL\\Models\\DB_Manager.cs",
               "RelativeToolTip": "DAL\\Models\\DB_Manager.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA5wBsAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -314,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\Server\\appsettings.json",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\Server\\appsettings.json",
               "RelativeDocumentMoniker": "Server\\appsettings.json",
-              "ToolTip": "H:\\GymProject\\MVCProject\\Server\\appsettings.json",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\Server\\appsettings.json",
               "RelativeToolTip": "Server\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -326,16 +339,12 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "TrainerController.cs",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\Server\\Controllers\\TrainerController.cs",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\Server\\Controllers\\TrainerController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\TrainerController.cs",
-              "ToolTip": "H:\\GymProject\\MVCProject\\Server\\Controllers\\TrainerController.cs",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\Server\\Controllers\\TrainerController.cs",
               "RelativeToolTip": "Server\\Controllers\\TrainerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -344,11 +353,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "BL.csproj",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\BL\\BL.csproj",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\BL.csproj",
               "RelativeDocumentMoniker": "BL\\BL.csproj",
-              "ToolTip": "H:\\GymProject\\MVCProject\\BL\\BL.csproj",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\BL\\BL.csproj",
               "RelativeToolTip": "BL\\BL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -356,11 +365,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": ".gitignore",
-              "DocumentMoniker": "H:\\GymProject\\MVCProject\\.gitignore",
+              "DocumentMoniker": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "H:\\GymProject\\MVCProject\\.gitignore",
+              "ToolTip": "H:\\\u05EA\u05DE\u05D9 \u05E0\u05D5\u05E2\u05D4 \u05E6\u05D9\u05D1\u05D9 \u05D5\u05DE\u05E8\u05D9\u05DE\u05D9\\GymProject\\.gitignore",
               "RelativeToolTip": ".gitignore",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
@@ -369,47 +378,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "SQLQuery5.sql",
               "DocumentMoniker": "H:\\SQLQuery5.sql",
               "RelativeDocumentMoniker": "..\\..\\SQLQuery5.sql",
               "ToolTip": "H:\\SQLQuery5.sql",
               "RelativeToolTip": "..\\..\\SQLQuery5.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-26T09:50:21.704Z"
+              "WhenOpened": "2025-03-26T09:50:21.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "SQLQuery4.sql",
               "DocumentMoniker": "H:\\SQLQuery4.sql",
               "RelativeDocumentMoniker": "..\\..\\SQLQuery4.sql",
               "ToolTip": "H:\\SQLQuery4.sql",
               "RelativeToolTip": "..\\..\\SQLQuery4.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-26T09:48:32.217Z"
+              "WhenOpened": "2025-03-26T09:48:32.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "SQLQuery3.sql",
               "DocumentMoniker": "H:\\SQLQuery3.sql",
               "RelativeDocumentMoniker": "..\\..\\SQLQuery3.sql",
               "ToolTip": "H:\\SQLQuery3.sql",
               "RelativeToolTip": "..\\..\\SQLQuery3.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-26T09:45:48.424Z"
+              "WhenOpened": "2025-03-26T09:45:48.424Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "SQLQuery2.sql",
               "DocumentMoniker": "H:\\SQLQuery2.sql",
               "RelativeDocumentMoniker": "..\\..\\SQLQuery2.sql",
               "ToolTip": "H:\\SQLQuery2.sql",
               "RelativeToolTip": "..\\..\\SQLQuery2.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-26T09:43:09.008Z"
+              "WhenOpened": "2025-03-26T09:43:09.008Z",
+              "EditorCaption": ""
             }
           ]
         }

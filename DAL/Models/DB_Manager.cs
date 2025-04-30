@@ -98,7 +98,7 @@ public partial class DB_Manager : DbContext
                 .IsFixedLength()
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS");
             entity.Property(e => e.Name)
-                .HasMaxLength(10)
+                .HasMaxLength(50)
                 .IsFixedLength()
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS");
             entity.Property(e => e.ParticipantsNumber).HasColumnName("Participants_number");
