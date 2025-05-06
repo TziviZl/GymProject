@@ -10,14 +10,14 @@
         "projectUniqueName": "H:\\פרויקט 3 פונקציות\\repos\\DAL\\DAL.csproj",
         "projectName": "DAL",
         "projectPath": "H:\\פרויקט 3 פונקציות\\repos\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\יודלוב תמר\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\צדקה מרים\\.nuget\\packages\\",
         "outputPath": "H:\\פרויקט 3 פונקציות\\repos\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\יודלוב תמר\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\צדקה מרים\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
