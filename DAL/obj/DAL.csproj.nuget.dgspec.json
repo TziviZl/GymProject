@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\תמי נועה ציבי ומרימי\\GymProject\\DAL\\DAL.csproj": {}
+    "H:\\פרויקט 3 פונקציות\\repos\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "H:\\תמי נועה ציבי ומרימי\\GymProject\\DAL\\DAL.csproj": {
+    "H:\\פרויקט 3 פונקציות\\repos\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\תמי נועה ציבי ומרימי\\GymProject\\DAL\\DAL.csproj",
+        "projectUniqueName": "H:\\פרויקט 3 פונקציות\\repos\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "H:\\תמי נועה ציבי ומרימי\\GymProject\\DAL\\DAL.csproj",
+        "projectPath": "H:\\פרויקט 3 פונקציות\\repos\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\יודלוב תמר\\.nuget\\packages\\",
-        "outputPath": "H:\\תמי נועה ציבי ומרימי\\GymProject\\DAL\\obj\\",
+        "outputPath": "H:\\פרויקט 3 פונקציות\\repos\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

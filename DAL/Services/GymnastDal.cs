@@ -15,5 +15,48 @@ namespace DAL.Services
         {
             _dbManager = dbManager;
         }
+        public bool IsExistId(string id)
+        {
+            return _dbManager.Gymnasts.Any(g => g.Id.Equals(id));
+        }
+        public Gymnast GetGymnastById(string id)
+        {
+            return _dbManager.Gymnasts.FirstOrDefault(g => g.Id.Equals(id));
+        }
+
+        public void AddMembershipType(string id, MembershipTypeEnum membershipType)
+        {
+
+            Gymnast gymnast = GetGymnastById(id);
+
+            if (gymnast != null)
+            {
+                gymnast.MemberShipType = membershipType.ToString();
+
+                _dbManager.SaveChanges();
+            }
+            else
+            {
+                throw new Exception($"Gymnast with ID {id} not found.");
+            }
+        }
+
+        public bool NewGymnast(Gymnast gymnast)
+        {
+            try
+            {
+                _dbManager.Gymnasts.Add(gymnast);
+
+                _dbManager.SaveChanges();
+
+                return true; 
+            }
+            catch (Exception ex)
+            {
+               
+                Console.WriteLine($"Error: {ex.Message}");
+                return false; 
+            }
+        }
     }
 }

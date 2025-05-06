@@ -3642,11 +3642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\תמי נועה ציבי ומרימי\\GymProject\\Server\\Server.csproj",
+      "projectUniqueName": "H:\\פרויקט 3 פונקציות\\repos\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "H:\\תמי נועה ציבי ומרימי\\GymProject\\Server\\Server.csproj",
+      "projectPath": "H:\\פרויקט 3 פונקציות\\repos\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\יודלוב תמר\\.nuget\\packages\\",
-      "outputPath": "H:\\תמי נועה ציבי ומרימי\\GymProject\\Server\\obj\\",
+      "outputPath": "H:\\פרויקט 3 פונקציות\\repos\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3668,8 +3668,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "H:\\תמי נועה ציבי ומרימי\\GymProject\\BL\\BL.csproj": {
-              "projectPath": "H:\\תמי נועה ציבי ומרימי\\GymProject\\BL\\BL.csproj"
+            "H:\\פרויקט 3 פונקציות\\repos\\BL\\BL.csproj": {
+              "projectPath": "H:\\פרויקט 3 פונקציות\\repos\\BL\\BL.csproj"
             }
           }
         }
@@ -3716,13 +3716,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }
