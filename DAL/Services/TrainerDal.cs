@@ -36,5 +36,23 @@ namespace DAL.Services
                              .Select(c => c.GymnastId)
                              .ToList();
         }
+
+        public bool NewTrainer(Trainer trainer)
+        {
+            try
+            {
+                _dbManager.Trainers.Add(trainer);
+
+                _dbManager.SaveChanges();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"Error: {ex.Message}");
+                return false;
+            }
+        }
     }
 }

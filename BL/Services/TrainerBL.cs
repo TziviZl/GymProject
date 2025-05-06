@@ -1,6 +1,7 @@
 ﻿using BL.Api;
 using BL.Models;
 using DAL.Api;
+using DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,6 +44,11 @@ namespace BL.Services
             // נערוך אותם למבנה הרצוי
             //ונחזיר
 
+        }
+
+        public bool NewTrainer(Trainer trainer)
+        {
+            _trainerDal.NewTrainer(trainer);
         }
     }
 }

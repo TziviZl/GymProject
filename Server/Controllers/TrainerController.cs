@@ -2,6 +2,7 @@ using BL;
 using BL.Api;
 using BL.Models;
 using BL.Services;
+using DAL.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Server.Controllers
@@ -25,5 +26,27 @@ namespace Server.Controllers
         {
             return _itrainerBL.GetList();
         }
+        [HttpPost("NewTrainer")]
+        public IActionResult NewTrainer([FromQuery][Bind("ID", "FirstName", "LastName", "BirthDate", "Specialization")] M_Trainer m_Trainer)
+        {
+
+            if (m_Trainer == null)
+            {
+                return BadRequest("Invalid gymnast data.");
+
+            }
+            Trainer trainer = m_Trainer.Convert();
+            bool isAdded = _itrainerBL.NewTrainer(trainer);
+
+            if (isAdded)
+            {
+                return Ok("The trainer was added successfully.");
+            }
+            else
+            {
+                return StatusCode(500, "Failed to add the trainer.");
+            }
+        }
+
     }
 }
