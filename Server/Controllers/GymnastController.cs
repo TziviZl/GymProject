@@ -19,7 +19,7 @@ namespace Server.Controllers
         [HttpPost("NewGymnast")]
         public IActionResult NewGymnast([FromQuery][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance")] M_Gymnast m_gymnast)
         {
-            if(m_gymnast == null)
+            if (m_gymnast == null)
             {
                 return BadRequest("Invalid gymnast data.");
 
@@ -45,11 +45,31 @@ namespace Server.Controllers
             if (Enum.TryParse(type, true, out MembershipTypeEnum result))
             {
                 _igymnastBL.AddMembershipType(id, result);
-                return Ok((int)result); 
+                return Ok((int)result);
             }
             else
             {
                 return BadRequest("Invalid membership type.");
+            }
+        }
+        [HttpDelete("DeleteGymnast")]
+        public IActionResult DeleteGymnast(string id)
+        {
+            if (string.IsNullOrWhiteSpace(id) || id.Length != 9 || !id.All(char.IsDigit))
+                return BadRequest("No ID provided.");
+
+            int result = _igymnastBL.DeleteGymnast(id);
+
+            switch (result)
+            {
+                case 1:
+                    return Ok("The gymnast was removed successfully.");
+                case 0:
+                    return NotFound("No gymnast found with the provided ID.");
+                case -1:
+                    return StatusCode(500, "An error occurred while trying to remove the gymnast.");
+                default:
+                    return StatusCode(500, "Unexpected error.");
             }
         }
 
