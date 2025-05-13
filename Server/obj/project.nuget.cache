@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FHAMT+LpmDuTRcAK6NnLXI6zK+7be+ghVV1p3thhxkJhWPPzFrWNFo1ghv2PjWwJ5jvcnIbPfC5g9nrvnOuT6w==",
+  "dgSpecHash": "1TGoqUB+N+FbjhKE88+FhYrX3opW+bII7LeSFitlq2WNyeDK1S+nbhOd3vpb24AoYiaAhPxNiJuKovijwbewQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Source\\Repos\\GymProject\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\GymProject\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

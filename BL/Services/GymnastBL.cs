@@ -55,6 +55,10 @@ namespace BL.Services
             //ונחזיר
 
         }
-      
+
+        public bool UpdateGymnast(string id, Gymnast updatedGymnast)
+        {
+            return _gymnastDal.UpdateGymnast(id, updatedGymnast);
+        }
     }
 }

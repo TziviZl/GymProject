@@ -11,6 +11,8 @@ namespace BL.Api
     public interface IGymnastBL
     {
         public bool NewGymnast(Gymnast gymnast);
+        public bool UpdateGymnast(string id, Gymnast updatedGymnast);
+
         public void AddMembershipType(string id, MembershipTypeEnum membershipType);
         public List<ModelGymnastBL> GetAllGymnast();
 

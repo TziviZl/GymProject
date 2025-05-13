@@ -69,6 +69,7 @@ namespace Server.Controllers
             _igymnastBL.RemoveGymnastFromClass(gymnastId, classId);
             return Ok("The trainee was successfully removed from the lesson.");
         }
+
         public IActionResult DeleteGymnast(string id)
         {
             if (string.IsNullOrWhiteSpace(id) || id.Length != 9 || !id.All(char.IsDigit))
@@ -88,7 +89,18 @@ namespace Server.Controllers
                     return StatusCode(500, "Unexpected error.");
             }
         }
-
-
+        [HttpPut("UpdateGymnast")]
+        public IActionResult UpdateGymnast(string id, [FromBody] Gymnast updatedGymnast)
+        {
+           
+               bool b= _igymnastBL.UpdateGymnast(id, updatedGymnast);
+            if (!b) return BadRequest("EROR");
+            return Ok("Gymnast updated successfully");             
+           
+           
+        }
     }
+
+
 }
+

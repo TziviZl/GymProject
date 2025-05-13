@@ -16,6 +16,8 @@ namespace DAL.Api
         public Gymnast GetGymnastById(string id);
         public List<Gymnast> GetAllGymnast();
         public bool RemoveGymnastFromClass(string gymnastId, int classId);
+        public bool UpdateGymnast(string id, Gymnast updatedGymnast);
+
 
 
 

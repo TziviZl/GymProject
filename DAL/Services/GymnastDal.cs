@@ -89,7 +89,26 @@ namespace DAL.Services
 
 
         }
+        public bool UpdateGymnast(string id, Gymnast updatedGymnast)
+        {
+            var gymnast1 = _dbManager.Gymnasts.FirstOrDefault(g => g.Id == id);
+            if (gymnast1 == null)
+               return false;
+            gymnast1.FirstName = updatedGymnast.FirstName;
+            gymnast1.LastName = updatedGymnast.LastName;
+            gymnast1.BirthDate = updatedGymnast.BirthDate;
+            gymnast1.MedicalInsurance = updatedGymnast.MedicalInsurance;
+            gymnast1.Level = updatedGymnast.Level;
+            gymnast1.MemberShipType = updatedGymnast.MemberShipType;
+            gymnast1.StudioClasses = updatedGymnast.StudioClasses = updatedGymnast.StudioClasses;;
+            gymnast1.PaymentType = updatedGymnast.PaymentType;
 
-       
+            _dbManager.SaveChanges();
+            return true;
+        }
     }
+
+
+
 }
+
