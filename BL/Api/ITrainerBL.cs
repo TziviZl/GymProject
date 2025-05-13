@@ -11,7 +11,7 @@ namespace BL.Api
     public interface ITrainerBL
     {
         public int GetNumOfGymnasts(string trainerId, DateTime courseDate);
-        public List<ModelTrainerBL> GetList();
+        public List<ModelTrainerBL> GetAllTrainers();
 
         public List<M_StudioClasses> GetStudioClasses(string trainerId);
 

@@ -13,7 +13,7 @@ namespace DAL.Api
 
         public List<string> GetGymnasts(int classId);
 
-        public List<Trainer> GetList();
+        public List<Trainer> GetAllTrainers();
         public List<StudioClass> GetStudioClasses(string trainerId);
 
         public bool NewTrainer(Trainer trainer);

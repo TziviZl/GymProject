@@ -16,7 +16,7 @@ namespace DAL.Services
             _dbManager = dbManager;
         }
 
-        public List<Trainer> GetList()
+        public List<Trainer> GetAllTrainers()
         {
            return  _dbManager.Trainers.ToList();
         }

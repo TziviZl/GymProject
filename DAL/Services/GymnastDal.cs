@@ -58,5 +58,12 @@ namespace DAL.Services
                 return false; 
             }
         }
+
+        public List<Gymnast> GetAllGymnast()
+        {
+            return _dbManager.Gymnasts.ToList();
+        }
+
+
     }
 }

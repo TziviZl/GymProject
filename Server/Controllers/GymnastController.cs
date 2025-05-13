@@ -37,6 +37,11 @@ namespace Server.Controllers
             }
 
         }
+        [HttpGet]
+        public List<ModelGymnastBL> Get()
+        {
+            return _igymnastBL.GetAllGymnast();
+        }
 
 
         [HttpPut("AddMembershipType")]

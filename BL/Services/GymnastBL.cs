@@ -2,6 +2,7 @@
 using BL.Models;
 using DAL.Api;
 using DAL.Models;
+using DAL.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,26 @@ namespace BL.Services
             gymnast.Level = "A";
             
          return  _gymnastDal.NewGymnast(gymnast);
+        }
+        public List<ModelGymnastBL> GetAllGymnast()
+        {
+            var previous = _gymnastDal.GetAllGymnast();
+            List<ModelGymnastBL> updatedG = new();
+            previous.ForEach(t => updatedG.Add
+                (new ModelGymnastBL()
+                {
+                    FirstName = t.FirstName,
+                    LastName = t.LastName,
+                    Level = t.Level,
+                   
+
+                }));
+            return updatedG;
+            // נלך לדל
+            // נביא נתוני מאמנים
+            // נערוך אותם למבנה הרצוי
+            //ונחזיר
+
         }
     }
 }

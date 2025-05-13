@@ -16,7 +16,7 @@ namespace DAL.Services
             _dbManager = dbManager;
         }
 
-        public List<Trainer> GetList()
+        public List<Trainer> GetAllTrainers()
         {
            return  _dbManager.Trainers.ToList();
         }
@@ -35,6 +35,16 @@ namespace DAL.Services
                              .Where(c => c.ClassId == classId)
                              .Select(c => c.GymnastId)
                              .ToList();
+        }
+
+        public List<StudioClass> GetStudioClasses(string trainerId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool NewTrainer(Trainer trainer)
+        {
+            throw new NotImplementedException();
         }
     }
 }

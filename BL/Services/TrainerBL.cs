@@ -27,9 +27,9 @@ namespace BL.Services
         }
 
         // להחזיר רשימה של מאמנים כפי שרוצים לראות אותם במסך
-        public List<ModelTrainerBL> GetList()
+        public List<ModelTrainerBL> GetAllTrainers()
         {
-            var previous = _trainerDal.GetList();
+            var previous = _trainerDal.GetAllTrainers();
             List<ModelTrainerBL> updated = new();
             previous.ForEach(t => updated.Add
                 (new ModelTrainerBL()
