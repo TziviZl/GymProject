@@ -14,5 +14,8 @@ namespace DAL.Api
         public List<string> GetGymnasts(int classId);
 
         public List<Trainer> GetList();
+        public List<StudioClass> GetStudioClasses(string trainerId);
+
     }
+
 }

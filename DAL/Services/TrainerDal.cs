@@ -36,6 +36,19 @@ namespace DAL.Services
                              .Select(c => c.GymnastId)
                              .ToList();
         }
+        public List<StudioClass> GetStudioClasses(string trainerId)
+        {
+                var trainer = _dbManager.Trainers
+                    .FirstOrDefault(t => t.Id == trainerId);
+
+                if (trainer == null)
+                {
+                    throw new Exception("This trainer is not exists");
+                }
+
+                return trainer.StudioClasses.ToList();
+            }
+
 
         public bool NewTrainer(Trainer trainer)
         {

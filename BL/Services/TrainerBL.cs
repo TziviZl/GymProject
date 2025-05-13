@@ -2,6 +2,7 @@
 using BL.Models;
 using DAL.Api;
 using DAL.Models;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,6 +50,25 @@ namespace BL.Services
         public bool NewTrainer(Trainer trainer)
         {
             _trainerDal.NewTrainer(trainer);
+        }
+
+        public List<M_StudioClasses> GetStudioClasses(string trainerId)
+        {
+            if (_trainerDal.GetStudioClasses(trainerId).IsNullOrEmpty())
+            {
+                return new List<M_StudioClasses>();
+            }
+            List<StudioClass> studioClasses = _trainerDal.GetStudioClasses(trainerId);
+            List<M_StudioClasses> m_StudioClasses = new();
+            studioClasses.ForEach(t => m_StudioClasses.Add
+            (new M_StudioClasses()
+            {
+                Name = t.Name,
+                Level = t.Level,
+                Date = t.Date
+            }));
+
+            return m_StudioClasses;
         }
     }
 }
