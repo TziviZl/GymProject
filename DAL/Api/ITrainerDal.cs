@@ -16,6 +16,8 @@ namespace DAL.Api
         public List<Trainer> GetList();
         public List<StudioClass> GetStudioClasses(string trainerId);
 
+        public bool NewTrainer(Trainer trainer);
+
     }
 
 }

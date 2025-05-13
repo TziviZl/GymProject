@@ -49,7 +49,8 @@ namespace BL.Services
 
         public bool NewTrainer(Trainer trainer)
         {
-            _trainerDal.NewTrainer(trainer);
+           return _trainerDal.NewTrainer(trainer);
+
         }
 
         public List<M_StudioClasses> GetStudioClasses(string trainerId)
