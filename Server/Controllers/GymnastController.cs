@@ -57,7 +57,18 @@ namespace Server.Controllers
                 return BadRequest("Invalid membership type.");
             }
         }
-        [HttpDelete("DeleteGymnast")]
+        [HttpDelete("RemoveGymnastFromClass")]
+       
+
+        public IActionResult RemoveGymnastFromClass([FromQuery] string gymnastId, [FromQuery] int classId)
+        {
+            
+            if (!_igymnastBL.RemoveGymnastFromClass(gymnastId, classId))
+                return BadRequest("The trainee is not registered for the class.");
+
+            _igymnastBL.RemoveGymnastFromClass(gymnastId, classId);
+            return Ok("The trainee was successfully removed from the lesson.");
+        }
         public IActionResult DeleteGymnast(string id)
         {
             if (string.IsNullOrWhiteSpace(id) || id.Length != 9 || !id.All(char.IsDigit))

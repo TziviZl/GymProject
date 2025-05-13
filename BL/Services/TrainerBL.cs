@@ -52,6 +52,8 @@ namespace BL.Services
            return _trainerDal.NewTrainer(trainer);
 
         }
+     
+
 
         public List<M_StudioClasses> GetStudioClasses(string trainerId)
         {

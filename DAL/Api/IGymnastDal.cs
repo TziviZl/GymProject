@@ -14,7 +14,9 @@ namespace DAL.Api
         public void AddMembershipType(string id, MembershipTypeEnum membershipType);
         public bool IsExistId(string id);
         public Gymnast GetGymnastById(string id);
-        public List<Trainer> GetAllGymnast();
+        public List<Gymnast> GetAllGymnast();
+        public bool RemoveGymnastFromClass(string gymnastId, int classId);
+
 
 
     }

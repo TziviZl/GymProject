@@ -16,5 +16,6 @@ namespace BL.Api
         public List<M_StudioClasses> GetStudioClasses(string trainerId);
 
         public bool NewTrainer(Trainer trainer);
+
       }
 }

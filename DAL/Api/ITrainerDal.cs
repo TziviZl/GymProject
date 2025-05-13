@@ -18,6 +18,8 @@ namespace DAL.Api
 
         public bool NewTrainer(Trainer trainer);
 
+
+
     }
 
 }

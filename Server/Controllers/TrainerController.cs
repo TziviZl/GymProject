@@ -26,6 +26,7 @@ namespace Server.Controllers
         {
             return _itrainerBL.GetAllTrainers();
         }
+       
         [HttpPost("NewTrainer")]
         public IActionResult NewTrainer([FromQuery][Bind("ID", "FirstName", "LastName", "BirthDate", "Specialization")] M_Trainer m_Trainer)
         {

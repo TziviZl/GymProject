@@ -16,6 +16,7 @@ namespace DAL.Services
             _dbManager = dbManager;
         }
 
+
         public List<Trainer> GetAllTrainers()
         {
            return  _dbManager.Trainers.ToList();
@@ -50,6 +51,7 @@ namespace DAL.Services
             }
 
 
+   
         public bool NewTrainer(Trainer trainer)
         {
             try

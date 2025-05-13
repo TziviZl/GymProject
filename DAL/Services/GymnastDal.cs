@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Services
 {
-    public class GymnastDal:IGymnastDal
+    public class GymnastDal : IGymnastDal
     {
         private readonly DB_Manager _dbManager;
         public GymnastDal(DB_Manager dbManager)
@@ -49,13 +49,13 @@ namespace DAL.Services
 
                 _dbManager.SaveChanges();
 
-                return true; 
+                return true;
             }
             catch (Exception ex)
             {
-               
+
                 Console.WriteLine($"Error: {ex.Message}");
-                return false; 
+                return false;
             }
         }
 
@@ -63,7 +63,33 @@ namespace DAL.Services
         {
             return _dbManager.Gymnasts.ToList();
         }
+        public bool RemoveGymnastFromClass(string gymnastId, int classId)
+        {
+            var registration = _dbManager.GymnastClasses
+        .FirstOrDefault(gc => gc.GymnastId == gymnastId && gc.ClassId == classId);
+            if (registration != null)
+            {
+                _dbManager.GymnastClasses.Remove(registration);
+
+                var studioClass = _dbManager.StudioClasses.Find(classId);
+                if (studioClass != null && studioClass.ParticipantsNumber > 0)
+                {
+                    studioClass.ParticipantsNumber--;
+                }
+
+                _dbManager.SaveChanges();
+                return true;
+
+            }
+
+            return false;
 
 
+
+
+
+        }
+
+       
     }
 }

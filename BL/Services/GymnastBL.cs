@@ -31,6 +31,10 @@ namespace BL.Services
             
          return  _gymnastDal.NewGymnast(gymnast);
         }
+        public bool RemoveGymnastFromClass(string gymnastId, int classId)
+        {
+            return _gymnastDal.RemoveGymnastFromClass(gymnastId, classId);
+        }
         public List<ModelGymnastBL> GetAllGymnast()
         {
             var previous = _gymnastDal.GetAllGymnast();
@@ -51,5 +55,6 @@ namespace BL.Services
             //ונחזיר
 
         }
+      
     }
 }
