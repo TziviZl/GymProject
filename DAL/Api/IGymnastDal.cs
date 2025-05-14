@@ -10,14 +10,16 @@ namespace DAL.Api
 {
     public interface IGymnastDal
     {
-        public bool NewGymnast(Gymnast gymnast);
-        public void AddMembershipType(string id, MembershipTypeEnum membershipType);
+        public void AddGymnast(Gymnast gymnast);
+        public void AddMembershipType(Gymnast gymnast, MembershipTypeEnum membershipType);
         public bool IsExistId(string id);
         public Gymnast GetGymnastById(string id);
         public List<Gymnast> GetAllGymnast();
-        public bool RemoveGymnastFromClass(string gymnastId, int classId);
+        public void RemoveGymnastFromClass(GymnastClass gymnastClass);
         public bool UpdateGymnast(string id, Gymnast updatedGymnast);
-
+        public void SaveChanges();
+        public StudioClass GetStudioClass(int classId);
+        public GymnastClass GetGymnastClass(string gymnastId, int classId);
 
 
 

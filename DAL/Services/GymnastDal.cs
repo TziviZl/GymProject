@@ -23,92 +23,60 @@ namespace DAL.Services
         {
             return _dbManager.Gymnasts.FirstOrDefault(g => g.Id.Equals(id));
         }
-
-        public void AddMembershipType(string id, MembershipTypeEnum membershipType)
+        public void AddMembershipType(Gymnast gymnast, MembershipTypeEnum membershipType)
         {
-
-            Gymnast gymnast = GetGymnastById(id);
-
-            if (gymnast != null)
-            {
-                gymnast.MemberShipType = membershipType.ToString();
-
-                _dbManager.SaveChanges();
-            }
-            else
-            {
-                throw new Exception($"Gymnast with ID {id} not found.");
-            }
+            gymnast.MemberShipType = membershipType.ToString();
         }
 
-        public bool NewGymnast(Gymnast gymnast)
+
+        public void AddGymnast(Gymnast gymnast)
         {
-            try
-            {
-                _dbManager.Gymnasts.Add(gymnast);
-
-                _dbManager.SaveChanges();
-
-                return true;
-            }
-            catch (Exception ex)
-            {
-
-                Console.WriteLine($"Error: {ex.Message}");
-                return false;
-            }
+            _dbManager.Gymnasts.Add(gymnast);
         }
 
         public List<Gymnast> GetAllGymnast()
         {
             return _dbManager.Gymnasts.ToList();
         }
-        public bool RemoveGymnastFromClass(string gymnastId, int classId)
+        public void RemoveGymnastFromClass(GymnastClass gymnastClass)
         {
-            var registration = _dbManager.GymnastClasses
-        .FirstOrDefault(gc => gc.GymnastId == gymnastId && gc.ClassId == classId);
-            if (registration != null)
-            {
-                _dbManager.GymnastClasses.Remove(registration);
-
-                var studioClass = _dbManager.StudioClasses.Find(classId);
-                if (studioClass != null && studioClass.ParticipantsNumber > 0)
-                {
-                    studioClass.ParticipantsNumber--;
-                }
-
-                _dbManager.SaveChanges();
-                return true;
-
-            }
-
-            return false;
-
-
-
-
-
+            _dbManager.GymnastClasses.Remove(gymnastClass);
         }
+        public GymnastClass GetGymnastClass(string gymnastId, int classId)
+        {
+            return _dbManager.GymnastClasses
+                .FirstOrDefault(gc => gc.GymnastId == gymnastId && gc.ClassId == classId);
+        }
+
+        public StudioClass GetStudioClass(int classId)
+        {
+            return _dbManager.StudioClasses.Find(classId);
+        }
+
+        public void SaveChanges()
+        {
+            _dbManager.SaveChanges();
+        }
+
         public bool UpdateGymnast(string id, Gymnast updatedGymnast)
         {
             var gymnast1 = _dbManager.Gymnasts.FirstOrDefault(g => g.Id == id);
             if (gymnast1 == null)
-               return false;
+                return false;
             gymnast1.FirstName = updatedGymnast.FirstName;
             gymnast1.LastName = updatedGymnast.LastName;
             gymnast1.BirthDate = updatedGymnast.BirthDate;
             gymnast1.MedicalInsurance = updatedGymnast.MedicalInsurance;
             gymnast1.Level = updatedGymnast.Level;
             gymnast1.MemberShipType = updatedGymnast.MemberShipType;
-            gymnast1.StudioClasses = updatedGymnast.StudioClasses = updatedGymnast.StudioClasses;;
+            gymnast1.StudioClasses = updatedGymnast.StudioClasses = updatedGymnast.StudioClasses; ;
             gymnast1.PaymentType = updatedGymnast.PaymentType;
 
             _dbManager.SaveChanges();
             return true;
         }
+
     }
-
-
 
 }
 

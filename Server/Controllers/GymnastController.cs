@@ -70,25 +70,26 @@ namespace Server.Controllers
             return Ok("The trainee was successfully removed from the lesson.");
         }
 
-        public IActionResult DeleteGymnast(string id)
-        {
-            if (string.IsNullOrWhiteSpace(id) || id.Length != 9 || !id.All(char.IsDigit))
-                return BadRequest("No ID provided.");
+        //public IActionResult DeleteGymnast(string id)
+        //{
+        //    if (string.IsNullOrWhiteSpace(id) || id.Length != 9 || !id.All(char.IsDigit))
+        //        return BadRequest("No ID provided.");
 
-            int result = _igymnastBL.DeleteGymnast(id);
+        //    int result = _igymnastBL.DeleteGymnast(id);
 
-            switch (result)
-            {
-                case 1:
-                    return Ok("The gymnast was removed successfully.");
-                case 0:
-                    return NotFound("No gymnast found with the provided ID.");
-                case -1:
-                    return StatusCode(500, "An error occurred while trying to remove the gymnast.");
-                default:
-                    return StatusCode(500, "Unexpected error.");
-            }
-        }
+        //    switch (result)
+        //    {
+        //        case 1:
+        //            return Ok("The gymnast was removed successfully.");
+        //        case 0:
+        //            return NotFound("No gymnast found with the provided ID.");
+        //        case -1:
+        //            return StatusCode(500, "An error occurred while trying to remove the gymnast.");
+        //        default:
+        //            return StatusCode(500, "Unexpected error.");
+        //    }
+        //}
+
         [HttpPut("UpdateGymnast")]
         public IActionResult UpdateGymnast(string id, [FromBody] Gymnast updatedGymnast)
         {

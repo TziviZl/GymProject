@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace BL.Services
 {
-    public class GymnastBL:IGymnastBL
+    public class GymnastBL : IGymnastBL
     {
         private readonly IGymnastDal _gymnastDal;
 
@@ -22,30 +22,66 @@ namespace BL.Services
 
         public void AddMembershipType(string id, MembershipTypeEnum membershipType)
         {
-            _gymnastDal.AddMembershipType(id, membershipType);
+
+            Gymnast gymnast = _gymnastDal.GetGymnastById(id);
+            if (gymnast != null)
+            {
+                _gymnastDal.AddMembershipType(gymnast, membershipType);
+                _gymnastDal.SaveChanges();
+            }
+
+            else
+            {
+                throw new Exception($"Gymnast with ID {id} not found.");
+            }
+
         }
 
         public bool NewGymnast(Gymnast gymnast)
         {
             gymnast.Level = "A";
-            
-         return  _gymnastDal.NewGymnast(gymnast);
+            if (gymnast != null)
+            {
+                _gymnastDal.AddGymnast(gymnast);
+                _gymnastDal.SaveChanges();
+                return true;
+            }
+             return false;
+
         }
+
         public bool RemoveGymnastFromClass(string gymnastId, int classId)
         {
-            return _gymnastDal.RemoveGymnastFromClass(gymnastId, classId);
+            var gymnastClass = _gymnastDal.GetGymnastClass(gymnastId, classId);
+            if (gymnastClass == null)
+            {
+                return false;
+            }
+
+            _gymnastDal.RemoveGymnastFromClass(gymnastClass);
+
+            var studioClass = _gymnastDal.GetStudioClass(classId);
+            if (studioClass != null && studioClass.CurrentNum > 0)
+            {
+                studioClass.CurrentNum--;
+            }
+
+            _gymnastDal.SaveChanges();
+
+            return true;
         }
-        public List<ModelGymnastBL> GetAllGymnast()
+
+        public List<M_Gymnast> GetAllGymnast()
         {
             var previous = _gymnastDal.GetAllGymnast();
-            List<ModelGymnastBL> updatedG = new();
+            List<M_Gymnast> updatedG = new();
             previous.ForEach(t => updatedG.Add
-                (new ModelGymnastBL()
+                (new M_Gymnast()
                 {
                     FirstName = t.FirstName,
                     LastName = t.LastName,
                     Level = t.Level,
-                   
+
 
                 }));
             return updatedG;

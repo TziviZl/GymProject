@@ -38,6 +38,18 @@ namespace BL.Models
                 BirthDate = BirthDate,
                 MedicalInsurance = MedicalInsurance,
             };
+
+        }
+        public Gymnast ConvertWithout()
+        {
+            return new Gymnast()
+            {
+                FirstName = FirstName,
+                LastName = LastName,
+                BirthDate = BirthDate,
+                MedicalInsurance = MedicalInsurance,
+            };
+
         }
     }
 }

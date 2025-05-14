@@ -4507,23 +4507,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\זלוטניק צביה\\.nuget\\packages\\": {},
+    "C:\\Users\\צדקה מרים\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\זלוטניק צביה\\Source\\Repos\\GymProject\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\צדקה מרים\\source\\repos\\GymPro\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\זלוטניק צביה\\Source\\Repos\\GymProject\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\זלוטניק צביה\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\זלוטניק צביה\\Source\\Repos\\GymProject\\DAL\\obj\\",
+      "projectPath": "C:\\Users\\צדקה מרים\\source\\repos\\GymPro\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\צדקה מרים\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\צדקה מרים\\source\\repos\\GymPro\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\זלוטניק צביה\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\צדקה מרים\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
