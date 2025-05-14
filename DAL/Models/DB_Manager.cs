@@ -61,6 +61,15 @@ public partial class DB_Manager : DbContext
             entity.Property(e => e.PaymentType)
                 .HasMaxLength(50)
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+            entity.Property(e => e.Email)
+                    .HasMaxLength(50)
+                    .IsFixedLength()
+                    .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+            entity.Property(e => e.Cell)
+                .HasMaxLength(10)
+                .IsFixedLength()
+                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+
             entity.Property(e => e.StudioClasses)
                 .HasMaxLength(50)
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS")
@@ -132,6 +141,15 @@ public partial class DB_Manager : DbContext
                 .HasMaxLength(10)
                 .IsFixedLength()
                 .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+            entity.Property(e => e.Email)
+            .HasMaxLength(50)
+            .IsFixedLength()
+            .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+            entity.Property(e => e.Cell)
+            .HasMaxLength(10)
+                .IsFixedLength()
+                .UseCollation("SQL_Latin1_General_CP1_CI_AS");
+
             entity.Property(e => e.Level)
                 .HasMaxLength(1)
                 .IsFixedLength()

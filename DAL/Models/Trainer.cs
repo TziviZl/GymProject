@@ -19,4 +19,8 @@ public partial class Trainer
 
     public string Specialization { get; set; } = null!;
 
+    public string Email { get; set; } = null;
+    public string Cell { get; set; } = null!;
+
+
 }

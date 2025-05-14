@@ -22,6 +22,10 @@ public partial class Gymnast
     public string StudioClasses { get; set; } = null!;
 
     public string PaymentType { get; set; } = null!;
+
+    public string Email { get; set; } = null;
+    public string Cell { get; set; } = null!;
+
     public Gymnast()
     { }
 }
