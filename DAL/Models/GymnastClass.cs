@@ -4,7 +4,10 @@ using System.Collections.Generic;
 namespace DAL.Models;
 
 public partial class GymnastClass
+
 {
+    public int Id { get; set; }
+
     public string GymnastId { get; set; } = null!;
 
     public int ClassId { get; set; }

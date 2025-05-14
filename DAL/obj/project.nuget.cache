@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bTX1qnNT2c0=",
+  "dgSpecHash": "LTGZHjs8MwU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\זלוטניק צביה\\Source\\Repos\\GymProject\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\זלוטניק צביה\\source\\repos\\GymProject\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\זלוטניק צביה\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\זלוטניק צביה\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -1,23 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace DAL.Models;
 
 public partial class StudioClass
 {
-    public int Id { get; set; }
+    public int GlobalId { get; set; }
 
-    public string Name { get; set; } = null!;
-
-    public string Level { get; set; } = null!;
-
-    public int Price { get; set; }
+    public int Id { get; set; } 
 
     public DateTime Date { get; set; }
 
-    public int ParticipantsNumber { get; set; }
+    public string Level { get; set; } = null!; 
 
-    public string TrainerId { get; set; } = null!;
+    public int CurrentNum { get; set; } = 0;
 
-    public virtual Trainer Trainer { get; set; } = null!;
+    public virtual GlobalStudioClasses GlobalStudioClass { get; set; } = null!; 
 }
