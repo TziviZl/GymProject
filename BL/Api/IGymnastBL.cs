@@ -14,8 +14,7 @@ namespace BL.Api
         public bool UpdateGymnast(string id, Gymnast updatedGymnast);
 
         public void AddMembershipType(string id, MembershipTypeEnum membershipType);
-        public List<ModelGymnastBL> GetAllGymnast();
-
+        public List<M_Gymnast> GetAllGymnast();
         public bool RemoveGymnastFromClass(string gymnastId, int classId);
    
     }

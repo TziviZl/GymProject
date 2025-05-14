@@ -55,18 +55,17 @@ namespace BL.Services
      
 
 
-        public List<M_StudioClasses> GetStudioClasses(string trainerId)
+        public List<ModelStudioClasses> GetStudioClasses(string trainerId)
         {
             if (_trainerDal.GetStudioClasses(trainerId).IsNullOrEmpty())
             {
-                return new List<M_StudioClasses>();
+                return new List<ModelStudioClasses>();
             }
             List<StudioClass> studioClasses = _trainerDal.GetStudioClasses(trainerId);
-            List<M_StudioClasses> m_StudioClasses = new();
+            List<ModelStudioClasses> m_StudioClasses = new();
             studioClasses.ForEach(t => m_StudioClasses.Add
-            (new M_StudioClasses()
+            (new ModelStudioClasses()
             {
-                Name = t.Name,
                 Level = t.Level,
                 Date = t.Date
             }));

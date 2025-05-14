@@ -50,7 +50,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("GetTrainerSudioClasses")]
-        public List<M_StudioClasses> GetTrainerSudioClasses([FromQuery] [Bind] string trainerId)
+        public List<ModelStudioClasses> GetTrainerSudioClasses([FromQuery] [Bind] string trainerId)
         {
             return _itrainerBL.GetStudioClasses(trainerId);
         }

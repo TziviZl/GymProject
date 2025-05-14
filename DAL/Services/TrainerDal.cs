@@ -23,12 +23,19 @@ namespace DAL.Services
         }
         public int GetClassId(string trainerId, DateTime courseDate)
         {
-            var classId = _dbManager.StudioClasses.FirstOrDefault(t => t.TrainerId == trainerId && t.Date == courseDate);
-            if (classId != null)
-            {
-                return classId.Id;
-            }
-            else return -1;
+            var globalClass = _dbManager.GlobalStudioClasses
+                .FirstOrDefault(t => t.TrainerId == trainerId);
+
+            if (globalClass == null)
+                return -1;
+
+            var specificClass = _dbManager.StudioClasses
+                .FirstOrDefault(t => t.GlobalId == globalClass.Id && t.Date == courseDate);
+
+            if (specificClass == null)
+                return -1;
+
+            return specificClass.Id;
         }
         public List<string> GetGymnasts(int classId)
         {

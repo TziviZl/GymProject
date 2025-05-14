@@ -78,10 +78,9 @@ namespace BL.Services
             previous.ForEach(t => updatedG.Add
                 (new M_Gymnast()
                 {
+                    Id = t.Id,
                     FirstName = t.FirstName,
-                    LastName = t.LastName,
-                    Level = t.Level,
-
+                    LastName = t.LastName
 
                 }));
             return updatedG;
@@ -96,5 +95,6 @@ namespace BL.Services
         {
             return _gymnastDal.UpdateGymnast(id, updatedGymnast);
         }
+
     }
 }

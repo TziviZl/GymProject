@@ -13,7 +13,7 @@ namespace BL.Api
         public int GetNumOfGymnasts(string trainerId, DateTime courseDate);
         public List<ModelTrainerBL> GetAllTrainers();
 
-        public List<M_StudioClasses> GetStudioClasses(string trainerId);
+        public List<ModelStudioClasses> GetStudioClasses(string trainerId);
 
         public bool NewTrainer(Trainer trainer);
 

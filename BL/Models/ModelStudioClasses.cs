@@ -8,15 +8,12 @@ using System.Threading.Tasks;
 
 namespace BL.Models
 {
-    public class M_StudioClasses
+    public class ModelStudioClasses
     {
-        [Required]
 
         public string Name { get; set; } = null!;
-        [Required]
 
         public string Level { get; set; } = null!;
-        [Required]
 
         public DateTime Date { get; set; }
 
