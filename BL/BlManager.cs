@@ -1,4 +1,5 @@
-﻿using BL.Api;
+﻿using AutoMapper;
+using BL.Api;
 using BL.Services;
 using DAL.Api;
 using DAL.Models;
@@ -15,6 +16,8 @@ namespace BL
     {
         public ITrainerBL  Trainers  { get; set; }
         public IGymnastBL Gymnasts { get; set; }
+
+        public IMapper Mapper { get; set; }
         // מתאמן
         // עובד
         // חדר 
@@ -25,10 +28,10 @@ namespace BL
             DB_Manager db=new DB_Manager();
             ITrainerDal trainerDal = new DAL.Services.TrainerDal (db);
             // כאן צריך גם להזריק
-            Trainers =new TrainerBL (trainerDal);
+            Trainers =new TrainerBL (trainerDal,Mapper);
 
             IGymnastDal gymnastDal = new DAL.Services.GymnastDal(db);
-            Gymnasts = new GymnastBL(gymnastDal);
+            Gymnasts = new GymnastBL(gymnastDal, Mapper);
         }
     }
 }

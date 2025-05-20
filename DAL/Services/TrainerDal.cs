@@ -21,6 +21,18 @@ namespace DAL.Services
         {
            return  _dbManager.Trainers.ToList();
         }
+
+
+        //public IEnumerable<GlobalStudioClasses> GetTrainerGlobalClasses(string trainerId)
+        //{
+        //    return _dbManager.GlobalStudioClasses.Where(g => g.TrainerId == trainerId).ToList();
+        //}
+
+        //public IEnumerable<StudioClass> GetStudioClassesByGlobalIds(List<int> globalClassIds)
+        //{
+        //    return _dbManager.StudioClasses.Where(s => globalClassIds.Contains(s.GlobalId)).ToList();
+        //}
+
         public int GetClassId(string trainerId, DateTime courseDate)
         {
             var globalClass = _dbManager.GlobalStudioClasses
@@ -75,6 +87,29 @@ namespace DAL.Services
                 Console.WriteLine($"Error: {ex.Message}");
                 return false;
             }
+        }
+
+        public Trainer GetTrainerById(string trainerId)
+        {
+            return _dbManager.Trainers.FirstOrDefault(t => t.Id == trainerId);
+        }
+
+
+        public bool UpdateTrainer(Trainer trainer)
+        {
+            var existingTrainer = GetTrainerById(trainer.Id);
+            if (existingTrainer == null)
+                return false;
+
+            existingTrainer.FirstName = trainer.FirstName;
+            existingTrainer.LastName = trainer.LastName;
+            existingTrainer.BirthDate = trainer.BirthDate;
+            existingTrainer.Specialization = trainer.Specialization;
+            existingTrainer.Email = trainer.Email;
+            existingTrainer.Cell = trainer.Cell;
+
+
+            return _dbManager.SaveChanges() > 0;
         }
     }
 }

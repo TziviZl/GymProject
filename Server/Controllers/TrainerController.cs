@@ -54,6 +54,29 @@ namespace Server.Controllers
             return _itrainerBL.GetStudioClasses(trainerId);
         }
 
+        [HttpPut("UpdateTrainer")]
+        public IActionResult UpdateTrainer([FromBody][Bind] Trainer trainer)
+        {
+            if(_itrainerBL.UpdateTrainer(trainer))
+                return Ok("The trainer was updated successfully.");
+            else {
+                return StatusCode(500, "Failed to update the trainer.");
+            }
 
+        }
+
+        [HttpGet("GetTrainerById")]
+        public IActionResult GetTrainerById([FromQuery] string trainerId)
+        {
+            try
+            {
+                var trainer = _itrainerBL.GetTrainerById(trainerId);
+                return Ok(trainer); 
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+        }
     }
 }

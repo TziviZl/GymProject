@@ -18,9 +18,10 @@ namespace BL.Services
         private readonly ITrainerDal _trainerDal;
         private readonly IMapper _mapper;
 
-        public TrainerBL(ITrainerDal trainerDal)
+        public TrainerBL(ITrainerDal trainerDal,IMapper mapper)
         {
             _trainerDal = trainerDal;
+            _mapper = mapper;
         }
 
         public int GetNumOfGymnasts(string trainerId, DateTime courseDate)
@@ -29,7 +30,6 @@ namespace BL.Services
             return _trainerDal.GetGymnasts(classId).Count;
         }
 
-        // להחזיר רשימה של מאמנים כפי שרוצים לראות אותם במסך
         public List<M_ViewTrainerBL> GetAllTrainers()
         {
             var dalTrainer = _trainerDal.GetAllTrainers();
@@ -37,22 +37,25 @@ namespace BL.Services
             return blTrainer;
         }
 
- 
-            // נלך לדל
-            // נביא נתוני מאמנים
-            // נערוך אותם למבנה הרצוי
-            //ונחזיר
 
         
 
-        public bool NewTrainer( M_Trainer m_trainer)
+
+        // נלך לדל
+        // נביא נתוני מאמנים
+        // נערוך אותם למבנה הרצוי
+        //ונחזיר
+
+
+
+        public bool NewTrainer(M_Trainer m_trainer)
         {
 
             Trainer trainer = _mapper.Map<Trainer>(m_trainer);
             return _trainerDal.NewTrainer(trainer);
 
         }
-     
+
         public List<M_ViewStudioClasses> GetStudioClasses(string trainerId)
         {
             var studioClasses = _trainerDal.GetStudioClasses(trainerId);
@@ -63,6 +66,27 @@ namespace BL.Services
             }
 
             return _mapper.Map<List<M_ViewStudioClasses>>(studioClasses);
+        }
+
+        public bool UpdateTrainer(Trainer trainer)
+        {
+            bool updated = _trainerDal.UpdateTrainer(trainer);
+            if (!updated)
+            {
+                throw new Exception("Failed to update the trainer");
+            }
+            return true;
+        }
+
+        public M_Trainer GetTrainerById(string trainerId)
+        {
+            Trainer trainer = _trainerDal.GetTrainerById(trainerId);
+            if (trainer == null)
+            {
+                throw new Exception("The trainer does not exist");
+            }
+            M_Trainer m_Trainer = _mapper.Map<M_Trainer>(trainer);
+            return m_Trainer;
         }
     }
 }

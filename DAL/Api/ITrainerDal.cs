@@ -18,7 +18,9 @@ namespace DAL.Api
 
         public bool NewTrainer(Trainer trainer);
 
+        public Trainer GetTrainerById(string trainerId);
 
+        public bool UpdateTrainer(Trainer trainer);
 
     }
 
