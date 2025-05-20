@@ -29,27 +29,5 @@ namespace BL.Models
 
 
 
-        public Gymnast Convert()
-        {
-            return new Gymnast() { 
-                Id = Id,
-                FirstName = FirstName,
-                LastName = LastName, 
-                BirthDate = BirthDate,
-                MedicalInsurance = MedicalInsurance,
-            };
-
-        }
-        public Gymnast ConvertWithout()
-        {
-            return new Gymnast()
-            {
-                FirstName = FirstName,
-                LastName = LastName,
-                BirthDate = BirthDate,
-                MedicalInsurance = MedicalInsurance,
-            };
-
-        }
     }
 }

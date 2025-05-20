@@ -25,16 +25,6 @@ namespace BL.Models
 
         [Required]
         public string Specialization { get; set; }
-        public Trainer Convert()
-        {
-            return new Trainer()
-            {
-                Id = Id,
-                FirstName = FirstName,
-                LastName = LastName,
-                BirthDate = BirthDate,
-                Specialization = Specialization
-            };
-        }
+       
     }
 }

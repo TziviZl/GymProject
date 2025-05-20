@@ -1,7 +1,9 @@
-﻿using BL.Api;
+﻿using AutoMapper;
+using BL.Api;
 using BL.Models;
 using DAL.Api;
 using DAL.Models;
+using DAL.Services;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -14,6 +16,7 @@ namespace BL.Services
     public class TrainerBL : ITrainerBL
     {
         private readonly ITrainerDal _trainerDal;
+        private readonly IMapper _mapper;
 
         public TrainerBL(ITrainerDal trainerDal)
         {
@@ -27,50 +30,39 @@ namespace BL.Services
         }
 
         // להחזיר רשימה של מאמנים כפי שרוצים לראות אותם במסך
-        public List<ModelTrainerBL> GetAllTrainers()
+        public List<M_ViewTrainerBL> GetAllTrainers()
         {
-            var previous = _trainerDal.GetAllTrainers();
-            List<ModelTrainerBL> updated = new();
-            previous.ForEach(t => updated.Add
-                (new ModelTrainerBL()
-                {
-                    FirstName = t.FirstName,
-                    LastName = t.LastName,
-                    Level = t.Level,
-                    NumOfStudioClasses = t.StudioClasses.Count
-                }));
-            return updated;
+            var dalTrainer = _trainerDal.GetAllTrainers();
+            List<M_ViewTrainerBL> blTrainer = _mapper.Map<List<M_ViewTrainerBL>>(dalTrainer);
+            return blTrainer;
+        }
+
+ 
             // נלך לדל
             // נביא נתוני מאמנים
             // נערוך אותם למבנה הרצוי
             //ונחזיר
 
-        }
+        
 
-        public bool NewTrainer(Trainer trainer)
+        public bool NewTrainer( M_Trainer m_trainer)
         {
-           return _trainerDal.NewTrainer(trainer);
+
+            Trainer trainer = _mapper.Map<Trainer>(m_trainer);
+            return _trainerDal.NewTrainer(trainer);
 
         }
      
-
-
-        public List<ModelStudioClasses> GetStudioClasses(string trainerId)
+        public List<M_ViewStudioClasses> GetStudioClasses(string trainerId)
         {
-            if (_trainerDal.GetStudioClasses(trainerId).IsNullOrEmpty())
-            {
-                return new List<ModelStudioClasses>();
-            }
-            List<StudioClass> studioClasses = _trainerDal.GetStudioClasses(trainerId);
-            List<ModelStudioClasses> m_StudioClasses = new();
-            studioClasses.ForEach(t => m_StudioClasses.Add
-            (new ModelStudioClasses()
-            {
-                Level = t.Level,
-                Date = t.Date
-            }));
+            var studioClasses = _trainerDal.GetStudioClasses(trainerId);
 
-            return m_StudioClasses;
+            if (studioClasses == null || !studioClasses.Any())
+            {
+                return new List<M_ViewStudioClasses>();
+            }
+
+            return _mapper.Map<List<M_ViewStudioClasses>>(studioClasses);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using BL.Api;
+﻿using AutoMapper;
+using BL.Api;
 using BL.Models;
 using DAL.Api;
 using DAL.Models;
@@ -14,10 +15,13 @@ namespace BL.Services
     public class GymnastBL : IGymnastBL
     {
         private readonly IGymnastDal _gymnastDal;
+        private readonly IMapper _mapper;
 
-        public GymnastBL(IGymnastDal gymnastDal)
+
+        public GymnastBL(IGymnastDal gymnastDal, IMapper mapper)
         {
             _gymnastDal = gymnastDal;
+            _mapper = mapper;
         }
 
         public void AddMembershipType(string id, MembershipTypeEnum membershipType)
@@ -37,8 +41,9 @@ namespace BL.Services
 
         }
 
-        public bool NewGymnast(Gymnast gymnast)
+        public bool NewGymnast(M_Gymnast m_gymnast)
         {
+            var gymnast = _mapper.Map<Gymnast>(m_gymnast);
             gymnast.Level = "A";
             if (gymnast != null)
             {
@@ -71,30 +76,25 @@ namespace BL.Services
             return true;
         }
 
-        public List<M_Gymnast> GetAllGymnast()
+        public List<M_ViewGymnastBL> GetAllGymnast()
         {
-            var previous = _gymnastDal.GetAllGymnast();
-            List<M_Gymnast> updatedG = new();
-            previous.ForEach(t => updatedG.Add
-                (new M_Gymnast()
-                {
-                    Id = t.Id,
-                    FirstName = t.FirstName,
-                    LastName = t.LastName
-
-                }));
-            return updatedG;
-            // נלך לדל
-            // נביא נתוני מאמנים
-            // נערוך אותם למבנה הרצוי
-            //ונחזיר
-
+            var dalGymnasts = _gymnastDal.GetAllGymnast();
+            var blGymnasts = _mapper.Map<List<M_ViewGymnastBL>>(dalGymnasts);
+            return blGymnasts;
         }
 
-        public bool UpdateGymnast(string id, Gymnast updatedGymnast)
-        {
-            return _gymnastDal.UpdateGymnast(id, updatedGymnast);
-        }
+
+        // נלך לדל
+        // נביא נתוני מאמנים
+        // נערוך אותם למבנה הרצוי
+        //ונחזיר
+
+
+
+        //public bool UpdateGymnast(string id, Gymnast updatedGymnast)
+        //{
+        //    return _gymnastDal.UpdateGymnast(id, updatedGymnast);
+        //}
 
     }
 }

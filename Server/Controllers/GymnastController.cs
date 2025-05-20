@@ -24,8 +24,7 @@ namespace Server.Controllers
                 return BadRequest("Invalid gymnast data.");
 
             }
-            Gymnast gymnast = m_gymnast.Convert();
-            bool isAdded = _igymnastBL.NewGymnast(gymnast);
+            bool isAdded = _igymnastBL.NewGymnast(m_gymnast);
 
             if (isAdded)
             {
@@ -38,7 +37,7 @@ namespace Server.Controllers
 
         }
         [HttpGet]
-        public List<ModelGymnastBL> Get()
+        public List<M_ViewGymnastBL> Get()
         {
             return _igymnastBL.GetAllGymnast();
         }
@@ -57,9 +56,8 @@ namespace Server.Controllers
                 return BadRequest("Invalid membership type.");
             }
         }
-        [HttpDelete("RemoveGymnastFromClass")]
-       
 
+        [HttpDelete("RemoveGymnastFromClass")]
         public IActionResult RemoveGymnastFromClass([FromQuery] string gymnastId, [FromQuery] int classId)
         {
             
@@ -90,16 +88,16 @@ namespace Server.Controllers
         //    }
         //}
 
-        [HttpPut("UpdateGymnast")]
-        public IActionResult UpdateGymnast(string id, [FromBody] Gymnast updatedGymnast)
-        {
+        //[HttpPut("UpdateGymnast")]
+        //public IActionResult UpdateGymnast(string id, [FromBody] Gymnast updatedGymnast)
+        //{
            
-               bool b= _igymnastBL.UpdateGymnast(id, updatedGymnast);
-            if (!b) return BadRequest("EROR");
-            return Ok("Gymnast updated successfully");             
+        //       bool b= _igymnastBL.UpdateGymnast(id, updatedGymnast);
+        //    if (!b) return BadRequest("EROR");
+        //    return Ok("Gymnast updated successfully");             
            
            
-        }
+        //}
     }
 
 

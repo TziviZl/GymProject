@@ -22,7 +22,7 @@ namespace Server.Controllers
             return _itrainerBL.GetNumOfGymnasts(trainerId, courseDate); 
         }
         [HttpGet]
-        public List<ModelTrainerBL> Get()
+        public List<M_ViewTrainerBL> Get()
         {
             return _itrainerBL.GetAllTrainers();
         }
@@ -36,8 +36,7 @@ namespace Server.Controllers
                 return BadRequest("Invalid gymnast data.");
 
             }
-            Trainer trainer = m_Trainer.Convert();
-            bool isAdded = _itrainerBL.NewTrainer(trainer);
+            bool isAdded = _itrainerBL.NewTrainer(m_Trainer);
 
             if (isAdded)
             {
@@ -50,7 +49,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("GetTrainerSudioClasses")]
-        public List<ModelStudioClasses> GetTrainerSudioClasses([FromQuery] [Bind] string trainerId)
+        public List<M_ViewStudioClasses> GetTrainerSudioClasses([FromQuery] [Bind] string trainerId)
         {
             return _itrainerBL.GetStudioClasses(trainerId);
         }

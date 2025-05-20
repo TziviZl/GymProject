@@ -11,11 +11,11 @@ namespace BL.Api
     public interface ITrainerBL
     {
         public int GetNumOfGymnasts(string trainerId, DateTime courseDate);
-        public List<ModelTrainerBL> GetAllTrainers();
+        public List<M_ViewTrainerBL> GetAllTrainers();
 
-        public List<ModelStudioClasses> GetStudioClasses(string trainerId);
+        public List<M_ViewStudioClasses> GetStudioClasses(string trainerId);
 
-        public bool NewTrainer(Trainer trainer);
+        public bool NewTrainer(M_Trainer m_Trainer);
 
       }
 }

@@ -10,11 +10,11 @@ namespace BL.Api
 {
     public interface IGymnastBL
     {
-        public bool NewGymnast(Gymnast gymnast);
-        public bool UpdateGymnast(string id, Gymnast updatedGymnast);
+        public bool NewGymnast(M_Gymnast gymnast);
+        //public bool UpdateGymnast(string id, Gymnast updatedGymnast);
 
         public void AddMembershipType(string id, MembershipTypeEnum membershipType);
-        public List<M_Gymnast> GetAllGymnast();
+        public List<M_ViewGymnastBL> GetAllGymnast();
         public bool RemoveGymnastFromClass(string gymnastId, int classId);
    
     }
