@@ -20,6 +20,11 @@ namespace DAL.Api
         public void SaveChanges();
         public StudioClass GetStudioClass(int classId);
         public GymnastClass GetGymnastClass(string gymnastId, int classId);
+        public void UpdateGymnast(Gymnast gymnast);
+        public List<GymnastClass> GetGymnastClassesByStudentId(string id);
+
+        public void RemoveGymnastClass(GymnastClass gymnast);
+        public void DeleteGymnast(string gymnastId);
 
 
 

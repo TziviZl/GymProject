@@ -51,7 +51,7 @@ namespace BL.Services
                 _gymnastDal.SaveChanges();
                 return true;
             }
-             return false;
+            return false;
 
         }
 
@@ -82,19 +82,44 @@ namespace BL.Services
             var blGymnasts = _mapper.Map<List<M_ViewGymnastBL>>(dalGymnasts);
             return blGymnasts;
         }
+        public Gymnast GetGymnastById(string id)
+        {
+            if (id == null)
+                throw new Exception("No ID card entered.");
+            Gymnast gymnast = _gymnastDal.GetGymnastById(id);
+            if (gymnast == null)
+                throw new Exception("The ID card does not exist in the system.");
+            return gymnast;
 
+        }
+        public void UpdateGymnanst(M_Gymnast m_Gymnast)
+        {
+            var gymnast = _mapper.Map<Gymnast>(m_Gymnast);
+            if (gymnast != null)
+            {
+                _gymnastDal.UpdateGymnast(gymnast);
+                _gymnastDal.SaveChanges();
+            }
+            else throw new Exception("An error occurred.");
 
-        // נלך לדל
-        // נביא נתוני מאמנים
-        // נערוך אותם למבנה הרצוי
-        //ונחזיר
+        }
+        public void DeleteGymnast(string id)
+        {
+            if (string.IsNullOrWhiteSpace(id) || id.Length != 9 || !id.All(char.IsDigit))
+                throw new Exception("Invalid ID card");
+            var student = _gymnastDal.GetGymnastById(id);
+            if (student == null)
+                throw new Exception("No gymnast found with the provided ID.");
+            var lessons = _gymnastDal.GetGymnastClassesByStudentId(id);
 
-
-
-        //public bool UpdateGymnast(string id, Gymnast updatedGymnast)
-        //{
-        //    return _gymnastDal.UpdateGymnast(id, updatedGymnast);
-        //}
+            foreach (var lesson in lessons)
+            {
+                _gymnastDal.GetStudioClass(lesson.ClassId).CurrentNum--;
+                _gymnastDal.RemoveGymnastClass(lesson);
+            }
+            _gymnastDal.DeleteGymnast(id);
+            _gymnastDal.SaveChanges();
+        }
 
     }
 }

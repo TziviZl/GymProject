@@ -21,7 +21,7 @@ namespace DAL.Services
         }
         public Gymnast GetGymnastById(string id)
         {
-            return _dbManager.Gymnasts.FirstOrDefault(g => g.Id.Equals(id));
+            return _dbManager.Gymnasts.Find(id);
         }
         public void AddMembershipType(Gymnast gymnast, MembershipTypeEnum membershipType)
         {
@@ -56,6 +56,30 @@ namespace DAL.Services
         public void SaveChanges()
         {
             _dbManager.SaveChanges();
+        }
+        public void UpdateGymnast(Gymnast gymnast)
+        {
+            var existing = GetGymnastById(gymnast.Id);
+            _dbManager.Entry(existing).CurrentValues.SetValues(gymnast);
+        }
+        public void DeleteGymnast(string gymnastId)
+        {
+            var gymnast = _dbManager.Gymnasts.Find(gymnastId);
+            if (gymnast != null)
+            {
+                _dbManager.Gymnasts.Remove(gymnast);
+            }
+        }
+        public List<GymnastClass> GetGymnastClassesByStudentId(string id)
+        {
+            return _dbManager.GymnastClasses
+                .Where(gc => gc.GymnastId == id)
+                .ToList();
+        }
+
+        public void RemoveGymnastClass(GymnastClass gymnast)
+        {
+            _dbManager.GymnastClasses.Remove(gymnast);
         }
 
         //public bool UpdateGymnast(string id, Gymnast updatedGymnast)

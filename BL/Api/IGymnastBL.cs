@@ -16,6 +16,11 @@ namespace BL.Api
         public void AddMembershipType(string id, MembershipTypeEnum membershipType);
         public List<M_ViewGymnastBL> GetAllGymnast();
         public bool RemoveGymnastFromClass(string gymnastId, int classId);
-   
+        public Gymnast GetGymnastById(string id);
+        public void UpdateGymnanst(M_Gymnast m_Gymnast);
+        public void DeleteGymnast(string id);
+
+
+
     }
 }

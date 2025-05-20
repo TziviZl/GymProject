@@ -11,13 +11,14 @@ namespace Server.Controllers
     public class GymnastController : Controller
     {
         private readonly IGymnastBL _igymnastBL;
-        public GymnastController(IBL igymnastBL)
+
+        public GymnastController(IGymnastBL igymnastBL)
         {
-            _igymnastBL = igymnastBL.Gymnasts;
+            _igymnastBL = igymnastBL;
         }
 
         [HttpPost("NewGymnast")]
-        public IActionResult NewGymnast([FromQuery][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance")] M_Gymnast m_gymnast)
+        public IActionResult NewGymnast([FromBody][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance")] M_Gymnast m_gymnast)
         {
             if (m_gymnast == null)
             {
@@ -60,7 +61,7 @@ namespace Server.Controllers
         [HttpDelete("RemoveGymnastFromClass")]
         public IActionResult RemoveGymnastFromClass([FromQuery] string gymnastId, [FromQuery] int classId)
         {
-            
+
             if (!_igymnastBL.RemoveGymnastFromClass(gymnastId, classId))
                 return BadRequest("The trainee is not registered for the class.");
 
@@ -68,38 +69,59 @@ namespace Server.Controllers
             return Ok("The trainee was successfully removed from the lesson.");
         }
 
-        //public IActionResult DeleteGymnast(string id)
-        //{
-        //    if (string.IsNullOrWhiteSpace(id) || id.Length != 9 || !id.All(char.IsDigit))
-        //        return BadRequest("No ID provided.");
+        [HttpPut("GetGymnastById")]
+        public ActionResult<Gymnast> GetGymnastById([FromQuery] string id)
+        {
+            try
+            {
+                _igymnastBL.GetGymnastById(id);
+                return Ok();
 
-        //    int result = _igymnastBL.DeleteGymnast(id);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPut("UpdateGymnast")]
+        public IActionResult UpdateGymnast([FromQuery][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance")] M_Gymnast m_gymnast)
+        {
+            if (m_gymnast == null)
+            {
+                return BadRequest("Invalid gymnast data.");
 
-        //    switch (result)
-        //    {
-        //        case 1:
-        //            return Ok("The gymnast was removed successfully.");
-        //        case 0:
-        //            return NotFound("No gymnast found with the provided ID.");
-        //        case -1:
-        //            return StatusCode(500, "An error occurred while trying to remove the gymnast.");
-        //        default:
-        //            return StatusCode(500, "Unexpected error.");
-        //    }
-        //}
+            }
+            try
+            {
+                _igymnastBL.UpdateGymnanst(m_gymnast);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
 
-        //[HttpPut("UpdateGymnast")]
-        //public IActionResult UpdateGymnast(string id, [FromBody] Gymnast updatedGymnast)
-        //{
-           
-        //       bool b= _igymnastBL.UpdateGymnast(id, updatedGymnast);
-        //    if (!b) return BadRequest("EROR");
-        //    return Ok("Gymnast updated successfully");             
-           
-           
-        //}
+        }
+
+        [HttpDelete("DeleteGymnast")]
+        public IActionResult DeleteGymnast(string id)
+        {
+            try
+            {
+                _igymnastBL.DeleteGymnast(id);
+                return Ok("The gymnast was removed successfully.");
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 
 
 }
+
+
+
 
