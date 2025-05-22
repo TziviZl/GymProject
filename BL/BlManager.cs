@@ -18,20 +18,14 @@ namespace BL
         public IGymnastBL Gymnasts { get; set; }
 
         public IMapper Mapper { get; set; }
-        // מתאמן
-        // עובד
-        // חדר 
-        //.... 
 
-        public BlManager()
+        public BlManager(ITrainerBL trainerBL, IGymnastBL gymnastBL, IMapper mapper)
         {
-            DB_Manager db=new DB_Manager();
-            ITrainerDal trainerDal = new DAL.Services.TrainerDal (db);
-            // כאן צריך גם להזריק
-            Trainers =new TrainerBL (trainerDal,Mapper);
-
-            IGymnastDal gymnastDal = new DAL.Services.GymnastDal(db);
-            Gymnasts = new GymnastBL(gymnastDal, Mapper);
+            Trainers = trainerBL;
+            Gymnasts = gymnastBL;
+            Mapper = mapper;
         }
+
+
     }
 }
