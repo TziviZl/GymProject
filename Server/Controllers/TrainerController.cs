@@ -30,22 +30,18 @@ namespace Server.Controllers
         [HttpPost("NewTrainer")]
         public IActionResult NewTrainer([FromQuery][Bind("ID", "FirstName", "LastName", "BirthDate", "Specialization")] M_Trainer m_Trainer)
         {
-
-            if (m_Trainer == null)
+            try
             {
-                return BadRequest("Invalid gymnast data.");
-
-            }
-            bool isAdded = _itrainerBL.NewTrainer(m_Trainer);
-
-            if (isAdded)
-            {
+                _itrainerBL.NewTrainer(m_Trainer);
                 return Ok("The trainer was added successfully.");
             }
-            else
+            catch (Exception ex)
             {
-                return StatusCode(500, "Failed to add the trainer.");
+                return BadRequest(ex.Message);
             }
+            
+
+           
         }
 
         [HttpGet("GetTrainerSudioClasses")]
@@ -57,10 +53,15 @@ namespace Server.Controllers
         [HttpPut("UpdateTrainer")]
         public IActionResult UpdateTrainer([FromBody][Bind] Trainer trainer)
         {
-            if(_itrainerBL.UpdateTrainer(trainer))
+            try
+            {
+                _itrainerBL.UpdateTrainer(trainer);
                 return Ok("The trainer was updated successfully.");
-            else {
-                return StatusCode(500, "Failed to update the trainer.");
+            }
+            
+              catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
 
         }

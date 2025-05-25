@@ -81,6 +81,16 @@ namespace DAL.Services
         {
             _dbManager.GymnastClasses.Remove(gymnast);
         }
+        public void AddGymnastLesson(string gymnastId, int classId)
+        {
+            var gymnastClass = new GymnastClass
+            {
+                GymnastId = gymnastId,
+                ClassId = classId
+            };
+            _dbManager.GymnastClasses.Add(gymnastClass);
+        }
+
 
         //public bool UpdateGymnast(string id, Gymnast updatedGymnast)
         //{
