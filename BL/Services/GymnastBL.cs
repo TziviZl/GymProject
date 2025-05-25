@@ -45,6 +45,7 @@ namespace BL.Services
         {
             var gymnast = _mapper.Map<Gymnast>(m_gymnast);
             gymnast.Level = "A";
+            gymnast.EntryDate = DateOnly.FromDateTime(DateTime.Now);
             if (gymnast != null)
             {
                 _gymnastDal.AddGymnast(gymnast);

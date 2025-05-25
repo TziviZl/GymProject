@@ -8,9 +8,9 @@ namespace DAL.Models
 {
     public enum MembershipTypeEnum
     {
-        Monthly_Standard = 300,
-        Monthly_Pro = 500,
-        Yearly_Standard = 3000,
-        Yearly_Pro = 4500
+        Monthly_Standard = 300, //בחודש 8
+        Monthly_Pro = 500, //חופשי 
+        Yearly_Standard = 3000, //בחודש 8
+        Yearly_Pro = 4500 // חופשי
     }
 }
