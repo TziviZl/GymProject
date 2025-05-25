@@ -48,11 +48,17 @@ namespace BL.Services
 
 
 
-        public bool NewTrainer(M_Trainer m_trainer)
+        public void NewTrainer(M_Trainer m_trainer)
         {
+  
+                if (m_trainer == null)
+                {
+                    throw new ArgumentNullException(nameof(m_trainer), "Trainer object cannot be null.");
+                }
 
             Trainer trainer = _mapper.Map<Trainer>(m_trainer);
-            return _trainerDal.NewTrainer(trainer);
+             _trainerDal.NewTrainer(trainer);
+            
 
         }
 
@@ -68,14 +74,16 @@ namespace BL.Services
             return _mapper.Map<List<M_ViewStudioClasses>>(studioClasses);
         }
 
-        public bool UpdateTrainer(Trainer trainer)
+        public void UpdateTrainer(Trainer trainer)
         {
-            bool updated = _trainerDal.UpdateTrainer(trainer);
-            if (!updated)
+            if(trainer == null)
             {
-                throw new Exception("Failed to update the trainer");
+                throw new ArgumentNullException(nameof(trainer), "Trainer object cannot be null.");
+
+
             }
-            return true;
+            _trainerDal.UpdateTrainer(trainer);
+           
         }
 
         public M_Trainer GetTrainerById(string trainerId)
@@ -83,7 +91,7 @@ namespace BL.Services
             Trainer trainer = _trainerDal.GetTrainerById(trainerId);
             if (trainer == null)
             {
-                throw new Exception("The trainer does not exist");
+                throw new ArgumentNullException(nameof(trainer), "Trainer object cannot be null.");
             }
             M_Trainer m_Trainer = _mapper.Map<M_Trainer>(trainer);
             return m_Trainer;

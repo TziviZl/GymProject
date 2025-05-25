@@ -12,7 +12,7 @@ public partial class StudioClass
 
     public string Level { get; set; } = null!; 
 
-    public int CurrentNum { get; set; } = 0;
+    public int CurrentNum { get; set; } = 20;
 
     public virtual GlobalStudioClasses GlobalStudioClass { get; set; } = null!; 
 }

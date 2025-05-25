@@ -18,23 +18,18 @@ namespace Server.Controllers
         }
 
         [HttpPost("NewGymnast")]
-        public IActionResult NewGymnast([FromBody][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance","Email","Cell")] M_Gymnast m_gymnast)
+        public IActionResult NewGymnast([FromBody][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance", "Email", "Cell")] M_Gymnast m_gymnast)
         {
-            if (m_gymnast == null)
-            {
-                return BadRequest("Invalid gymnast data.");
 
-            }
-            bool isAdded = _igymnastBL.NewGymnast(m_gymnast);
-
-            if (isAdded)
-            {
+            try {
+                _igymnastBL.NewGymnast(m_gymnast);
                 return Ok("The gymnast was added successfully.");
             }
-            else
-            {
-                return StatusCode(500, "Failed to add the gymnast.");
+
+            catch (Exception ex) {
+                return BadRequest(ex.Message);
             }
+
 
         }
         [HttpGet]
@@ -61,12 +56,16 @@ namespace Server.Controllers
         [HttpDelete("RemoveGymnastFromClass")]
         public IActionResult RemoveGymnastFromClass([FromQuery] string gymnastId, [FromQuery] int classId)
         {
+            try
+            {
+                _igymnastBL.RemoveGymnastFromClass(gymnastId, classId);
+                return Ok("The gymnast was removed successfully.");
+            }
+            catch (Exception ex) {
+                return BadRequest(ex.Message);
 
-            if (!_igymnastBL.RemoveGymnastFromClass(gymnastId, classId))
-                return BadRequest("The trainee is not registered for the class.");
+            }
 
-            _igymnastBL.RemoveGymnastFromClass(gymnastId, classId);
-            return Ok("The trainee was successfully removed from the lesson.");
         }
 
         [HttpPut("GetGymnastById")]
@@ -86,15 +85,10 @@ namespace Server.Controllers
         [HttpPut("UpdateGymnast")]
         public IActionResult UpdateGymnast([FromQuery][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance")] M_Gymnast m_gymnast)
         {
-            if (m_gymnast == null)
-            {
-                return BadRequest("Invalid gymnast data.");
-
-            }
             try
             {
                 _igymnastBL.UpdateGymnanst(m_gymnast);
-                return Ok();
+                return Ok("the gymnast update succsessfully");
             }
             catch (Exception ex)
             {
@@ -117,9 +111,26 @@ namespace Server.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpPost("AddGymnastLesson")]
+        public IActionResult AddGymnastLesson(string gymnastId, StudioClass studioClass)
+        {
+            try
+            {
+                _igymnastBL.AddGymnastLesson(gymnastId, studioClass);
+                return Ok("You have successfully registered for the class!");
+
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+
+        }
+
+
     }
-
-
 }
 
 

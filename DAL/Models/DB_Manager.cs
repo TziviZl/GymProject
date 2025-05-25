@@ -94,7 +94,7 @@ public partial class DB_Manager : DbContext
             entity.Property(e => e.Level)
                 .HasMaxLength(1)
                 .IsFixedLength();
-            entity.Property(e => e.CurrentNum).HasDefaultValue(0);
+            entity.Property(e => e.CurrentNum).HasDefaultValue(20);
 
             entity.HasOne(d => d.GlobalStudioClass)
                 .WithMany()
