@@ -27,6 +27,11 @@ namespace BL.Models
         public string MedicalInsurance { get; set; }
 
 
+        [EmailAddress, Required]
+            public string Email { get; set; }
+
+        [Phone, Required]
+        public string Cell { get; set; }
 
 
     }

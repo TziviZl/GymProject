@@ -22,8 +22,11 @@ public partial class DB_Manager : DbContext
 
     public virtual DbSet<Trainer> Trainers { get; set; }
 
+    public DbSet<BackupTrainer> BackupTrainers { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+
         modelBuilder.Entity<Gymnast>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Gymnast__3214EC07D3A06C40");
@@ -53,9 +56,13 @@ public partial class DB_Manager : DbContext
                     .HasMaxLength(50);
             entity.Property(e => e.Cell)
                 .HasMaxLength(10);
+            entity.Property(e => e.WeeklyCounter)
+                .HasDefaultValue(2)
+                .IsRequired();
+            entity.Property(e => e.EntryDate)
+                .HasColumnType("date")
+                .IsRequired(false); 
 
-            entity.Property(e => e.StudioClasses)
-                .HasMaxLength(50);
         });
 
         modelBuilder.Entity<GymnastClass>(entity =>
@@ -161,6 +168,5 @@ public partial class DB_Manager : DbContext
         });
         OnModelCreatingPartial(modelBuilder);
     }
-
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

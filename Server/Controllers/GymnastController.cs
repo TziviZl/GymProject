@@ -18,7 +18,7 @@ namespace Server.Controllers
         }
 
         [HttpPost("NewGymnast")]
-        public IActionResult NewGymnast([FromBody][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance")] M_Gymnast m_gymnast)
+        public IActionResult NewGymnast([FromBody][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance","Email","Cell")] M_Gymnast m_gymnast)
         {
             if (m_gymnast == null)
             {
