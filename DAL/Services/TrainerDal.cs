@@ -67,10 +67,43 @@ namespace DAL.Services
                 }
 
                 return trainer.StudioClasses.ToList();
+         }
+
+        public List<Gymnast> GetGymnastsByTrainerId(string trainerId)
+        {
+            List<StudioClass> studioClasses = GetStudioClasses(trainerId);
+            List<string> allGymnastIds = new List<string>();
+
+            foreach (var studioClass in studioClasses)
+            {
+                var gymnastsId = _dbManager.GymnastClasses
+                    .Where(gc => gc.ClassId == studioClass.Id)
+                    .Select(gc => gc.GymnastId)
+                    .ToList();
+
+                allGymnastIds.AddRange(gymnastsId);
             }
 
+            allGymnastIds = allGymnastIds.Distinct().ToList();
 
-   
+            return _dbManager.Gymnasts
+                .Where(g => allGymnastIds.Contains(g.Id))
+                .ToList();
+        }
+
+        public List<string> GetGymnastEmails(string trainerId)
+        {
+            List<string> allEmails = new List<string>();
+            List<Gymnast> gymnasts = GetGymnastsByTrainerId(trainerId);
+            foreach (var gymnast in gymnasts)
+            {
+                allEmails.Add(gymnast.Email);
+            }
+            return allEmails.Distinct().ToList(); 
+        }
+
+
+
         public bool NewTrainer(Trainer trainer)
         {
             try

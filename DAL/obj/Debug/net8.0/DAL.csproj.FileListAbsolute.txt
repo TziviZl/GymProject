@@ -160,3 +160,18 @@ C:\Users\user1\source\repos\GymDB11\DAL\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\user1\source\repos\GymDB11\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\user1\source\repos\GymDB11\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 C:\Users\user1\source\repos\GymDB11\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\צדקה מרים\source\repos\GymProject\DAL\obj\Debug\net8.0\ref\DAL.dll

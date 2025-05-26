@@ -97,7 +97,7 @@ namespace BL.Services
             return m_Trainer;
         }
 
-        public void DeleteAndReplaceTrainer(string trainerId)
+        public List<string> DeleteAndReplaceTrainer(string trainerId)
         {
             bool deleted = _trainerDal.DeleteTrainer(trainerId);
             if (!deleted)
@@ -108,12 +108,16 @@ namespace BL.Services
             List<BackupTrainer> newTrainers = _trainerDal.BackupTrainers(trainerId);
             if(newTrainers == null)
             {
-
+                return _trainerDal.GetGymnastEmails(trainerId);
             }
             BackupTrainer backupTrainer = newTrainers.FirstOrDefault();
             _trainerDal.AssignTrainerToStudioClass(trainerId, backupTrainer.Id);
+            return null;
 
         }
+
+        
+
 
 
     }

@@ -91,6 +91,14 @@ namespace DAL.Services
             _dbManager.GymnastClasses.Add(gymnastClass);
         }
 
+        public List<string> GetAllGymnastInSpecificClass(int classId)
+        {
+            return _dbManager.GymnastClasses
+                .Where(gc => gc.ClassId == classId)
+                .Select(gc => gc.GymnastId.Trim()) 
+                .ToList();
+        }
+
 
         //public bool UpdateGymnast(string id, Gymnast updatedGymnast)
         //{

@@ -19,6 +19,10 @@ namespace BL.Mapping
             CreateMap<M_Trainer, Trainer>();
             CreateMap<M_Gymnast, Gymnast>();
             CreateMap<Gymnast, M_Gymnast>();
+            CreateMap<Gymnast, M_ViewContactGymnast>();
+            CreateMap<M_ViewContactGymnast, Gymnast>();
+
+
 
         }
     }

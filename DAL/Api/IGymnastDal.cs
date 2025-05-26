@@ -27,6 +27,9 @@ namespace DAL.Api
         public void DeleteGymnast(string gymnastId);
         public void AddGymnastLesson(string gymnastId, int classId);
 
+        public List<string> GetAllGymnastInSpecificClass(int classId);
+
+
 
     }
 }

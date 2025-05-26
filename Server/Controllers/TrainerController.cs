@@ -38,9 +38,13 @@ namespace Server.Controllers
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
+
             }            
-           
         }
+            
+
+           
+        
 
         [HttpGet("GetTrainerSudioClasses")]
         public List<M_ViewStudioClasses> GetTrainerSudioClasses([FromQuery] [Bind] string trainerId)
@@ -81,8 +85,25 @@ namespace Server.Controllers
         [HttpDelete("DeleteTrainer")]
         public IActionResult DeleteTrainer(string trainerId)
         {
-             _itrainerBL.DeleteAndReplaceTrainer(trainerId);
-              return Ok();
+            try
+            {
+                List<string> studioClasses = _itrainerBL.DeleteAndReplaceTrainer(trainerId);
+                if (studioClasses == null)
+                {
+                    return Ok("The trainer replaced successfully!");
+                }
+                else
+                {
+                    return Ok(studioClasses);
+                }
+
+            }
+
+            catch (Exception ex)
+            {
+                return NotFound(ex);
+            }
+
         }
 
     }

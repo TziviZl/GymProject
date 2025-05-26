@@ -4572,11 +4572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\צדקה מרים\\Source\\Repos\\GymProject\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\צדקה מרים\\source\\repos\\GymProject\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\צדקה מרים\\Source\\Repos\\GymProject\\DAL\\DAL.csproj",
+      "projectPath": "C:\\Users\\צדקה מרים\\source\\repos\\GymProject\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\צדקה מרים\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\צדקה מרים\\Source\\Repos\\GymProject\\DAL\\obj\\",
+      "outputPath": "C:\\Users\\צדקה מרים\\source\\repos\\GymProject\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

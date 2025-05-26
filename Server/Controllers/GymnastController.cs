@@ -130,6 +130,51 @@ namespace Server.Controllers
         }
 
 
+        [HttpDelete("RemoveGymnastFromLesson")]
+        public IActionResult RemoveGymnastFromLesson(string gymnastId, StudioClass studioClass)
+        {
+            try
+            {
+                _igymnastBL.RemoveGymnastFromLesson(gymnastId, studioClass);
+                return Ok("The gymnast was removed from the Lesson successfully.!");
+
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
+        
+        [HttpGet("GetGymnastLessons")]
+        public ActionResult<List<M_ViewStudioClasses>> GetGymnastLessons(string gymnastId, int numOfLesson)
+        {
+            try
+            {
+                var lessons = _igymnastBL.GetGymnastLessons(gymnastId, numOfLesson);
+                return Ok(lessons);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("GetAllGymnastInSpecificClass")]
+        public ActionResult<List<M_ViewStudioClasses>> GetAllGymnastInSpecificClass(StudioClass studioClass) 
+        {
+            try
+            {
+                var gymnasts = _igymnastBL.GetAllGymnastInSpecificClass(studioClass);
+                return Ok(gymnasts);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
     }
 }
 

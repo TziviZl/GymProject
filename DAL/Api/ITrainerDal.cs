@@ -24,7 +24,8 @@ namespace DAL.Api
         public bool DeleteTrainer(string trainerId);
         public List<BackupTrainer> BackupTrainers(string trainerId);
         public bool AssignTrainerToStudioClass(string oldTrainerId, string newTrainerId);
-
+        public List<Gymnast> GetGymnastsByTrainerId(string trainerId);
+        public List<string> GetGymnastEmails(string trainerId);
 
     }
 
