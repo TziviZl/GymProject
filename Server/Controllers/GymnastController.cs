@@ -146,7 +146,7 @@ namespace Server.Controllers
             }
 
         }
-        
+
         [HttpGet("GetGymnastLessons")]
         public ActionResult<List<M_ViewStudioClasses>> GetGymnastLessons(string gymnastId, int numOfLesson)
         {
@@ -161,7 +161,7 @@ namespace Server.Controllers
             }
         }
         [HttpGet("GetAllGymnastInSpecificClass")]
-        public ActionResult<List<M_ViewStudioClasses>> GetAllGymnastInSpecificClass(StudioClass studioClass) 
+        public ActionResult<List<M_ViewStudioClasses>> GetAllGymnastInSpecificClass(StudioClass studioClass)
         {
             try
             {
@@ -173,6 +173,63 @@ namespace Server.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        [HttpGet("GetAllGymnastInSpecificLevel")]
+        public ActionResult<List<M_ViewGymnast>> GetAllGymnastInSpecificLevel(char level)
+        {
+            try
+            {
+                var gymnasts = _igymnastBL.GetAllGymnastInSpecificLevel(level);
+                return Ok(gymnasts);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("GetAllGymnastByAge")]
+        public ActionResult<List<M_ViewGymnast>> GetAllGymnastByAge(int minAge, int maxAge)
+
+        {
+            try
+            {
+                var gymnasts = _igymnastBL.GetAllGymnastByAge(minAge,maxAge);
+                return Ok(gymnasts);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("GetAllGymnastByMembershipType")]
+        public ActionResult<List<M_ViewGymnast>> GetAllGymnastByMembershipType(MembershipTypeEnum membershipType)
+
+        {
+            try
+            {
+                var gymnasts = _igymnastBL.GetAllGymnastByMembershipType(membershipType);
+                return Ok(gymnasts);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpGet("GetAllGymnastJoinedAfter")]
+        public ActionResult<List<M_ViewGymnast>> GetAllGymnastJoinedAfter(DateOnly joinDate)
+
+        {
+            try
+            {
+                var gymnasts = _igymnastBL.GetAllGymnastJoinedAfter(joinDate);
+                return Ok(gymnasts);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
 
 
     }

@@ -21,6 +21,9 @@ namespace BL.Mapping
             CreateMap<Gymnast, M_Gymnast>();
             CreateMap<Gymnast, M_ViewContactGymnast>();
             CreateMap<M_ViewContactGymnast, Gymnast>();
+            CreateMap<Gymnast, M_ViewGymnast>();
+            CreateMap<M_ViewGymnast,Gymnast> ();
+
 
 
 

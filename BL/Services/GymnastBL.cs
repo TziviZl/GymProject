@@ -197,7 +197,70 @@ namespace BL.Services
 
             return viewList;
         }
+        public List<M_ViewGymnast> GetAllGymnastInSpecificLevel(char level)
+        {
+            if (level == null)
+                throw new Exception("No level entered.");
+            List<Gymnast> gymnasts = _gymnastDal.GetAllGymnast();
+            gymnasts = gymnasts.Where(g => g.Level.Equals(level)).ToList();
+            var viewList = gymnasts
+.Select(g => _mapper.Map<M_ViewGymnast>(g))
+.ToList();
 
+            return viewList;
 
+        }
+
+        public List<M_ViewGymnast> GetAllGymnastByAge(int minAge, int maxAge)
+        {
+            if (minAge > maxAge)
+                throw new ArgumentException("Minimum age cannot be greater than maximum age.");
+            List<Gymnast> allGymnasts = _gymnastDal.GetAllGymnast();
+            DateTime today = DateTime.Today;
+            allGymnasts = allGymnasts
+                .Where(g =>
+                    {
+                        int age = today.Year - g.BirthDate.Year;
+                        if (g.BirthDate > today.AddYears(-age)) age--;
+                        return age >= minAge && age <= maxAge;
+                    })
+                .ToList();
+            var viewList = allGymnasts
+                .Select(g => _mapper.Map<M_ViewGymnast>(g))
+                .ToList();
+
+            return viewList;
+
+        }
+        public List<M_ViewGymnast> GetAllGymnastByMembershipType(MembershipTypeEnum membershipType)
+        {
+            if (membershipType == null)
+                throw new ArgumentException("No membership type entered."); List<Gymnast> allGymnasts = _gymnastDal.GetAllGymnast();
+
+            allGymnasts = allGymnasts
+                .Where(g => g.MemberShipType.Equals(membershipType.ToString()))
+                .ToList();
+            var viewList = allGymnasts
+    .Select(g => _mapper.Map<M_ViewGymnast>(g))
+    .ToList();
+
+            return viewList;
+
+        }
+
+        public List<M_ViewGymnast> GetAllGymnastJoinedAfter(DateOnly joinDate)
+        {
+            List<Gymnast> allGymnasts = _gymnastDal.GetAllGymnast();
+
+            allGymnasts = allGymnasts
+                   .Where(g => g.EntryDate > joinDate)
+                   .ToList();
+            var viewList = allGymnasts
+.Select(g => _mapper.Map<M_ViewGymnast>(g))
+.ToList();
+
+            return viewList;
+
+        }
     }
 }

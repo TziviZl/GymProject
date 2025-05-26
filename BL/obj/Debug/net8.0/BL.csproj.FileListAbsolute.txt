@@ -73,7 +73,6 @@ C:\Users\USER\source\repos\GymProject\BL\obj\Debug\net8.0\BL.AssemblyInfoInputs.
 C:\Users\USER\source\repos\GymProject\BL\obj\Debug\net8.0\BL.AssemblyInfo.cs
 C:\Users\USER\source\repos\GymProject\BL\obj\Debug\net8.0\BL.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\GymProject\BL\obj\Debug\net8.0\BL.sourcelink.json
-C:\Users\USER\source\repos\GymProject\BL\obj\Debug\net8.0\BL.csproj.CopyComplete
 C:\Users\USER\source\repos\GymProject\BL\obj\Debug\net8.0\BL.dll
 C:\Users\USER\source\repos\GymProject\BL\obj\Debug\net8.0\refint\BL.dll
 C:\Users\USER\source\repos\GymProject\BL\obj\Debug\net8.0\BL.pdb
@@ -169,3 +168,4 @@ C:\Users\צדקה מרים\source\repos\GymProject\BL\obj\Debug\net8.0\refint\BL
 C:\Users\צדקה מרים\source\repos\GymProject\BL\obj\Debug\net8.0\BL.pdb
 C:\Users\צדקה מרים\source\repos\GymProject\BL\obj\Debug\net8.0\BL.genruntimeconfig.cache
 C:\Users\צדקה מרים\source\repos\GymProject\BL\obj\Debug\net8.0\ref\BL.dll
+C:\Users\USER\Source\Repos\GymProject\BL\obj\Debug\net8.0\BL.csproj.Up2Date
