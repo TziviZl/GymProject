@@ -111,5 +111,33 @@ namespace DAL.Services
 
             return _dbManager.SaveChanges() > 0;
         }
+
+        public List<BackupTrainer> BackupTrainers(string trainerId)
+        {
+            Trainer trainer = GetTrainerById(trainerId);
+
+            var backupTrainers = _dbManager.BackupTrainers.Where(t => t.Specialization.Equals(trainer.Specialization)).ToList();
+             return backupTrainers;
+
+        }
+
+        public bool DeleteTrainer(string trainerId)
+        {
+            Trainer trainer = _dbManager.Trainers.FirstOrDefault(t => t.Id == trainerId);
+            if (trainer == null) 
+                return false;
+            _dbManager.Trainers.Remove(trainer);
+            return true;
+        }
+
+        public bool AssignTrainerToStudioClass(string oldTrainerId, string newTrainerId)
+        {
+            var globalStudioClass = _dbManager.GlobalStudioClasses.FirstOrDefault(t=>t.Id.Equals(oldTrainerId));
+            globalStudioClass.TrainerId = newTrainerId;
+            _dbManager.SaveChanges();
+            return true;
+
+        }
+        
     }
 }

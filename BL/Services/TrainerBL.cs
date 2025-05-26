@@ -96,5 +96,25 @@ namespace BL.Services
             M_Trainer m_Trainer = _mapper.Map<M_Trainer>(trainer);
             return m_Trainer;
         }
+
+        public void DeleteAndReplaceTrainer(string trainerId)
+        {
+            bool deleted = _trainerDal.DeleteTrainer(trainerId);
+            if (!deleted)
+            {
+                throw new ArgumentNullException("Trainer id is not exist.");
+            }
+
+            List<BackupTrainer> newTrainers = _trainerDal.BackupTrainers(trainerId);
+            if(newTrainers == null)
+            {
+
+            }
+            BackupTrainer backupTrainer = newTrainers.FirstOrDefault();
+            _trainerDal.AssignTrainerToStudioClass(trainerId, backupTrainer.Id);
+
+        }
+
+
     }
 }

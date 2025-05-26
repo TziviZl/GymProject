@@ -18,6 +18,7 @@ namespace BL.Api
         public void NewTrainer(M_Trainer m_Trainer);
        public void UpdateTrainer(Trainer trainer);
         public M_Trainer GetTrainerById(string trainerId);
+        public void DeleteAndReplaceTrainer(string trainerId);
 
     }
 }

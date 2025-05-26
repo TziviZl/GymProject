@@ -38,9 +38,7 @@ namespace Server.Controllers
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
-            }
-            
-
+            }            
            
         }
 
@@ -79,5 +77,13 @@ namespace Server.Controllers
                 return NotFound(new { message = ex.Message });
             }
         }
+
+        [HttpDelete("DeleteTrainer")]
+        public IActionResult DeleteTrainer(string trainerId)
+        {
+             _itrainerBL.DeleteAndReplaceTrainer(trainerId);
+              return Ok();
+        }
+
     }
 }

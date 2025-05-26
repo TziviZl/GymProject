@@ -21,6 +21,10 @@ namespace DAL.Api
         public Trainer GetTrainerById(string trainerId);
 
         public bool UpdateTrainer(Trainer trainer);
+        public bool DeleteTrainer(string trainerId);
+        public List<BackupTrainer> BackupTrainers(string trainerId);
+        public bool AssignTrainerToStudioClass(string oldTrainerId, string newTrainerId);
+
 
     }
 
