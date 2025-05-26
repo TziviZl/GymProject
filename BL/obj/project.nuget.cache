@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gMJxnA0gdgQ=",
+  "dgSpecHash": "CAw+toi9Uwk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\יודלוב תמר\\Source\\Repos\\GymProject\\BL\\BL.csproj",
+  "projectFilePath": "C:\\Users\\יודלוב תמר\\source\\repos\\GymProject\\BL\\BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\יודלוב תמר\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\יודלוב תמר\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

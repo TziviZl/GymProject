@@ -146,6 +146,57 @@ namespace BL.Services
 
 
         }
+        public void RemoveGymnastFromLesson(string gymnastId, StudioClass studioClass)
+        {
+            var gymnast = GetGymnastById(gymnastId);
+
+            if (studioClass == null)
+                throw new ArgumentNullException(nameof(studioClass), "Studio class not found");
+
+            GymnastClass gymnastClass = _gymnastDal.GetGymnastClass(gymnastId, studioClass.Id);
+            if (gymnastClass == null)
+                throw new Exception("The gymnast was not registered for the class");
+            studioClass.CurrentNum++;
+            _gymnastDal.RemoveGymnastClass(gymnastClass);
+
+            _gymnastDal.SaveChanges();
+
+
+
+        }
+        public List<M_ViewStudioClasses> GetGymnastLessons(string gymnastId, int numOfLesson)
+        {
+
+            var gymnast = GetGymnastById(gymnastId);
+
+            var lessons = _gymnastDal.GetGymnastClassesByStudentId(gymnastId);
+            var sortedLessons = lessons
+         .OrderByDescending(lesson => _gymnastDal.GetStudioClass(lesson.ClassId).Date)
+         .ToList();
+            var lessonsToRemove = sortedLessons.Take(numOfLesson).ToList();
+            var viewLessons = lessonsToRemove
+            .Select(lesson => _mapper.Map<M_ViewStudioClasses>(lesson))
+             .ToList();
+
+            return viewLessons;
+        }
+
+        public List<M_ViewContactGymnast> GetAllGymnastInSpecificClass(StudioClass studioClass)
+        {
+            if (studioClass == null)
+                throw new ArgumentNullException(nameof(studioClass), "Studio class not found");
+
+            List<string> listID = _gymnastDal.GetAllGymnastInSpecificClass(studioClass.Id);
+            var gymnasts = listID
+                .Select(id => _gymnastDal.GetGymnastById(id))
+                .Where(g => g != null)
+                .ToList();
+            var viewList = gymnasts
+        .Select(g => _mapper.Map<M_ViewContactGymnast>(g))
+        .ToList();
+
+            return viewList;
+        }
 
     }
 }

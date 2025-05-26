@@ -22,7 +22,9 @@ namespace BL.Api
         public void DeleteGymnast(string id);
       
         public void AddGymnastLesson(string gymnastId,StudioClass studioClass);
-
+        public void RemoveGymnastFromLesson(string gymnastId, StudioClass studioClass);
+        public List<M_ViewStudioClasses> GetGymnastLessons(string gymnastId,int numOfLesson);
+        public List<M_ViewContactGymnast> GetAllGymnastInSpecificClass(StudioClass studioClass);
 
 
     }
