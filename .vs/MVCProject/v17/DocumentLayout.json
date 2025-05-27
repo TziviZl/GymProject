@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\GymProject\\",
+  "WorkspaceRootPath": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|c:\\users\\user\\source\\repos\\gymproject\\bl\\services\\gymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|c:\\users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\gymproject\\bl\\services\\gymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\services\\gymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|c:\\users\\user\\source\\repos\\gymproject\\dal\\models\\gymnast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|c:\\users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\gymproject\\dal\\models\\gymnast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CAC9433-4562-4354-9507-E2548C3480A9}|DAL\\DAL.csproj|solutionrelative:dal\\models\\gymnast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|c:\\users\\user\\source\\repos\\gymproject\\bl\\api\\igymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|c:\\users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\gymproject\\bl\\api\\igymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\api\\igymnastbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|c:\\users\\user\\source\\repos\\gymproject\\server\\controllers\\gymnastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|c:\\users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\gymproject\\server\\controllers\\gymnastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0CBC225-357B-4B6B-A470-A1F14C0ED79D}|Server\\Server.csproj|solutionrelative:server\\controllers\\gymnastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|c:\\users\\user\\source\\repos\\gymproject\\bl\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|c:\\users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\gymproject\\bl\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|c:\\users\\user\\source\\repos\\gymproject\\bl\\models\\m_viewgymnast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|c:\\users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\gymproject\\bl\\models\\m_viewgymnast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6EAC8D4-91C3-44B4-8D35-CBF7680BFC71}|BL\\BL.csproj|solutionrelative:bl\\models\\m_viewgymnast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,51 +34,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "GymnastController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\GymProject\\Server\\Controllers\\GymnastController.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\Server\\Controllers\\GymnastController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\GymnastController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\GymProject\\Server\\Controllers\\GymnastController.cs",
+              "ToolTip": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\Server\\Controllers\\GymnastController.cs",
               "RelativeToolTip": "Server\\Controllers\\GymnastController.cs",
               "ViewState": "AgIAANQAAAAAAAAAAAAAANkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T21:10:09.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T21:10:09.197Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\GymProject\\BL\\Mapping\\MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\BL\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "BL\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\GymProject\\BL\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\BL\\Mapping\\MappingProfile.cs",
               "RelativeToolTip": "BL\\Mapping\\MappingProfile.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T21:09:19.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T21:09:19.721Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GymnastBL.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\GymProject\\BL\\Services\\GymnastBL.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\BL\\Services\\GymnastBL.cs",
               "RelativeDocumentMoniker": "BL\\Services\\GymnastBL.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\GymProject\\BL\\Services\\GymnastBL.cs",
+              "ToolTip": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\BL\\Services\\GymnastBL.cs",
               "RelativeToolTip": "BL\\Services\\GymnastBL.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAAAAUBAAAcAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T21:09:13.399Z",
               "EditorCaption": ""
@@ -87,40 +89,37 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IGymnastBL.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\GymProject\\BL\\Api\\IGymnastBL.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\BL\\Api\\IGymnastBL.cs",
               "RelativeDocumentMoniker": "BL\\Api\\IGymnastBL.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\GymProject\\BL\\Api\\IGymnastBL.cs",
+              "ToolTip": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\BL\\Api\\IGymnastBL.cs",
               "RelativeToolTip": "BL\\Api\\IGymnastBL.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAwwB4AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T21:08:38.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T21:08:38.11Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Gymnast.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\GymProject\\DAL\\Models\\Gymnast.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\DAL\\Models\\Gymnast.cs",
               "RelativeDocumentMoniker": "DAL\\Models\\Gymnast.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\GymProject\\DAL\\Models\\Gymnast.cs",
+              "ToolTip": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\DAL\\Models\\Gymnast.cs",
               "RelativeToolTip": "DAL\\Models\\Gymnast.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAkwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T21:08:27.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T21:08:27.905Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "M_ViewGymnast.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\GymProject\\BL\\Models\\M_ViewGymnast.cs",
+              "DocumentMoniker": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\BL\\Models\\M_ViewGymnast.cs",
               "RelativeDocumentMoniker": "BL\\Models\\M_ViewGymnast.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\GymProject\\BL\\Models\\M_ViewGymnast.cs",
+              "ToolTip": "C:\\Users\\\u05D6\u05DC\u05D5\u05D8\u05E0\u05D9\u05E7 \u05E6\u05D1\u05D9\u05D4\\source\\repos\\GymProject\\BL\\Models\\M_ViewGymnast.cs",
               "RelativeToolTip": "BL\\Models\\M_ViewGymnast.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T21:08:18.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T21:08:18.5Z"
             }
           ]
         }

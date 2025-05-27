@@ -115,6 +115,7 @@ namespace BL.Services
             _gymnastDal.DeleteGymnast(id);
             _gymnastDal.SaveChanges();
         }
+
         public void AddGymnastLesson(string gymnastId, StudioClass studioClass)
         {
             var gymnast = GetGymnastById(gymnastId);
@@ -135,7 +136,6 @@ namespace BL.Services
 
                 default:
                     throw new Exception("Unknown subscription type");
-                    break;
             }
             if (studioClass.CurrentNum <= 0)
                 throw new Exception("The class is fully booked!");
@@ -215,23 +215,28 @@ namespace BL.Services
         {
             if (minAge > maxAge)
                 throw new ArgumentException("Minimum age cannot be greater than maximum age.");
+
             List<Gymnast> allGymnasts = _gymnastDal.GetAllGymnast();
             DateTime today = DateTime.Today;
+
             allGymnasts = allGymnasts
+                .Where(g => g.BirthDate.HasValue)
                 .Where(g =>
-                    {
-                        int age = today.Year - g.BirthDate.Year;
-                        if (g.BirthDate > today.AddYears(-age)) age--;
-                        return age >= minAge && age <= maxAge;
-                    })
+                {
+                    int age = today.Year - g.BirthDate.Value.Year;
+                    if (g.BirthDate.Value > today.AddYears(-age)) age--;
+                    return age >= minAge && age <= maxAge;
+                })
                 .ToList();
+
             var viewList = allGymnasts
                 .Select(g => _mapper.Map<M_ViewGymnast>(g))
                 .ToList();
 
             return viewList;
-
         }
+
+
         public List<M_ViewGymnast> GetAllGymnastByMembershipType(MembershipTypeEnum membershipType)
         {
             if (membershipType == null)
