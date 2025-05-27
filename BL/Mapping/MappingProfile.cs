@@ -11,6 +11,9 @@ namespace BL.Mapping
     {
         public MappingProfile()
         {
+            CreateMap<Trainer, M_ViewTrainerBL>();
+            CreateMap<M_ViewTrainerBL,Trainer >();
+
             CreateMap<Gymnast, GymnastBL>();
             CreateMap<GymnastBL, Gymnast>();
             CreateMap<Gymnast, M_ViewGymnastBL>();

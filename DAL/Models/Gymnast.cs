@@ -10,7 +10,7 @@
     public string? PaymentType { get; set; } 
     public string Email { get; set; } = null!;
     public string Cell { get; set; } = null!;
-    public int WeeklyCounter { get; set; }
+    public int WeeklyCounter { get; set; } = 2;
     public DateOnly? EntryDate { get; set; } 
 
     public Gymnast() { }

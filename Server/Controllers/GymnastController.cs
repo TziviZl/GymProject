@@ -68,13 +68,12 @@ namespace Server.Controllers
 
         }
 
-        [HttpPut("GetGymnastById")]
+        [HttpGet("GetGymnastById")]
         public ActionResult<Gymnast> GetGymnastById([FromQuery] string id)
         {
             try
             {
-                _igymnastBL.GetGymnastById(id);
-                return Ok();
+                return Ok(_igymnastBL.GetGymnastById(id));
 
             }
             catch (Exception ex)
@@ -83,7 +82,7 @@ namespace Server.Controllers
             }
         }
         [HttpPut("UpdateGymnast")]
-        public IActionResult UpdateGymnast([FromQuery][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance")] M_Gymnast m_gymnast)
+        public IActionResult UpdateGymnast([FromBody][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance","Level")] M_Gymnast m_gymnast)
         {
             try
             {
@@ -215,18 +214,10 @@ namespace Server.Controllers
             }
         }
         [HttpGet("GetAllGymnastJoinedAfter")]
-        public ActionResult<List<M_ViewGymnast>> GetAllGymnastJoinedAfter(DateOnly joinDate)
-
+        public ActionResult<List<M_ViewGymnast>> GetAllGymnastJoinedAfter([FromQuery] DateOnly joinDate)
         {
-            try
-            {
-                var gymnasts = _igymnastBL.GetAllGymnastJoinedAfter(joinDate);
-                return Ok(gymnasts);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            var result = _igymnastBL.GetAllGymnastJoinedAfter(joinDate);
+            return Ok(result);
         }
 
 

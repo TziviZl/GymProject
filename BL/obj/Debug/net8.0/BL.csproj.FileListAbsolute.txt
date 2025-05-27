@@ -169,3 +169,21 @@ C:\Users\צדקה מרים\source\repos\GymProject\BL\obj\Debug\net8.0\BL.pdb
 C:\Users\צדקה מרים\source\repos\GymProject\BL\obj\Debug\net8.0\BL.genruntimeconfig.cache
 C:\Users\צדקה מרים\source\repos\GymProject\BL\obj\Debug\net8.0\ref\BL.dll
 C:\Users\USER\Source\Repos\GymProject\BL\obj\Debug\net8.0\BL.csproj.Up2Date
+C:\Users\כהן נועה\source\repos\BL\bin\Debug\net8.0\BL.deps.json
+C:\Users\כהן נועה\source\repos\BL\bin\Debug\net8.0\BL.runtimeconfig.json
+C:\Users\כהן נועה\source\repos\BL\bin\Debug\net8.0\BL.dll
+C:\Users\כהן נועה\source\repos\BL\bin\Debug\net8.0\BL.pdb
+C:\Users\כהן נועה\source\repos\BL\bin\Debug\net8.0\DAL.dll
+C:\Users\כהן נועה\source\repos\BL\bin\Debug\net8.0\DAL.pdb
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.csproj.AssemblyReference.cache
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.AssemblyInfoInputs.cache
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.AssemblyInfo.cs
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.sourcelink.json
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.csproj.Up2Date
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.dll
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\refint\BL.dll
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.pdb
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\BL.genruntimeconfig.cache
+C:\Users\כהן נועה\source\repos\BL\obj\Debug\net8.0\ref\BL.dll

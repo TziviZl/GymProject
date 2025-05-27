@@ -41,19 +41,33 @@ namespace BL.Services
 
         }
 
+        //public void NewGymnast(M_Gymnast m_gymnast)
+        //{
+        //    var gymnast = _mapper.Map<Gymnast>(m_gymnast);
+        //    if (gymnast == null)
+        //    {
+        //        throw new Exception($"Gymnast with ID {gymnast.Id} not found.");
+        //    }
+        //    gymnast.Level = "A";
+        //    gymnast.EntryDate = DateOnly.FromDateTime(DateTime.Now);
+        //    _gymnastDal.AddGymnast(gymnast);
+        //    _gymnastDal.SaveChanges();
+
+
+        //}
         public void NewGymnast(M_Gymnast m_gymnast)
         {
+            if (m_gymnast == null)
+                throw new ArgumentNullException(nameof(m_gymnast));
+
             var gymnast = _mapper.Map<Gymnast>(m_gymnast);
+
             if (gymnast == null)
-            {
-                throw new Exception($"Gymnast with ID {gymnast.Id} not found.");
-            }
-            gymnast.Level = "A";
+                throw new Exception("Mapping failed! Check your AutoMapper configuration.");
+
             gymnast.EntryDate = DateOnly.FromDateTime(DateTime.Now);
             _gymnastDal.AddGymnast(gymnast);
             _gymnastDal.SaveChanges();
-
-
         }
 
         public void RemoveGymnastFromClass(string gymnastId, int classId)
@@ -199,13 +213,13 @@ namespace BL.Services
         }
         public List<M_ViewGymnast> GetAllGymnastInSpecificLevel(char level)
         {
-            if (level == null)
+            if (level.Equals(' ')) 
                 throw new Exception("No level entered.");
             List<Gymnast> gymnasts = _gymnastDal.GetAllGymnast();
-            gymnasts = gymnasts.Where(g => g.Level.Equals(level)).ToList();
+            gymnasts = gymnasts.Where(g => g.Level == level.ToString()).ToList();
             var viewList = gymnasts
-.Select(g => _mapper.Map<M_ViewGymnast>(g))
-.ToList();
+            .Select(g => _mapper.Map<M_ViewGymnast>(g))
+               .ToList();
 
             return viewList;
 
@@ -240,7 +254,10 @@ namespace BL.Services
         public List<M_ViewGymnast> GetAllGymnastByMembershipType(MembershipTypeEnum membershipType)
         {
             if (membershipType == null)
-                throw new ArgumentException("No membership type entered."); List<Gymnast> allGymnasts = _gymnastDal.GetAllGymnast();
+                throw new ArgumentException("No membership type entered.");
+            List<Gymnast> allGymnasts = _gymnastDal.GetAllGymnast()
+                .Where(g => g.MemberShipType != null)
+                .ToList();
 
             allGymnasts = allGymnasts
                 .Where(g => g.MemberShipType.Equals(membershipType.ToString()))
@@ -255,17 +272,14 @@ namespace BL.Services
 
         public List<M_ViewGymnast> GetAllGymnastJoinedAfter(DateOnly joinDate)
         {
-            List<Gymnast> allGymnasts = _gymnastDal.GetAllGymnast();
-
-            allGymnasts = allGymnasts
-                   .Where(g => g.EntryDate > joinDate)
-                   .ToList();
-            var viewList = allGymnasts
-.Select(g => _mapper.Map<M_ViewGymnast>(g))
-.ToList();
-
+            var allGymnasts = _gymnastDal.GetAllGymnast();
+            var filtered = allGymnasts
+                .Where(g => g.EntryDate > joinDate)
+                .ToList();
+            var viewList = filtered
+                .Select(g => _mapper.Map<M_ViewGymnast>(g))
+                .ToList();
             return viewList;
-
         }
     }
 }
