@@ -16,16 +16,25 @@ namespace DAL.Api
         public List<Trainer> GetAllTrainers();
         public List<StudioClass> GetStudioClasses(string trainerId);
 
-        public bool NewTrainer(Trainer trainer);
+        public void NewTrainer(Trainer trainer);
 
         public Trainer GetTrainerById(string trainerId);
 
         public bool UpdateTrainer(Trainer trainer);
         public bool DeleteTrainer(string trainerId);
-        public List<BackupTrainer> BackupTrainers(string trainerId);
+        public List<BackupTrainers> BackupTrainers(string trainerId);
         public bool AssignTrainerToStudioClass(string oldTrainerId, string newTrainerId);
         public List<Gymnast> GetGymnastsByTrainerId(string trainerId);
         public List<string> GetGymnastEmails(string trainerId);
+
+        public Trainer GetTrainerBySpecialization(string spec);
+
+        public void NewBackupTrainer(BackupTrainers backupTrainer);
+
+        public List<BackupTrainers> GetBackupTrainers();
+
+        public void SaveChanges();
+
 
     }
 

@@ -103,23 +103,15 @@ namespace DAL.Services
         }
 
 
-
-        public bool NewTrainer(Trainer trainer)
+        public void SaveChanges()
         {
-            try
-            {
+            _dbManager.SaveChanges();
+        }
+
+        public void NewTrainer(Trainer trainer)
+        {
                 _dbManager.Trainers.Add(trainer);
 
-                _dbManager.SaveChanges();
-
-                return true;
-            }
-            catch (Exception ex)
-            {
-
-                Console.WriteLine($"Error: {ex.Message}");
-                return false;
-            }
         }
 
         public Trainer GetTrainerById(string trainerId)
@@ -145,7 +137,7 @@ namespace DAL.Services
             return _dbManager.SaveChanges() > 0;
         }
 
-        public List<BackupTrainer> BackupTrainers(string trainerId)
+        public List<BackupTrainers> BackupTrainers(string trainerId)
         {
             Trainer trainer = GetTrainerById(trainerId);
 
@@ -171,6 +163,23 @@ namespace DAL.Services
             return true;
 
         }
-        
+
+        public Trainer GetTrainerBySpecialization(string spec)
+        {
+            Trainer trainer = _dbManager.Trainers.FirstOrDefault(t => t.Specialization.Equals(spec));
+
+            return trainer;
+        }
+
+
+        public void NewBackupTrainer(BackupTrainers backupTrainer)
+        {
+            _dbManager.BackupTrainers.Add(backupTrainer);
+        }
+
+        public List<BackupTrainers> GetBackupTrainers()
+        {
+            return _dbManager.BackupTrainers.ToList();
+        }
     }
 }

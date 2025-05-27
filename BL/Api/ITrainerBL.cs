@@ -20,5 +20,10 @@ namespace BL.Api
         public M_Trainer GetTrainerById(string trainerId);
         public List<string> DeleteAndReplaceTrainer(string trainerId);
 
+        public bool GetTrainerBySpecialization(string spec);
+
+        public List<BackupTrainers> GetBackupTrainers();
+
+
     }
 }

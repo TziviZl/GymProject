@@ -22,7 +22,7 @@ public partial class DB_Manager : DbContext
 
     public virtual DbSet<Trainer> Trainers { get; set; }
 
-    public DbSet<BackupTrainer> BackupTrainers { get; set; }
+    public DbSet<BackupTrainers> BackupTrainers { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -143,11 +143,11 @@ public partial class DB_Manager : DbContext
             entity.Property(e => e.Specialization)
                 .HasMaxLength(50);
         });
-        modelBuilder.Entity<BackupTrainer>(entity =>
+        modelBuilder.Entity<BackupTrainers>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__BackupTrainer__3214EC078B74BF99");
 
-            entity.ToTable("BackupTrainer");
+            entity.ToTable("BackupTrainers");
 
             entity.Property(e => e.Id)
                 .HasMaxLength(9)

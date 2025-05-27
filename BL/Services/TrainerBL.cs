@@ -51,18 +51,25 @@ namespace BL.Services
         public void NewTrainer(M_Trainer m_trainer)
         {
   
-                if (m_trainer == null)
-                {
-                    throw new ArgumentNullException(nameof(m_trainer), "Trainer object cannot be null.");
-                }
+            if (m_trainer == null)
+            {
+                throw new ArgumentNullException(nameof(m_trainer), "Trainer object cannot be null.");
+            }
 
-            Trainer trainer = _mapper.Map<Trainer>(m_trainer);
-             _trainerDal.NewTrainer(trainer);
-            
+            if (!GetTrainerBySpecialization(m_trainer.Specialization))
+            {
+                Trainer trainer = _mapper.Map<Trainer>(m_trainer);
+                _trainerDal.NewTrainer(trainer);
+            }
+            else
+            {
+                _trainerDal.NewBackupTrainer(_mapper.Map<BackupTrainers>(m_trainer));
+            }
+            _trainerDal.SaveChanges();
 
-        }
+         }
 
-        public List<M_ViewStudioClasses> GetStudioClasses(string trainerId)
+            public List<M_ViewStudioClasses> GetStudioClasses(string trainerId)
         {
             var studioClasses = _trainerDal.GetStudioClasses(trainerId);
 
@@ -105,18 +112,30 @@ namespace BL.Services
                 throw new ArgumentNullException("Trainer id is not exist.");
             }
 
-            List<BackupTrainer> newTrainers = _trainerDal.BackupTrainers(trainerId);
+            List<BackupTrainers> newTrainers = _trainerDal.BackupTrainers(trainerId);
             if(newTrainers == null)
             {
                 return _trainerDal.GetGymnastEmails(trainerId);
             }
-            BackupTrainer backupTrainer = newTrainers.FirstOrDefault();
+            BackupTrainers backupTrainer = newTrainers.FirstOrDefault();
             _trainerDal.AssignTrainerToStudioClass(trainerId, backupTrainer.Id);
             return null;
 
         }
 
-        
+        public bool GetTrainerBySpecialization(string spec)
+        {
+          Trainer trainer  = _trainerDal.GetTrainerBySpecialization(spec);
+          return trainer != null;
+
+        }
+
+        public List<BackupTrainers> GetBackupTrainers()
+        {
+            return _trainerDal.GetBackupTrainers();
+        }
+
+
 
 
 

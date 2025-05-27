@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    public class BackupTrainer
+    public class BackupTrainers
     {
         public string Id { get; set; } = null!;
 

@@ -25,6 +25,13 @@ namespace BL.Models
 
         [Required]
         public string Specialization { get; set; }
-       
+
+        [Required] // Only if your DB requires it
+        [StringLength(50)]
+        public string Email { get; set; } = null!;
+
+        [Required] // Only if your DB requires it
+        [StringLength(10)]
+        public string Cell { get; set; } = null!;
     }
 }

@@ -28,7 +28,7 @@ namespace Server.Controllers
         }
        
         [HttpPost("NewTrainer")]
-        public IActionResult NewTrainer([FromQuery][Bind("ID", "FirstName", "LastName", "BirthDate", "Specialization")] M_Trainer m_Trainer)
+        public IActionResult NewTrainer([FromBody][Bind("ID", "FirstName", "LastName", "BirthDate", "Specialization")] M_Trainer m_Trainer)
         {
             try
             {
@@ -105,6 +105,13 @@ namespace Server.Controllers
             }
 
         }
+
+        [HttpGet("GetBackupTrainers")]
+        public List<BackupTrainers> GetBackupTrainers()
+        {
+            return _itrainerBL.GetBackupTrainers();
+        }
+
 
     }
 }
