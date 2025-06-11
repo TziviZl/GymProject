@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// --- CORS policy name ---
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var relativeDbPath = Path.Combine("..", "..", "..", "..", "DAL", "data", "GymDB.mdf");
 var fullDbPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativeDbPath));
 
@@ -30,6 +32,18 @@ builder.Services.AddScoped<IBL, BlManager>();
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+// CORS - הגדרת מדיניות שתאפשר גישה מכתובת ה־React שלך
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3000") // <-- כתובת ה־React בזמן פיתוח
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
 
 // Controllers & Swagger
 //builder.Services.AddControllers();
@@ -55,6 +69,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
