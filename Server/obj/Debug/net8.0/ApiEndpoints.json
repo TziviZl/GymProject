@@ -216,7 +216,7 @@
     "ContainingType": "Server.Controllers.GymnastController",
     "Method": "GetGymnastById",
     "RelativePath": "Gymnast/GetGymnastById",
-    "HttpMethod": "PUT",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -228,7 +228,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "DAL.Models.Gymnast",
+        "Type": "Gymnast",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -336,39 +336,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "FirstName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "LastName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "BirthDate",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "MedicalInsurance",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Email",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Cell",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "m_gymnast",
+        "Type": "BL.Models.M_Gymnast",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -408,6 +378,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.TrainerController",
+    "Method": "GetBackupTrainers",
+    "RelativePath": "Trainer/GetBackupTrainers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DAL.Models.BackupTrainers, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Server.Controllers.TrainerController",
@@ -491,29 +481,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Id",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "FirstName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "LastName",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "BirthDate",
-        "Type": "System.DateTime",
-        "IsRequired": false
-      },
-      {
-        "Name": "Specialization",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "m_Trainer",
+        "Type": "BL.Models.M_Trainer",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
