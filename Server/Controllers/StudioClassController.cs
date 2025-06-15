@@ -15,20 +15,19 @@ namespace Server.Controllers
         {
             _iStudioClass = iStudioClass.StudioClass ;
         }
-        [HttpGet]
-        public  ActionResult<M_ViewStudioClasses> GetAllLessons() {
+        [HttpGet("GetAllLessons")]
+        public ActionResult<List<M_ViewStudioClasses>> GetAllLessons()
+        {
             try
             {
-                var gymnasts = _iStudioClass.GetAllLessons();
-                return Ok(gymnasts);
-               
+                var lessons = _iStudioClass.GetAllLessons();
+                return Ok(lessons);
             }
-
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
-
         }
+
     }
 }
