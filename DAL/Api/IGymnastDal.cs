@@ -28,8 +28,5 @@ namespace DAL.Api
         public void AddGymnastLesson(string gymnastId, int classId);
 
         public List<string> GetAllGymnastInSpecificClass(int classId);
-
-
-
     }
 }

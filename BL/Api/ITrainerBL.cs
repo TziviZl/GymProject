@@ -22,7 +22,7 @@ namespace BL.Api
 
         public bool GetTrainerBySpecialization(string spec);
 
-        public List<BackupTrainers> GetBackupTrainers();
+        public List<BackupTrainer> GetBackupTrainers();
 
 
     }

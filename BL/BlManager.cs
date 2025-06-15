@@ -16,13 +16,15 @@ namespace BL
     {
         public ITrainerBL  Trainers  { get; set; }
         public IGymnastBL Gymnasts { get; set; }
+        public IStudioClassBL StudioClass { get; set; }
 
         public IMapper Mapper { get; set; }
 
-        public BlManager(ITrainerBL trainerBL, IGymnastBL gymnastBL, IMapper mapper)
+        public BlManager(ITrainerBL trainerBL, IGymnastBL gymnastBL, IStudioClassBL StudioClassBL, IMapper mapper)
         {
             Trainers = trainerBL;
             Gymnasts = gymnastBL;
+            StudioClass = StudioClassBL;
             Mapper = mapper;
         }
 

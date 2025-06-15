@@ -107,7 +107,7 @@ namespace Server.Controllers
         }
 
         [HttpGet("GetBackupTrainers")]
-        public List<BackupTrainers> GetBackupTrainers()
+        public List<BackupTrainer> GetBackupTrainers()
         {
             return _itrainerBL.GetBackupTrainers();
         }

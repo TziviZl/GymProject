@@ -63,7 +63,7 @@ namespace BL.Services
             }
             else
             {
-                _trainerDal.NewBackupTrainer(_mapper.Map<BackupTrainers>(m_trainer));
+                _trainerDal.NewBackupTrainer(_mapper.Map<BackupTrainer>(m_trainer));
             }
             _trainerDal.SaveChanges();
 
@@ -112,12 +112,12 @@ namespace BL.Services
                 throw new ArgumentNullException("Trainer id is not exist.");
             }
 
-            List<BackupTrainers> newTrainers = _trainerDal.BackupTrainers(trainerId);
+            List<BackupTrainer> newTrainers = _trainerDal.BackupTrainers(trainerId);
             if(newTrainers == null)
             {
                 return _trainerDal.GetGymnastEmails(trainerId);
             }
-            BackupTrainers backupTrainer = newTrainers.FirstOrDefault();
+            BackupTrainer backupTrainer = newTrainers.FirstOrDefault();
             _trainerDal.AssignTrainerToStudioClass(trainerId, backupTrainer.Id);
             return null;
 
@@ -130,7 +130,7 @@ namespace BL.Services
 
         }
 
-        public List<BackupTrainers> GetBackupTrainers()
+        public List<BackupTrainer> GetBackupTrainers()
         {
             return _trainerDal.GetBackupTrainers();
         }

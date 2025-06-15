@@ -1,193 +1,125 @@
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.exe
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.deps.json
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.pdb
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\BL.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\DAL.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\BL.pdb
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\bin\Debug\net8.0\DAL.pdb
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.sourcelink.json
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\refint\Server.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\MVCProject\Server\obj\Debug\net8.0\ref\Server.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.sourcelink.json
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\refint\Server.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.pdb
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\appsettings.Development.json
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\appsettings.json
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.exe
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.deps.json
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Server.pdb
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Azure.Core.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Azure.Identity.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\EntityFramework.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.CodeDom.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\BL.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\DAL.dll
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\BL.pdb
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\bin\Debug\net8.0\DAL.pdb
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets.build.json
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets.development.json
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-W:\HandesaimV\Students\Group3\כהן נועה\פרויקט מעודכן\GymProject\MVCProject\Server\obj\Debug\net8.0\ref\Server.dll
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.sourcelink.json
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.dll
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\refint\Server.dll
-H:\GymProject\MVCProject\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.sourcelink.json
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.dll
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\refint\Server.dll
-C:\Users\USER\Source\Repos\GymProjectr\Server\obj\Debug\net8.0\Server.pdb
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\appsettings.json
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\libman.json
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Server.exe
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Server.deps.json
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Server.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Server.pdb
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Humanizer.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\BL.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\DAL.dll
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\BL.pdb
+C:\Users\USER\source\repos\GymProject\Server\bin\Debug\net8.0\DAL.pdb
 C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
 C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
@@ -196,683 +128,17 @@ C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.Core
 C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.sourcelink.json
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.CopyComplete
 C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.dll
 C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\refint\Server.dll
 C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.sourcelink.json
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.dll
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\refint\Server.dll
-C:\Users\יודלוב תמר\source\repos\GymProject\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.sourcelink.json
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\refint\Server.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Server.exe
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Server.deps.json
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Server.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Server.pdb
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\BL.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\DAL.dll
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\BL.pdb
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\bin\Debug\net8.0\DAL.pdb
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-C:\Users\זלוטניק צביה\source\repos\GymProject\Server\obj\Debug\net8.0\ref\Server.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.exe
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.deps.json
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.pdb
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\BL.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\DAL.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\BL.pdb
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\bin\Debug\net8.0\DAL.pdb
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.sourcelink.json
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\refint\Server.dll
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-C:\Users\כהן נועה\Source\Repos\GymProject\Server\obj\Debug\net8.0\ref\Server.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Server.exe
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Server.deps.json
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Server.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Server.pdb
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\BL.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\DAL.dll
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\BL.pdb
-C:\Users\user1\source\repos\GymDB11\Server\bin\Debug\net8.0\DAL.pdb
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.sourcelink.json
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.dll
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\refint\Server.dll
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-C:\Users\user1\source\repos\GymDB11\Server\obj\Debug\net8.0\ref\Server.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.exe
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.deps.json
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.pdb
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\BL.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\DAL.dll
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\BL.pdb
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\bin\Debug\net8.0\DAL.pdb
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-C:\Users\יודלוב תמר\Source\Repos\GymProject\Server\obj\Debug\net8.0\ref\Server.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Server.exe
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Server.deps.json
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Server.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Server.pdb
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\BL.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\DAL.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\BL.pdb
-C:\Users\צדקה מרים\source\repos\GymProject\Server\bin\Debug\net8.0\DAL.pdb
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.sourcelink.json
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\refint\Server.dll
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-C:\Users\צדקה מרים\source\repos\GymProject\Server\obj\Debug\net8.0\ref\Server.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.exe
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.deps.json
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Server.pdb
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\BL.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\DAL.dll
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\BL.pdb
-C:\Users\USER\Source\Repos\GymProject\Server\bin\Debug\net8.0\DAL.pdb
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-C:\Users\USER\Source\Repos\GymProject\Server\obj\Debug\net8.0\ref\Server.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Server.exe
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Server.deps.json
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Server.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Server.pdb
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\BL.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\DAL.dll
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\BL.pdb
-C:\Users\כהן נועה\source\repos\Server\bin\Debug\net8.0\DAL.pdb
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.sourcelink.json
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.dll
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\refint\Server.dll
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-C:\Users\כהן נועה\source\repos\Server\obj\Debug\net8.0\ref\Server.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Server.exe
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Server.deps.json
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Server.runtimeconfig.json
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Server.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Server.pdb
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.SqlServer.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\EntityFramework.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\BL.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\DAL.dll
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\BL.pdb
-C:\Users\user1\source\repos\GymProject\Server\bin\Debug\net8.0\DAL.pdb
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.AssemblyReference.cache
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfoInputs.cache
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.AssemblyInfo.cs
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.sourcelink.json
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Server.props
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Server.props
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Server.props
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.csproj.Up2Date
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.dll
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\refint\Server.dll
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.pdb
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
-C:\Users\user1\source\repos\GymProject\Server\obj\Debug\net8.0\ref\Server.dll
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
+C:\Users\USER\source\repos\GymProject\Server\obj\Debug\net8.0\ref\Server.dll

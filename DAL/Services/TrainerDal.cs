@@ -56,7 +56,7 @@ namespace DAL.Services
                              .Select(c => c.GymnastId)
                              .ToList();
         }
-        public List<StudioClass> GetStudioClasses(string trainerId)
+        public List<GlobalStudioClass> GetStudioClasses(string trainerId)
         {
                 var trainer = _dbManager.Trainers
                     .FirstOrDefault(t => t.Id == trainerId);
@@ -66,12 +66,12 @@ namespace DAL.Services
                     throw new Exception("This trainer is not exists");
                 }
 
-                return trainer.StudioClasses.ToList();
+                return trainer.GlobalStudioClasses.ToList();
          }
 
         public List<Gymnast> GetGymnastsByTrainerId(string trainerId)
         {
-            List<StudioClass> studioClasses = GetStudioClasses(trainerId);
+            List<GlobalStudioClass> studioClasses = GetStudioClasses(trainerId);
             List<string> allGymnastIds = new List<string>();
 
             foreach (var studioClass in studioClasses)
@@ -137,7 +137,7 @@ namespace DAL.Services
             return _dbManager.SaveChanges() > 0;
         }
 
-        public List<BackupTrainers> BackupTrainers(string trainerId)
+        public List<BackupTrainer> BackupTrainers(string trainerId)
         {
             Trainer trainer = GetTrainerById(trainerId);
 
@@ -172,12 +172,12 @@ namespace DAL.Services
         }
 
 
-        public void NewBackupTrainer(BackupTrainers backupTrainer)
+        public void NewBackupTrainer(BackupTrainer backupTrainer)
         {
             _dbManager.BackupTrainers.Add(backupTrainer);
         }
 
-        public List<BackupTrainers> GetBackupTrainers()
+        public List<BackupTrainer> GetBackupTrainers()
         {
             return _dbManager.BackupTrainers.ToList();
         }

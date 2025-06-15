@@ -24,10 +24,12 @@ builder.Services.AddDbContext<DB_Manager>(options =>
 // DAL dependencies - Scoped
 builder.Services.AddScoped<IGymnastDal, GymnastDal>();
 builder.Services.AddScoped<ITrainerDal, TrainerDal>();
+builder.Services.AddScoped<IStudioClassDal, StudioClassDal>();
 
 // BL dependencies - Scoped
 builder.Services.AddScoped<IGymnastBL, GymnastBL>();
 builder.Services.AddScoped<ITrainerBL, TrainerBL>();
+builder.Services.AddScoped<IStudioClassBL, StudioClassBL>();
 builder.Services.AddScoped<IBL, BlManager>();
 
 // AutoMapper

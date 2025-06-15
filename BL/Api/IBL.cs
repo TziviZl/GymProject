@@ -8,7 +8,8 @@ namespace BL.Api
 {
     public interface IBL
     {
-        public ITrainerBL Trainers  { get; set; }
+        public ITrainerBL Trainers { get; set; }
         public IGymnastBL Gymnasts { get; set; }
+        public IStudioClassBL StudioClass { get; set; }
     }
 }
