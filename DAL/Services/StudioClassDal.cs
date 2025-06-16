@@ -28,5 +28,13 @@ namespace DAL.Services
                     .ThenInclude(g => g.Trainer)
                 .ToList();
         }
+
+        public StudioClass GetById(int studioClassId)
+        {
+            Console.WriteLine(studioClassId);
+            return _dbManager.StudioClasses.Where(sc => sc.Id == studioClassId).FirstOrDefault();
+        }
+
+
     }
 }

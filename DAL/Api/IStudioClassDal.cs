@@ -11,5 +11,8 @@ namespace DAL.Api
     {
         public List<StudioClass> GetAllLessons();
 
+        public StudioClass GetById(int studioClassId);
+
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using DAL.Api;
 using DAL.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -73,10 +74,12 @@ namespace DAL.Services
         public List<GymnastClass> GetGymnastClassesByStudentId(string id)
         {
             return _dbManager.GymnastClasses
+                .Include(gc => gc.Class)
+                    .ThenInclude(sc => sc.Global)
+                        .ThenInclude(g => g.Trainer)
                 .Where(gc => gc.GymnastId == id)
                 .ToList();
         }
-
         public void RemoveGymnastClass(GymnastClass gymnast)
         {
             _dbManager.GymnastClasses.Remove(gymnast);
@@ -89,6 +92,7 @@ namespace DAL.Services
                 ClassId = classId
             };
             _dbManager.GymnastClasses.Add(gymnastClass);
+            SaveChanges();
         }
 
         public List<string> GetAllGymnastInSpecificClass(int classId)
@@ -100,23 +104,6 @@ namespace DAL.Services
         }
 
 
-        //public bool UpdateGymnast(string id, Gymnast updatedGymnast)
-        //{
-        //    var gymnast1 = _dbManager.Gymnasts.FirstOrDefault(g => g.Id == id);
-        //    if (gymnast1 == null)
-        //        return false;
-        //    gymnast1.FirstName = updatedGymnast.FirstName;
-        //    gymnast1.LastName = updatedGymnast.LastName;
-        //    gymnast1.BirthDate = updatedGymnast.BirthDate;
-        //    gymnast1.MedicalInsurance = updatedGymnast.MedicalInsurance;
-        //    gymnast1.Level = updatedGymnast.Level;
-        //    gymnast1.MemberShipType = updatedGymnast.MemberShipType;
-        //    gymnast1.StudioClasses = updatedGymnast.StudioClasses = updatedGymnast.StudioClasses; ;
-        //    gymnast1.PaymentType = updatedGymnast.PaymentType;
-
-        //    _dbManager.SaveChanges();
-        //    return true;
-        //}
 
     }
 

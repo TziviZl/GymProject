@@ -10,7 +10,7 @@ namespace BL.Models
 {
     public class M_ViewStudioClasses
     {
-
+        public int Id { get; set; } 
         public string Name { get; set; } = null!;
         public string TrainerName { get; set; } = null!;
         public string Level { get; set; } = null!;

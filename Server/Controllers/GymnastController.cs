@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")] 
     public class GymnastController : Controller
     {
         private readonly IGymnastBL _igymnastBL;
@@ -111,20 +111,21 @@ namespace Server.Controllers
             }
         }
         [HttpPost("AddGymnastLesson")]
-        public IActionResult AddGymnastLesson(string gymnastId, StudioClass studioClass)
+        public IActionResult AddGymnastLesson([FromQuery] string gymnastId, [FromQuery] int studioClassId)
         {
             try
             {
-                _igymnastBL.AddGymnastLesson(gymnastId, studioClass);
+                _igymnastBL.AddGymnastLesson(gymnastId, studioClassId);
                 return Ok("You have successfully registered for the class!");
-
-
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                Console.WriteLine("== ERROR on AddGymnastLesson ==");
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.InnerException?.Message);
+                Console.WriteLine(ex.InnerException?.InnerException?.Message);
+                return BadRequest(ex.InnerException?.InnerException?.Message ?? ex.Message);
             }
-
 
         }
 
@@ -147,11 +148,11 @@ namespace Server.Controllers
         }
 
         [HttpGet("GetGymnastLessons")]
-        public ActionResult<List<M_ViewStudioClasses>> GetGymnastLessons(string gymnastId, int numOfLesson)
+        public ActionResult<List<M_ViewStudioClasses>> GetGymnastLessons(string gymnastId)
         {
             try
             {
-                var lessons = _igymnastBL.GetGymnastLessons(gymnastId, numOfLesson);
+                var lessons = _igymnastBL.GetGymnastLessons(gymnastId);
                 return Ok(lessons);
             }
             catch (Exception ex)

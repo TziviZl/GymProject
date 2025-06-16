@@ -16,12 +16,14 @@ namespace BL.Services
     {
         private readonly IGymnastDal _gymnastDal;
         private readonly IMapper _mapper;
+        private readonly IStudioClassDal _studioClassDal;
 
 
-        public GymnastBL(IGymnastDal gymnastDal, IMapper mapper)
+        public GymnastBL(IGymnastDal gymnastDal,  IMapper mapper, IStudioClassDal studioClassDal)
         {
             _gymnastDal = gymnastDal;
             _mapper = mapper;
+            _studioClassDal = studioClassDal;
         }
 
         public void AddMembershipType(string id, MembershipTypeEnum membershipType)
@@ -77,7 +79,8 @@ namespace BL.Services
             {
                 throw new Exception($"Gymnast with ID {gymnastId} not found.");
             }
-
+            var gimnast = _gymnastDal.GetGymnastById(gymnastId);
+            gimnast.WeeklyCounter++;
             _gymnastDal.RemoveGymnastFromClass(gymnastClass);
 
             var studioClass = _gymnastDal.GetStudioClass(classId);
@@ -130,12 +133,18 @@ namespace BL.Services
             _gymnastDal.SaveChanges();
         }
 
-        public void AddGymnastLesson(string gymnastId, StudioClass studioClass)
+        public void AddGymnastLesson(string gymnastId, int studioClassId)
         {
             var gymnast = GetGymnastById(gymnastId);
+            var studioClass = _studioClassDal.GetById(studioClassId);
 
             if (studioClass == null)
                 throw new ArgumentNullException(nameof(studioClass), "Studio class not found");
+
+            var existingLessons = GetGymnastLessons(gymnastId);
+            if (existingLessons.Any(l => l.Id == studioClassId))
+                throw new Exception("You are already registered for this class.");
+
             switch (gymnast.MemberShipType)
             {
                 case nameof(MembershipTypeEnum.Monthly_Standard):
@@ -147,19 +156,19 @@ namespace BL.Services
                 case nameof(MembershipTypeEnum.Monthly_Pro):
                 case nameof(MembershipTypeEnum.Yearly_Pro):
                     break;
-
                 default:
                     throw new Exception("Unknown subscription type");
             }
-            if (studioClass.CurrentNum <= 0)
-                throw new Exception("The class is fully booked!");
+
+            if (studioClass.CurrentNum > 0) {              
 
             studioClass.CurrentNum--;
             _gymnastDal.AddGymnastLesson(gymnastId, studioClass.Id);
             _gymnastDal.SaveChanges();
-
-
         }
+        }
+
+
         public void RemoveGymnastFromLesson(string gymnastId, StudioClass studioClass)
         {
             var gymnast = GetGymnastById(gymnastId);
@@ -178,19 +187,14 @@ namespace BL.Services
 
 
         }
-        public List<M_ViewStudioClasses> GetGymnastLessons(string gymnastId, int numOfLesson)
+        public List<M_ViewStudioClasses> GetGymnastLessons(string gymnastId)
         {
-
-            var gymnast = GetGymnastById(gymnastId);
-
             var lessons = _gymnastDal.GetGymnastClassesByStudentId(gymnastId);
-            var sortedLessons = lessons
-         .OrderByDescending(lesson => _gymnastDal.GetStudioClass(lesson.ClassId).Date)
-         .ToList();
-            var lessonsToRemove = sortedLessons.Take(numOfLesson).ToList();
-            var viewLessons = lessonsToRemove
-            .Select(lesson => _mapper.Map<M_ViewStudioClasses>(lesson))
-             .ToList();
+
+            var viewLessons = lessons
+                .OrderByDescending(lesson => lesson.Class.Date)
+                .Select(lesson => _mapper.Map<M_ViewStudioClasses>(lesson.Class)) 
+                .ToList();
 
             return viewLessons;
         }

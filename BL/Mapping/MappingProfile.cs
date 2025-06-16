@@ -15,11 +15,8 @@ namespace BL.Mapping
             CreateMap<M_ViewTrainerBL,Trainer >();
             CreateMap<StudioClass, M_ViewStudioClasses>()
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Global.Name))
-                 .ForMember(dest => dest.TrainerName, opt => opt.MapFrom(src => src.Global.Trainer.FirstName + " " + src.Global.Trainer.LastName));
-
+                .ForMember(dest => dest.TrainerName, opt => opt.MapFrom(src => src.Global.Trainer.FirstName));
             CreateMap<M_ViewStudioClasses,StudioClass >();
-
-
             CreateMap<Gymnast, GymnastBL>();
             CreateMap<GymnastBL, Gymnast>();
             CreateMap<Gymnast, M_ViewGymnastBL>();
@@ -34,6 +31,7 @@ namespace BL.Mapping
             CreateMap<M_ViewGymnast,Gymnast> ();
             CreateMap<M_Trainer, BackupTrainer>();
             CreateMap<BackupTrainer, M_Trainer>();
+
 
 
 

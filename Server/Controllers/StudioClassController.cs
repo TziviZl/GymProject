@@ -29,5 +29,11 @@ namespace Server.Controllers
             }
         }
 
+        [HttpGet("isFull")]
+        public bool IsFull(int studioClassId)
+        {
+            return _iStudioClass.IsFull(studioClassId);
+        }
+
     }
 }

@@ -34,6 +34,20 @@ namespace BL.Services
             return _mapper.Map<List<M_ViewStudioClasses>>(studioClasses);
         }
 
+        public StudioClass GetById(int studioClassId)
+        {
+            var studioClass= _StudioClass.GetById(studioClassId);
+            return studioClass;
+        }
+
+        public bool IsFull(int studioClassId)
+        {
+            return _StudioClass.GetById(studioClassId).CurrentNum <= 0;
+        }
+
 
     }
+
+
+
 }

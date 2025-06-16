@@ -33,7 +33,6 @@ namespace BL.Models
         [Phone]
         public string Cell { get; set; }
 
-        [Required]
         public char Level { get; set; }
 
 

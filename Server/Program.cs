@@ -34,6 +34,7 @@ builder.Services.AddScoped<IBL, BlManager>();
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+builder.Services.AddHostedService<StudioClassResetService>();
 
 // CORS - הגדרת מדיניות שתאפשר גישה מכתובת ה־React שלך
 builder.Services.AddCors(options =>
@@ -49,11 +50,6 @@ builder.Services.AddCors(options =>
 
 // Controllers & Swagger
 //builder.Services.AddControllers();
-builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter());
-    });
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {

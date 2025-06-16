@@ -61,7 +61,7 @@ public partial class DB_Manager : DbContext
 
         modelBuilder.Entity<GymnastClass>(entity =>
         {
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Id).UseIdentityColumn();
             entity.Property(e => e.GymnastId).IsFixedLength();
 
             entity.HasOne(d => d.Class).WithMany(p => p.GymnastClasses)

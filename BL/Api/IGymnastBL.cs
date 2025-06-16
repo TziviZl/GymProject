@@ -20,10 +20,10 @@ namespace BL.Api
         public Gymnast GetGymnastById(string id);
         public void UpdateGymnanst(M_Gymnast m_Gymnast);
         public void DeleteGymnast(string id);
-      
-        public void AddGymnastLesson(string gymnastId,StudioClass studioClass);
+
+        public void AddGymnastLesson(string gymnastId, int studioClassId);
         public void RemoveGymnastFromLesson(string gymnastId, StudioClass studioClass);
-        public List<M_ViewStudioClasses> GetGymnastLessons(string gymnastId,int numOfLesson);
+        public List<M_ViewStudioClasses> GetGymnastLessons(string gymnastId);
         public List<M_ViewContactGymnast> GetAllGymnastInSpecificClass(StudioClass studioClass);
         public List<M_ViewGymnast> GetAllGymnastInSpecificLevel(char level);
         public List<M_ViewGymnast> GetAllGymnastByAge(int minAge, int maxAge);
