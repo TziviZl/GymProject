@@ -34,7 +34,9 @@ builder.Services.AddScoped<IBL, BlManager>();
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
-builder.Services.AddHostedService<StudioClassResetService>();
+builder.Services.AddSingleton<StudioClassResetService>();
+builder.Services.AddHostedService(provider => provider.GetRequiredService<StudioClassResetService>());
+
 
 // CORS - הגדרת מדיניות שתאפשר גישה מכתובת ה־React שלך
 builder.Services.AddCors(options =>

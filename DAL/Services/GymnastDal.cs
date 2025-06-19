@@ -58,11 +58,21 @@ namespace DAL.Services
         {
             _dbManager.SaveChanges();
         }
-        public void UpdateGymnast(Gymnast gymnast)
+        public void UpdateGymnast(Gymnast updated)
         {
-            var existing = GetGymnastById(gymnast.Id);
-            _dbManager.Entry(existing).CurrentValues.SetValues(gymnast);
+            var existing = GetGymnastById(updated.Id);
+            if (existing == null)
+                throw new Exception("Gymnast not found");
+
+            var currentMembershipType = existing.MemberShipType;
+            var currentWeeklyCounter = existing.WeeklyCounter;
+
+            _dbManager.Entry(existing).CurrentValues.SetValues(updated);
+
+            existing.MemberShipType = currentMembershipType;
+            existing.WeeklyCounter = currentWeeklyCounter;
         }
+
         public void DeleteGymnast(string gymnastId)
         {
             var gymnast = _dbManager.Gymnasts.Find(gymnastId);

@@ -10,6 +10,7 @@ using DAL.Models;
 public class StudioClassResetService : BackgroundService
 {
     private readonly IServiceProvider _serviceProvider;
+    private bool _hasRunToday = false;
 
     public StudioClassResetService(IServiceProvider serviceProvider)
     {
@@ -21,25 +22,29 @@ public class StudioClassResetService : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             var now = DateTime.Now;
+
             if (now.DayOfWeek == DayOfWeek.Saturday && now.Hour >= 20)
             {
-                await ResetClassesAsync();
-
-                await Task.Delay(TimeSpan.FromHours(24), stoppingToken);
+                if (!_hasRunToday)
+                {
+                    await ResetClassesAsync();
+                    _hasRunToday = true;
+                }
             }
             else
             {
-                await Task.Delay(TimeSpan.FromHours(1), stoppingToken);
+                _hasRunToday = false; 
             }
+
+            await Task.Delay(TimeSpan.FromMinutes(30), stoppingToken); 
         }
     }
 
-    private async Task ResetClassesAsync()
+    public async Task ResetClassesAsync()
     {
         using (var scope = _serviceProvider.CreateScope())
         {
             var db = scope.ServiceProvider.GetRequiredService<DB_Manager>();
-
             var allClasses = await db.StudioClasses.ToListAsync();
 
             foreach (var c in allClasses)
@@ -49,7 +54,8 @@ public class StudioClassResetService : BackgroundService
             }
 
             await db.SaveChangesAsync();
-            Console.WriteLine("Studio classes reset for the new week.");
+            Console.WriteLine("✅ Studio classes reset for the new week.");
         }
     }
+
 }

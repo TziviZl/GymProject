@@ -82,7 +82,7 @@ namespace Server.Controllers
             }
         }
         [HttpPut("UpdateGymnast")]
-        public IActionResult UpdateGymnast([FromBody][Bind("ID", "FirstName", "LastName", "BirthDate", "MedicalInsurance","Level")] M_Gymnast m_gymnast)
+        public IActionResult UpdateGymnast([FromBody][Bind("Id", "FirstName", "LastName", "BirthDate", "MedicalInsurance", "Email", "Cell", "Level")] M_Gymnast m_gymnast)
         {
             try
             {

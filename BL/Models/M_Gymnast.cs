@@ -34,6 +34,8 @@ namespace BL.Models
         public string Cell { get; set; }
 
         public char Level { get; set; }
+        public string? MemberShipType { get; set; } 
+        public int WeeklyCounter { get; set; }
 
 
     }
