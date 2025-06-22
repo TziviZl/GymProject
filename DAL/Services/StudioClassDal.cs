@@ -35,6 +35,24 @@ namespace DAL.Services
             return _dbManager.StudioClasses.Where(sc => sc.Id == studioClassId).FirstOrDefault();
         }
 
+        public void CancelStudioClass(int classId)
+        {
+            var studioClass = _dbManager.StudioClasses.FirstOrDefault(sc => sc.Id == classId);
+            if (studioClass != null)
+            {
+                studioClass.IsCancelled = true;
+                _dbManager.SaveChanges();
+            }
+        }
+
+        public bool IsCancelled(int classId)
+        {
+            var studioClass = _dbManager.StudioClasses.FirstOrDefault(s => s.Id == classId);
+            return studioClass?.IsCancelled ?? false;
+        }
+
+
+
 
     }
 }

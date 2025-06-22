@@ -1,10 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BL.Api;
+using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
+
 public class AuthController : ControllerBase
 {
     private static Dictionary<string, string> VerificationCodes = new();
+    private readonly IUserTypeBL _userTypeBL;
+
+    public AuthController(IUserTypeBL userTypeBL)
+    {
+        _userTypeBL = userTypeBL;
+    }
+
 
     [HttpPost("SendCode")]
     public IActionResult SendCode([FromBody] string phone)
@@ -38,4 +47,15 @@ public class AuthController : ControllerBase
         public string Phone { get; set; }
         public string Code { get; set; }
     }
+
+    [HttpGet("getUserType/{id}")]
+    public IActionResult GetUserType(string id)
+    {
+        var userType = _userTypeBL.GetUserType(id);
+        if (userType != null)
+            return Ok(userType);
+
+        return NotFound("User not found");
+    }
+
 }

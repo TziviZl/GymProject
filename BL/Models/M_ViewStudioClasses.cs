@@ -13,6 +13,7 @@ namespace BL.Models
         public int Id { get; set; } 
         public string Name { get; set; } = null!;
         public string TrainerName { get; set; } = null!;
+        public string TrainerID { get; set; }
         public string Level { get; set; } = null!;
         public DateTime Date { get; set; }
     }

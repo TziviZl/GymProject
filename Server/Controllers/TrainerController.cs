@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Server.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class TrainerController : ControllerBase
     {
         private readonly ITrainerBL _itrainerBL;//=new TrainerBL();
@@ -46,8 +46,8 @@ namespace Server.Controllers
            
         
 
-        [HttpGet("GetTrainerSudioClasses")]
-        public List<M_ViewStudioClasses> GetTrainerSudioClasses([FromQuery] [Bind] string trainerId)
+        [HttpGet("GetTrainerStudioClasses")]
+        public List<M_ViewStudioClasses> GetTrainerStudioClasses([FromQuery] [Bind] string trainerId)
         {
             return _itrainerBL.GetStudioClasses(trainerId);
         }
@@ -111,6 +111,9 @@ namespace Server.Controllers
         {
             return _itrainerBL.GetBackupTrainers();
         }
+
+
+
 
 
     }

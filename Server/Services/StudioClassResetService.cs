@@ -51,6 +51,7 @@ public class StudioClassResetService : BackgroundService
             {
                 c.Date = c.Date.AddDays(7);
                 c.CurrentNum = 20;
+                c.IsCancelled=false;
             }
 
             await db.SaveChangesAsync();

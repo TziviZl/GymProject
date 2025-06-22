@@ -13,6 +13,11 @@ namespace DAL.Api
 
         public StudioClass GetById(int studioClassId);
 
+        public void CancelStudioClass(int classId);
+
+        public bool IsCancelled(int classId);
+
+
 
     }
 }

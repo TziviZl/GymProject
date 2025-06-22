@@ -14,7 +14,7 @@ namespace DAL.Api
         public List<string> GetGymnasts(int classId);
 
         public List<Trainer> GetAllTrainers();
-        public List<GlobalStudioClass> GetStudioClasses(string trainerId);
+        public List<StudioClass> GetStudioClasses(string trainerId);
 
         public void NewTrainer(Trainer trainer);
 
@@ -32,6 +32,7 @@ namespace DAL.Api
         public void NewBackupTrainer(BackupTrainer backupTrainer);
 
         public List<BackupTrainer> GetBackupTrainers();
+
 
         public void SaveChanges();
 

@@ -27,9 +27,39 @@ public partial class DB_Manager : DbContext
 
     public virtual DbSet<Trainer> Trainers { get; set; }
 
+    public virtual DbSet<Secretary> Secretaries { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Secretary>(entity =>
+        {
+            entity.ToTable("Secretary"); 
+
+            entity.HasKey(e => e.Id).HasName("PK__Secretary__3214EC07ABC12345");
+
+            entity.Property(e => e.Id)
+                .HasMaxLength(9)
+                .IsUnicode()
+                .IsRequired();
+
+            entity.Property(e => e.FullName)
+                .HasMaxLength(100)
+                .IsUnicode()
+                .IsRequired();
+
+            entity.Property(e => e.Phone)
+                .HasMaxLength(20)
+                .IsUnicode()
+                .IsRequired();
+
+            entity.Property(e => e.Email)
+                .HasMaxLength(100)
+                .IsUnicode()
+                .IsRequired();
+        });
+
+
         modelBuilder.Entity<BackupTrainer>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__BackupTr__3214EC07C19C0F38");
@@ -80,7 +110,7 @@ public partial class DB_Manager : DbContext
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.CurrentNum).HasDefaultValue(20);
             entity.Property(e => e.Level).IsFixedLength();
-
+            entity.Property(e => e.IsCancelled).HasDefaultValue(false);
             entity.HasOne(d => d.Global).WithMany(p => p.StudioClasses)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_StudioClasses_GlobalStudioClasses");

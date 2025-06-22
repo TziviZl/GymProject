@@ -16,6 +16,10 @@ namespace BL.Api
 
         public bool IsFull(int studioClassId);
 
+        bool CancelClassAndNotifyGymnasts(int classId);
+
+        public bool IsCancelled(int classId);
+
 
     }
 }

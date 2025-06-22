@@ -20,6 +20,8 @@ public partial class StudioClass
     public string Level { get; set; } = null!;
 
     public int CurrentNum { get; set; }
+    public bool IsCancelled { get; set; } = false;
+
 
     [ForeignKey("GlobalId")]
     [InverseProperty("StudioClasses")]

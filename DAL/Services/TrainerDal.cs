@@ -1,5 +1,6 @@
 ﻿using DAL.Api;
 using DAL.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,22 +57,22 @@ namespace DAL.Services
                              .Select(c => c.GymnastId)
                              .ToList();
         }
-        public List<GlobalStudioClass> GetStudioClasses(string trainerId)
+        public List<StudioClass> GetStudioClasses(string trainerId)
         {
-                var trainer = _dbManager.Trainers
-                    .FirstOrDefault(t => t.Id == trainerId);
+            var studioClasses = _dbManager.StudioClasses
+                .Include(sc => sc.Global)
+                    .ThenInclude(g => g.Trainer)
+                .Where(sc => sc.Global.TrainerId == trainerId)
+                .ToList();
 
-                if (trainer == null)
-                {
-                    throw new Exception("This trainer is not exists");
-                }
+            return studioClasses;
+        }
 
-                return trainer.GlobalStudioClasses.ToList();
-         }
+
 
         public List<Gymnast> GetGymnastsByTrainerId(string trainerId)
         {
-            List<GlobalStudioClass> studioClasses = GetStudioClasses(trainerId);
+            List<StudioClass> studioClasses = GetStudioClasses(trainerId);
             List<string> allGymnastIds = new List<string>();
 
             foreach (var studioClass in studioClasses)
@@ -181,5 +182,7 @@ namespace DAL.Services
         {
             return _dbManager.BackupTrainers.ToList();
         }
+
+
     }
 }
