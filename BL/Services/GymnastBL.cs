@@ -199,12 +199,12 @@ namespace BL.Services
             return viewLessons;
         }
 
-        public List<M_ViewContactGymnast> GetAllGymnastInSpecificClass(StudioClass studioClass)
+        public List<M_ViewContactGymnast> GetAllGymnastInSpecificClass(int studioClassId)
         {
-            if (studioClass == null)
-                throw new ArgumentNullException(nameof(studioClass), "Studio class not found");
+            if (studioClassId == null)
+                throw new ArgumentNullException( "Studio class not found");
 
-            List<string> listID = _gymnastDal.GetAllGymnastInSpecificClass(studioClass.Id);
+            List<string> listID = _gymnastDal.GetAllGymnastInSpecificClass(studioClassId);
             var gymnasts = listID
                 .Select(id => _gymnastDal.GetGymnastById(id))
                 .Where(g => g != null)

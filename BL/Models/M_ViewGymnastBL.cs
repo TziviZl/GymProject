@@ -9,6 +9,7 @@ namespace BL.Models
 {
     public class M_ViewGymnastBL
     {
+        public string Id { get; set; }
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; }= null!;
         public string Level { get; set; } = null!;

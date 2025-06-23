@@ -24,7 +24,7 @@ namespace BL.Api
         public void AddGymnastLesson(string gymnastId, int studioClassId);
         public void RemoveGymnastFromLesson(string gymnastId, StudioClass studioClass);
         public List<M_ViewStudioClasses> GetGymnastLessons(string gymnastId);
-        public List<M_ViewContactGymnast> GetAllGymnastInSpecificClass(StudioClass studioClass);
+        public List<M_ViewContactGymnast> GetAllGymnastInSpecificClass(int studioClassId);
         public List<M_ViewGymnast> GetAllGymnastInSpecificLevel(char level);
         public List<M_ViewGymnast> GetAllGymnastByAge(int minAge, int maxAge);
         public List<M_ViewGymnast> GetAllGymnastByMembershipType(MembershipTypeEnum membershipType);

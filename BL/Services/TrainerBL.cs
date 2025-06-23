@@ -104,24 +104,7 @@ namespace BL.Services
             return m_Trainer;
         }
 
-        public List<string> DeleteAndReplaceTrainer(string trainerId)
-        {
-            bool deleted = _trainerDal.DeleteTrainer(trainerId);
-            if (!deleted)
-            {
-                throw new ArgumentNullException("Trainer id is not exist.");
-            }
-
-            List<BackupTrainer> newTrainers = _trainerDal.BackupTrainers(trainerId);
-            if(newTrainers == null)
-            {
-                return _trainerDal.GetGymnastEmails(trainerId);
-            }
-            BackupTrainer backupTrainer = newTrainers.FirstOrDefault();
-            _trainerDal.AssignTrainerToStudioClass(trainerId, backupTrainer.Id);
-            return null;
-
-        }
+      
 
         public bool GetTrainerBySpecialization(string spec)
         {
@@ -135,6 +118,34 @@ namespace BL.Services
             return _trainerDal.GetBackupTrainers();
         }
 
+
+        public (List<string> Emails, List<GlobalStudioClass> ClassesWithoutTrainer) DeleteAndReplaceTrainer(string trainerId)
+        {
+            var newTrainers = _trainerDal.BackupTrainers(trainerId);
+
+            if (newTrainers == null || newTrainers.Count == 0)
+            {
+                // אין מחליף → מבטלים שיעורים ומעדכנים גימנסטים
+                _trainerDal.CancelTrainerClassesAndUpdateGymnasts(trainerId);
+                var emails = _trainerDal.GetGymnastEmails(trainerId);
+
+                // עדכון שיעורים ל־TrainerId=null
+                var classesWithoutTrainer = _trainerDal.GetClassesWithoutTrainerByTrainerId(trainerId);
+
+                // עכשיו מוחקים את המאמן
+                _trainerDal.DeleteTrainer(trainerId);
+
+                return (emails, classesWithoutTrainer);
+            }
+
+            // יש מחליף - טיפול רגיל
+            var backupTrainer = newTrainers.First();
+            _trainerDal.PromoteBackupTrainerToTrainer(backupTrainer);
+            _trainerDal.AssignTrainerToStudioClass(trainerId, backupTrainer.Id);
+            _trainerDal.DeleteTrainer(trainerId);
+
+            return (null, null);
+        }
 
 
 

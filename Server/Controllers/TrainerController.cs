@@ -87,23 +87,22 @@ namespace Server.Controllers
         {
             try
             {
-                List<string> studioClasses = _itrainerBL.DeleteAndReplaceTrainer(trainerId);
-                if (studioClasses == null)
-                {
-                    return Ok("The trainer replaced successfully!");
-                }
-                else
-                {
-                    return Ok(studioClasses);
-                }
+                var (emails, classesWithoutTrainer) = _itrainerBL.DeleteAndReplaceTrainer(trainerId);
 
+                return Ok(new
+                {
+                    Emails = emails,
+                    ClassesWithoutTrainer = classesWithoutTrainer
+                });
             }
-
             catch (Exception ex)
             {
-                return NotFound(ex);
+                return NotFound(new
+                {
+                    message = ex.Message,
+                    inner = ex.InnerException?.Message
+                });
             }
-
         }
 
         [HttpGet("GetBackupTrainers")]

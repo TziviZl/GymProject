@@ -10,6 +10,9 @@ namespace DAL.Api
     public interface ITrainerDal
     {
         public int GetClassId(string  trainerId, DateTime courseDate);
+        // ב־ ITrainerDal
+        Gymnast GetGymnastById(string gymnastId);
+        public void DeleteAllStudioClassesForTrainer(string trainerId);
 
         public List<string> GetGymnasts(int classId);
 
@@ -17,8 +20,10 @@ namespace DAL.Api
         public List<StudioClass> GetStudioClasses(string trainerId);
 
         public void NewTrainer(Trainer trainer);
+        public void CancelTrainerClassesAndUpdateGymnasts(string trainerId);
 
         public Trainer GetTrainerById(string trainerId);
+        public List<GlobalStudioClass> GetClassesWithoutTrainerByTrainerId(string trainerId);
 
         public bool UpdateTrainer(Trainer trainer);
         public bool DeleteTrainer(string trainerId);
@@ -33,6 +38,7 @@ namespace DAL.Api
 
         public List<BackupTrainer> GetBackupTrainers();
 
+        public void PromoteBackupTrainerToTrainer(BackupTrainer backupTrainer);
 
         public void SaveChanges();
 

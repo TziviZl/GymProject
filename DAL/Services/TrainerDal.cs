@@ -11,7 +11,7 @@ namespace DAL.Services
 {
     public class TrainerDal : ITrainerDal
     {
-        private readonly DB_Manager _dbManager;
+        public readonly DB_Manager _dbManager;
         public TrainerDal(DB_Manager dbManager)
         {
             _dbManager = dbManager;
@@ -57,38 +57,59 @@ namespace DAL.Services
                              .Select(c => c.GymnastId)
                              .ToList();
         }
+        public void PromoteBackupTrainerToTrainer(BackupTrainer backupTrainer)
+        {
+            // אם המאמן כבר קיים – לא מוסיפים שוב
+            if (_dbManager.Trainers.Any(t => t.Id == backupTrainer.Id))
+                return;
+
+            // הוספת המאמן לטבלת Trainer
+            var newTrainer = new Trainer
+            {
+                Id = backupTrainer.Id,
+                FirstName = backupTrainer.FirstName,
+                LastName = backupTrainer.LastName,
+                BirthDate = backupTrainer.BirthDate,
+                Specialization = backupTrainer.Specialization,
+                Email = backupTrainer.Email,
+            };
+
+            _dbManager.Trainers.Add(newTrainer);
+
+            // הסרה מטבלת BackupTrainers
+            _dbManager.BackupTrainers.Remove(backupTrainer);
+
+            _dbManager.SaveChanges();
+        }
+
+
+
         public List<StudioClass> GetStudioClasses(string trainerId)
         {
-            var studioClasses = _dbManager.StudioClasses
-                .Include(sc => sc.Global)
-                    .ThenInclude(g => g.Trainer)
-                .Where(sc => sc.Global.TrainerId == trainerId)
+            var globalIds = _dbManager.GlobalStudioClasses
+                .Where(g => g.TrainerId == trainerId)
+                .Select(g => g.Id)
                 .ToList();
 
-            return studioClasses;
+            return _dbManager.StudioClasses
+                .Where(sc => globalIds.Contains(sc.GlobalId))
+                .ToList();
         }
 
 
 
         public List<Gymnast> GetGymnastsByTrainerId(string trainerId)
         {
-            List<StudioClass> studioClasses = GetStudioClasses(trainerId);
-            List<string> allGymnastIds = new List<string>();
+            var studioClasses = GetStudioClasses(trainerId);
 
-            foreach (var studioClass in studioClasses)
-            {
-                var gymnastsId = _dbManager.GymnastClasses
-                    .Where(gc => gc.ClassId == studioClass.Id)
-                    .Select(gc => gc.GymnastId)
-                    .ToList();
-
-                allGymnastIds.AddRange(gymnastsId);
-            }
-
-            allGymnastIds = allGymnastIds.Distinct().ToList();
+            var gymnastIds = _dbManager.GymnastClasses
+                .Where(gc => studioClasses.Select(sc => sc.Id).Contains(gc.ClassId))
+                .Select(gc => gc.GymnastId)
+                .Distinct()
+                .ToList();
 
             return _dbManager.Gymnasts
-                .Where(g => allGymnastIds.Contains(g.Id))
+                .Where(g => gymnastIds.Contains(g.Id))
                 .ToList();
         }
 
@@ -140,30 +161,91 @@ namespace DAL.Services
 
         public List<BackupTrainer> BackupTrainers(string trainerId)
         {
-            Trainer trainer = GetTrainerById(trainerId);
-
-            var backupTrainers = _dbManager.BackupTrainers.Where(t => t.Specialization.Equals(trainer.Specialization)).ToList();
-             return backupTrainers;
-
+            var trainer = GetTrainerById(trainerId);
+            return _dbManager.BackupTrainers
+                .Where(t => t.Specialization == trainer.Specialization)
+                .ToList();
         }
+
+
+        public List<GlobalStudioClass> GetClassesWithoutTrainerByTrainerId(string trainerId)
+        {
+            return _dbManager.GlobalStudioClasses
+                .Where(c => c.TrainerId == null  )
+                .ToList();
+        }
+
 
         public bool DeleteTrainer(string trainerId)
         {
-            Trainer trainer = _dbManager.Trainers.FirstOrDefault(t => t.Id == trainerId);
-            if (trainer == null) 
-                return false;
-            _dbManager.Trainers.Remove(trainer);
-            return true;
-        }
+            // קודם מוחקים את כל הקשרים ל־GlobalStudioClasses
+            var globalClasses = _dbManager.GlobalStudioClasses.Where(g => g.TrainerId == trainerId).ToList();
 
-        public bool AssignTrainerToStudioClass(string oldTrainerId, string newTrainerId)
-        {
-            var globalStudioClass = _dbManager.GlobalStudioClasses.FirstOrDefault(t=>t.Id.Equals(oldTrainerId));
-            globalStudioClass.TrainerId = newTrainerId;
+            foreach (var gc in globalClasses)
+            {
+                gc.TrainerId = null; // מבטל את הקשר
+            }
+
+            var trainer = _dbManager.Trainers.FirstOrDefault(t => t.Id == trainerId);
+            if (trainer == null)
+                return false;
+
+            _dbManager.Trainers.Remove(trainer);
             _dbManager.SaveChanges();
             return true;
-
         }
+
+        public void CancelTrainerClassesAndUpdateGymnasts(string trainerId)
+        {
+            var studioClasses = GetStudioClasses(trainerId);
+
+            foreach (var studioClass in studioClasses)
+            {
+                studioClass.IsCancelled = true;
+
+                var gymnastIds = _dbManager.GymnastClasses
+                    .Where(gc => gc.ClassId == studioClass.Id)
+                    .Select(gc => gc.GymnastId)
+                    .ToList();
+
+                var gymnasts = _dbManager.Gymnasts
+                    .Where(g => gymnastIds.Contains(g.Id))
+                    .ToList();
+
+                foreach (var gymnast in gymnasts)
+                {
+                    gymnast.WeeklyCounter += 1;
+                }
+            }
+
+            _dbManager.SaveChanges();
+        }
+
+
+
+
+        public void DeleteAllStudioClassesForTrainer(string trainerId)
+        {
+            var classes = _dbManager.GlobalStudioClasses.Where(c => c.TrainerId == trainerId).ToList();
+            _dbManager.GlobalStudioClasses.RemoveRange(classes);
+            // לא קוראים SaveChanges כאן
+        }
+        public bool AssignTrainerToStudioClass(string oldTrainerId, string newTrainerId)
+        {
+            var globalClasses = _dbManager.GlobalStudioClasses
+                .Where(g => g.TrainerId == oldTrainerId)
+                .ToList();
+
+            foreach (var g in globalClasses)
+            {
+                g.TrainerId = newTrainerId;
+            }
+
+            _dbManager.SaveChanges();
+            return true;
+        }
+
+
 
         public Trainer GetTrainerBySpecialization(string spec)
         {
@@ -181,6 +263,10 @@ namespace DAL.Services
         public List<BackupTrainer> GetBackupTrainers()
         {
             return _dbManager.BackupTrainers.ToList();
+        }
+        public Gymnast GetGymnastById(string gymnastId)
+        {
+            return _dbManager.Gymnasts.FirstOrDefault(g => g.Id == gymnastId);
         }
 
 

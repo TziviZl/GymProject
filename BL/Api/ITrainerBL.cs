@@ -18,7 +18,7 @@ namespace BL.Api
         public void NewTrainer(M_Trainer m_Trainer);
        public void UpdateTrainer(Trainer trainer);
         public M_Trainer GetTrainerById(string trainerId);
-        public List<string> DeleteAndReplaceTrainer(string trainerId);
+        public (List<string> Emails, List<GlobalStudioClass> ClassesWithoutTrainer) DeleteAndReplaceTrainer(string trainerId);
 
         public bool GetTrainerBySpecialization(string spec);
 

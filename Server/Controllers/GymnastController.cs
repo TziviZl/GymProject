@@ -161,11 +161,11 @@ namespace Server.Controllers
             }
         }
         [HttpGet("GetAllGymnastInSpecificClass")]
-        public ActionResult<List<M_ViewStudioClasses>> GetAllGymnastInSpecificClass(StudioClass studioClass)
+        public ActionResult<List<M_ViewStudioClasses>> GetAllGymnastInSpecificClass(int studioClassId)
         {
             try
             {
-                var gymnasts = _igymnastBL.GetAllGymnastInSpecificClass(studioClass);
+                var gymnasts = _igymnastBL.GetAllGymnastInSpecificClass(studioClassId);
                 return Ok(gymnasts);
             }
             catch (Exception ex)
