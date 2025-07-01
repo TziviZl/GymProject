@@ -40,6 +40,8 @@ namespace DAL.Api
 
         public void PromoteBackupTrainerToTrainer(BackupTrainer backupTrainer);
 
+        public void SetTrainerIdNullForClasses(string trainerId);
+
         public void SaveChanges();
 
 

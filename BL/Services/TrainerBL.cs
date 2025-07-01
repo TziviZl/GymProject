@@ -38,16 +38,6 @@ namespace BL.Services
         }
 
 
-        
-
-
-        // נלך לדל
-        // נביא נתוני מאמנים
-        // נערוך אותם למבנה הרצוי
-        //ונחזיר
-
-
-
         public void NewTrainer(M_Trainer m_trainer)
         {
   
@@ -72,6 +62,12 @@ namespace BL.Services
             public List<M_ViewStudioClasses> GetStudioClasses(string trainerId)
         {
             var studioClasses = _trainerDal.GetStudioClasses(trainerId);
+            foreach (var sc in studioClasses)
+{
+    Console.WriteLine($"Lesson ID: {sc.Id}, Global: {(sc.Global == null ? "NULL" : "OK")}, Trainer: {(sc.Global?.Trainer == null ? "NULL" : "OK")}");
+}
+
+            Console.WriteLine("studioClasses count: " + studioClasses.Count);
 
             if (studioClasses == null || !studioClasses.Any())
             {
@@ -119,26 +115,25 @@ namespace BL.Services
         }
 
 
-        public (List<string> Emails, List<GlobalStudioClass> ClassesWithoutTrainer) DeleteAndReplaceTrainer(string trainerId)
+        public (List<string> Emails, List<StudioClass> ClassesWithoutTrainer) DeleteAndReplaceTrainer(string trainerId)
         {
             var newTrainers = _trainerDal.BackupTrainers(trainerId);
 
             if (newTrainers == null || newTrainers.Count == 0)
             {
-                // אין מחליף → מבטלים שיעורים ומעדכנים גימנסטים
+                var classesWithTrainer = _trainerDal.GetStudioClasses(trainerId);
+
                 _trainerDal.CancelTrainerClassesAndUpdateGymnasts(trainerId);
+
                 var emails = _trainerDal.GetGymnastEmails(trainerId);
 
-                // עדכון שיעורים ל־TrainerId=null
-                var classesWithoutTrainer = _trainerDal.GetClassesWithoutTrainerByTrainerId(trainerId);
+                _trainerDal.SetTrainerIdNullForClasses(trainerId);
 
-                // עכשיו מוחקים את המאמן
                 _trainerDal.DeleteTrainer(trainerId);
 
-                return (emails, classesWithoutTrainer);
+                return (emails, classesWithTrainer);
             }
 
-            // יש מחליף - טיפול רגיל
             var backupTrainer = newTrainers.First();
             _trainerDal.PromoteBackupTrainerToTrainer(backupTrainer);
             _trainerDal.AssignTrainerToStudioClass(trainerId, backupTrainer.Id);

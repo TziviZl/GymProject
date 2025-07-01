@@ -92,10 +92,11 @@ namespace DAL.Services
                 .ToList();
 
             return _dbManager.StudioClasses
+                .Include(sc => sc.Global) 
+                    .ThenInclude(g => g.Trainer) 
                 .Where(sc => globalIds.Contains(sc.GlobalId))
                 .ToList();
         }
-
 
 
         public List<Gymnast> GetGymnastsByTrainerId(string trainerId)
@@ -178,13 +179,14 @@ namespace DAL.Services
 
         public bool DeleteTrainer(string trainerId)
         {
-            // קודם מוחקים את כל הקשרים ל־GlobalStudioClasses
             var globalClasses = _dbManager.GlobalStudioClasses.Where(g => g.TrainerId == trainerId).ToList();
 
             foreach (var gc in globalClasses)
             {
-                gc.TrainerId = null; // מבטל את הקשר
+                gc.TrainerId = null; 
             }
+
+            _dbManager.SaveChanges();
 
             var trainer = _dbManager.Trainers.FirstOrDefault(t => t.Id == trainerId);
             if (trainer == null)
@@ -269,6 +271,18 @@ namespace DAL.Services
             return _dbManager.Gymnasts.FirstOrDefault(g => g.Id == gymnastId);
         }
 
+        public void SetTrainerIdNullForClasses(string trainerId)
+        {
+            var classes = _dbManager.GlobalStudioClasses
+                .Where(c => c.TrainerId == trainerId)
+                .ToList();
+
+            foreach (var c in classes)
+            {
+                c.TrainerId = null;
+            }
+            _dbManager.SaveChanges();
+        }
 
     }
 }

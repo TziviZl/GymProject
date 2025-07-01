@@ -29,6 +29,12 @@ namespace BL.Services
         public List<M_ViewStudioClasses> GetAllLessons()
         {
             var studioClasses = _StudioClass.GetAllLessons();
+            Console.WriteLine(studioClasses.Count);
+            foreach (var sc in studioClasses)
+            {
+                Console.WriteLine($"Lesson ID: {sc.Id}, Global: {(sc.Global == null ? "NULL" : "OK")}, Trainer: {(sc.Global?.Trainer == null ? "NULL" : "OK")}");
+            }
+
 
             if (studioClasses == null || !studioClasses.Any())
             {

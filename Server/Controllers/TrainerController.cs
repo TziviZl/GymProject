@@ -83,7 +83,7 @@ namespace Server.Controllers
         }
 
         [HttpDelete("DeleteTrainer")]
-        public IActionResult DeleteTrainer(string trainerId)
+        public IActionResult DeleteTrainer([FromQuery] string trainerId)
         {
             try
             {

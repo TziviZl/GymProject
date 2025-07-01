@@ -19,12 +19,12 @@ public partial class GlobalStudioClass
     public int MaxParticipantsNumber { get; set; }
 
     [StringLength(9)]
-    public string TrainerId { get; set; } = null!;
+    public string? TrainerId { get; set; } 
 
     [InverseProperty("Global")]
     public virtual ICollection<StudioClass> StudioClasses { get; set; } = new List<StudioClass>();
 
     [ForeignKey("TrainerId")]
     [InverseProperty("GlobalStudioClasses")]
-    public virtual Trainer Trainer { get; set; } = null!;
+    public virtual Trainer? Trainer { get; set; }
 }
