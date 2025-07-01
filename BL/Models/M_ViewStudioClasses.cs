@@ -16,5 +16,8 @@ namespace BL.Models
         public string TrainerID { get; set; }
         public string Level { get; set; } = null!;
         public DateTime Date { get; set; }
+        public int currentNum { get; set; }
+        public Boolean isCancelled { get; set; }
+
     }
 }
