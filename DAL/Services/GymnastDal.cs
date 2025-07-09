@@ -65,10 +65,11 @@ namespace DAL.Services
                 throw new Exception("Gymnast not found");
 
             var currentMembershipType = existing.MemberShipType;
-
+            var currentWeekyCounter= existing.WeeklyCounter;
             _dbManager.Entry(existing).CurrentValues.SetValues(updated);
 
             existing.MemberShipType = currentMembershipType;
+            existing.WeeklyCounter = currentWeekyCounter;
 
             SaveChanges();
         }

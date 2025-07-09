@@ -26,6 +26,7 @@ builder.Services.AddScoped<IGymnastDal, GymnastDal>();
 builder.Services.AddScoped<ITrainerDal, TrainerDal>();
 builder.Services.AddScoped<IStudioClassDal, StudioClassDal>();
 builder.Services.AddScoped<IUserTypeDal, UserTypeDal>();
+builder.Services.AddScoped<IMessageDal, MessageDal>();
 
 
 // BL dependencies - Scoped
@@ -33,6 +34,7 @@ builder.Services.AddScoped<IGymnastBL, GymnastBL>();
 builder.Services.AddScoped<ITrainerBL, TrainerBL>();
 builder.Services.AddScoped<IStudioClassBL, StudioClassBL>();
 builder.Services.AddScoped<IUserTypeBL, UserTypeBL>();
+builder.Services.AddScoped<IMessageBL, MessageBL>();
 builder.Services.AddScoped<IBL, BlManager>();
 
 // AutoMapper

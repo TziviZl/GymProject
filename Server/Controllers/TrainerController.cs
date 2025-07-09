@@ -11,7 +11,7 @@ namespace Server.Controllers
     [Route("api/[controller]")]
     public class TrainerController : ControllerBase
     {
-        private readonly ITrainerBL _itrainerBL;//=new TrainerBL();
+        private readonly ITrainerBL _itrainerBL;
         public TrainerController(IBL itrainerBL)
         {
             _itrainerBL = itrainerBL.Trainers ;

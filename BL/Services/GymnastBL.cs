@@ -43,20 +43,6 @@ namespace BL.Services
 
         }
 
-        //public void NewGymnast(M_Gymnast m_gymnast)
-        //{
-        //    var gymnast = _mapper.Map<Gymnast>(m_gymnast);
-        //    if (gymnast == null)
-        //    {
-        //        throw new Exception($"Gymnast with ID {gymnast.Id} not found.");
-        //    }
-        //    gymnast.Level = "A";
-        //    gymnast.EntryDate = DateOnly.FromDateTime(DateTime.Now);
-        //    _gymnastDal.AddGymnast(gymnast);
-        //    _gymnastDal.SaveChanges();
-
-
-        //}
         public void NewGymnast(M_Gymnast m_gymnast)
         {
             if (m_gymnast == null)

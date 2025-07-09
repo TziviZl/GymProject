@@ -29,6 +29,7 @@ public partial class DB_Manager : DbContext
 
     public virtual DbSet<Secretary> Secretaries { get; set; }
 
+    public virtual DbSet<Message> Messages { get; set; } 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -56,6 +57,35 @@ public partial class DB_Manager : DbContext
             entity.Property(e => e.Email)
                 .HasMaxLength(100)
                 .IsUnicode()
+                .IsRequired();
+        });
+        modelBuilder.Entity<Message>(entity =>
+        {
+            entity.ToTable("Messages"); 
+
+            entity.HasKey(e => e.Id)
+                .HasName("PK__Messages__3214EC07A1B2C3D4");
+
+            entity.Property(e => e.Id)
+                .ValueGeneratedOnAdd();
+
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode()
+                .IsRequired();
+
+            entity.Property(e => e.Email)
+                .HasMaxLength(100)
+                .IsUnicode()
+                .IsRequired();
+
+            entity.Property(e => e.Content)
+                .HasMaxLength(1000)
+                .IsUnicode()
+                .IsRequired();
+
+            entity.Property(e => e.CreatedAt)
+                .HasColumnType("datetime")
                 .IsRequired();
         });
 
