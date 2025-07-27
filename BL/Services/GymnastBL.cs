@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BL.Api;
+using BL.Exceptions;
 using BL.Models;
 using DAL.Api;
 using DAL.Models;
@@ -9,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace BL.Services
 {
@@ -38,7 +40,7 @@ namespace BL.Services
 
             else
             {
-                throw new Exception($"Gymnast with ID {id} not found.");
+                throw new GymnastOperationException($"Gymnast with ID {id} not found.");
             }
 
         }
@@ -51,7 +53,7 @@ namespace BL.Services
             var gymnast = _mapper.Map<Gymnast>(m_gymnast);
 
             if (gymnast == null)
-                throw new Exception("Mapping failed! Check your AutoMapper configuration.");
+                throw new GymnastOperationException("Mapping failed! Check your AutoMapper configuration.");
 
             gymnast.EntryDate = DateOnly.FromDateTime(DateTime.Now);
             _gymnastDal.AddGymnast(gymnast);
@@ -63,7 +65,7 @@ namespace BL.Services
             var gymnastClass = _gymnastDal.GetGymnastClass(gymnastId, classId);
             if (gymnastClass == null)
             {
-                throw new Exception($"Gymnast with ID {gymnastId} not found.");
+                throw new GymnastOperationException($"Gymnast with ID {gymnastId} not found.");
             }
             var gimnast = _gymnastDal.GetGymnastById(gymnastId);
             gimnast.WeeklyCounter++;
@@ -87,19 +89,27 @@ namespace BL.Services
         }
         public Gymnast GetGymnastById(string id)
         {
-            if (string.IsNullOrWhiteSpace(id) || id.Length != 9 || !id.All(char.IsDigit))
-                throw new Exception("Invalid ID card");
-            Gymnast gymnast = _gymnastDal.GetGymnastById(id);
-            if (gymnast == null)
-                throw new Exception("The ID card does not exist in the system.");
-            return gymnast;
+            if (string.IsNullOrWhiteSpace(id))
+                throw new GymnastOperationException("No ID entered.");
 
+            if (id.Length != 9)
+                throw new GymnastOperationException("ID length must be 9 digits.");
+
+            if (!id.All(char.IsDigit))
+                throw new GymnastOperationException("ID must contain only digits.");
+
+            var gymnast = _gymnastDal.GetGymnastById(id);
+            if (gymnast == null)
+                throw new GymnastOperationException("ID does not exist in the system.");
+
+            return gymnast;
         }
+
         public void UpdateGymnanst(M_Gymnast m_Gymnast)
         {
             var gymnast = _mapper.Map<Gymnast>(m_Gymnast);
             if (gymnast == null)
-                throw new Exception("An error occurred.");
+    throw new GymnastOperationException("An error occurred.");
             _gymnastDal.UpdateGymnast(gymnast);
             _gymnastDal.SaveChanges();
 
@@ -129,21 +139,21 @@ namespace BL.Services
 
             var existingLessons = GetGymnastLessons(gymnastId);
             if (existingLessons.Any(l => l.Id == studioClassId))
-                throw new Exception("You are already registered for this class.");
+                throw new GymnastOperationException("You are already registered for this class.");
 
             switch (gymnast.MemberShipType)
             {
                 case nameof(MembershipTypeEnum.Monthly_Standard):
                 case nameof(MembershipTypeEnum.Yearly_Standard):
                     if (gymnast.WeeklyCounter <= 0)
-                        throw new Exception("You have used up the maximum number of lessons for this week.");
+                        throw new GymnastOperationException("You have used up the maximum number of lessons for this week.");
                     gymnast.WeeklyCounter--;
                     break;
                 case nameof(MembershipTypeEnum.Monthly_Pro):
                 case nameof(MembershipTypeEnum.Yearly_Pro):
                     break;
                 default:
-                    throw new Exception("Unknown subscription type");
+                    throw new GymnastOperationException("Unknown subscription type");
             }
 
             if (studioClass.CurrentNum > 0) {              
@@ -164,7 +174,8 @@ namespace BL.Services
 
             GymnastClass gymnastClass = _gymnastDal.GetGymnastClass(gymnastId, studioClass.Id);
             if (gymnastClass == null)
-                throw new Exception("The gymnast was not registered for the class");
+                throw new GymnastOperationException("The gymnast was not registered for the class");
+
             studioClass.CurrentNum++;
             _gymnastDal.RemoveGymnastClass(gymnastClass);
 
@@ -204,7 +215,7 @@ namespace BL.Services
         public List<M_ViewGymnast> GetAllGymnastInSpecificLevel(char level)
         {
             if (level.Equals(' ')) 
-                throw new Exception("No level entered.");
+                throw new GymnastOperationException("No level entered.");
             List<Gymnast> gymnasts = _gymnastDal.GetAllGymnast();
             gymnasts = gymnasts.Where(g => g.Level == level.ToString()).ToList();
             var viewList = gymnasts

@@ -30,16 +30,12 @@ namespace Server.Controllers
         [HttpPost("NewTrainer")]
         public IActionResult NewTrainer([FromBody][Bind("ID", "FirstName", "LastName", "BirthDate", "Specialization")] M_Trainer m_Trainer)
         {
-            try
-            {
+            
+           
                 _itrainerBL.NewTrainer(m_Trainer);
                 return Ok("The trainer was added successfully.");
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-
-            }            
+           
+                      
         }
             
 
@@ -55,31 +51,22 @@ namespace Server.Controllers
         [HttpPut("UpdateTrainer")]
         public IActionResult UpdateTrainer([FromBody][Bind] Trainer trainer)
         {
-            try
-            {
+          
                 _itrainerBL.UpdateTrainer(trainer);
                 return Ok("The trainer was updated successfully.");
-            }
+           
             
-              catch(Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+         
 
         }
 
         [HttpGet("GetTrainerById")]
         public IActionResult GetTrainerById([FromQuery] string trainerId)
         {
-            try
-            {
+           
                 var trainer = _itrainerBL.GetTrainerById(trainerId);
                 return Ok(trainer); 
-            }
-            catch (Exception ex)
-            {
-                return NotFound(new { message = ex.Message });
-            }
+           
         }
 
         [HttpDelete("DeleteTrainer")]

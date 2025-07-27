@@ -66,9 +66,11 @@ namespace BL.Services
 
                 gymnast.WeeklyCounter++;
                 _GymnastDal.UpdateGymnast(gymnast);
-
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.WriteLine($"[INFO] Lesson Cancelled for {gymnast.FirstName} ({gymnast.Email})");
                 Console.WriteLine($"Dear {gymnast.FirstName}, the lesson with ID {classId} has been cancelled. You may register for another lesson.");
+                Console.ResetColor();
+
             }
 
             return true;

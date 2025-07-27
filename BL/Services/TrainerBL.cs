@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BL.Api;
+using BL.Exceptions;
 using BL.Models;
 using DAL.Api;
 using DAL.Models;
@@ -85,8 +86,9 @@ namespace BL.Services
 
 
             }
-            _trainerDal.UpdateTrainer(trainer);
-           
+            var updated = _trainerDal.UpdateTrainer(trainer);
+            if (!updated)
+                throw new TrainerOperationException("Trainer not found or could not be updated.");
         }
 
         public M_Trainer GetTrainerById(string trainerId)

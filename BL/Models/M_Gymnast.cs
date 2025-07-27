@@ -11,7 +11,7 @@ namespace BL.Models
 {
     public class M_Gymnast
     {
-        [Required]
+        [Required, StringLength(9, MinimumLength = 9)]
         public string Id { get; set; } = null!;
 
         [StringLength(20, MinimumLength = 2), Required]

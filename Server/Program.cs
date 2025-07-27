@@ -1,4 +1,4 @@
-using BL;
+Ôªøusing BL;
 using BL.Api;
 using BL.Mapping;
 using BL.Services;
@@ -6,10 +6,11 @@ using DAL.Api;
 using DAL.Models;
 using DAL.Services;
 using Microsoft.EntityFrameworkCore;
+using Server.Middleware;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-// --- CORS policy name ---
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var relativeDbPath = Path.Combine("..", "..", "..", "..", "DAL", "data", "GymDB.mdf");
 var fullDbPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, relativeDbPath));
@@ -17,11 +18,9 @@ var fullDbPath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirec
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")!
     .Replace("PATH_TO_REPLACE", fullDbPath);
 
-// ‰‚„¯˙ DbContext ÚÌ ‰˙È· ‰ÓÏ‡
 builder.Services.AddDbContext<DB_Manager>(options =>
     options.UseSqlServer(connectionString));
 
-// DAL dependencies - Scoped
 builder.Services.AddScoped<IGymnastDal, GymnastDal>();
 builder.Services.AddScoped<ITrainerDal, TrainerDal>();
 builder.Services.AddScoped<IStudioClassDal, StudioClassDal>();
@@ -29,7 +28,6 @@ builder.Services.AddScoped<IUserTypeDal, UserTypeDal>();
 builder.Services.AddScoped<IMessageDal, MessageDal>();
 
 
-// BL dependencies - Scoped
 builder.Services.AddScoped<IGymnastBL, GymnastBL>();
 builder.Services.AddScoped<ITrainerBL, TrainerBL>();
 builder.Services.AddScoped<IStudioClassBL, StudioClassBL>();
@@ -37,19 +35,18 @@ builder.Services.AddScoped<IUserTypeBL, UserTypeBL>();
 builder.Services.AddScoped<IMessageBL, MessageBL>();
 builder.Services.AddScoped<IBL, BlManager>();
 
-// AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddSingleton<StudioClassResetService>();
 builder.Services.AddHostedService(provider => provider.GetRequiredService<StudioClassResetService>());
 
 
-// CORS - ‰‚„¯˙ Ó„ÈÈÂ˙ ˘˙‡Ù˘¯ ‚È˘‰ ÓÎ˙Â·˙ ‰ŒReact ˘ÏÍ
+// CORS - ◊î◊í◊ì◊®◊™ ◊û◊ì◊ô◊†◊ô◊ï◊™ ◊©◊™◊ê◊§◊©◊® ◊í◊ô◊©◊î ◊û◊õ◊™◊ï◊ë◊™ ◊î÷æReact ◊©◊ú◊ö
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: MyAllowSpecificOrigins,
         policy =>
         {
-            policy.WithOrigins("http://localhost:3000") // <-- Î˙Â·˙ ‰ŒReact ·ÊÓÔ ÙÈ˙ÂÁ
+            policy.WithOrigins("http://localhost:3000") // <-- ◊õ◊™◊ï◊ë◊™ ◊î÷æReact ◊ë◊ñ◊û◊ü ◊§◊ô◊™◊ï◊ó
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
@@ -75,6 +72,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseCors(MyAllowSpecificOrigins);
+
+app.UseMiddleware<ErrorHandlingMiddleware>();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
